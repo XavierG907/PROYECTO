@@ -83,9 +83,219 @@ namespace Mockup.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ffdc21b1_78d9_47d6_9316_4d12254f639d_200x200 {
+            get {
+                object obj = ResourceManager.GetObject("ffdc21b1-78d9-47d6-9316-4d12254f639d_200x200", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ffdc21b1_78d9_47d6_9316_4d12254f639d_200x2001 {
+            get {
+                object obj = ResourceManager.GetObject("ffdc21b1-78d9-47d6-9316-4d12254f639d_200x2001", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FondoAzulDegradadoCentro__1_ {
+            get {
+                object obj = ResourceManager.GetObject("FondoAzulDegradadoCentro (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap graphic_Bar {
+            get {
+                object obj = ResourceManager.GetObject("graphic-Bar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_administración_de_explotación_comercial_50 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-administración-de-explotación-comercial-50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_administrador_del_hombre_50 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-administrador-del-hombre-50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_agregar_a_carrito_de_compras_30 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-agregar-a-carrito-de-compras-30", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_agregar_a_carrito_de_compras_50 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-agregar-a-carrito-de-compras-50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_añadir_imagen_30 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-añadir-imagen-30", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_añadir_imagen_50 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-añadir-imagen-50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_bloquear_50 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-bloquear-50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_botón_de_apagado_64 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-botón-de-apagado-64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_camión_50 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-camión-50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_cerrar_ventana_50 {
             get {
                 object obj = ResourceManager.GetObject("icons8-cerrar-ventana-50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_comercio_electrónico_50 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-comercio-electrónico-50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_costo_50 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-costo-50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_doctor_de_sexo_masculino_100 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-doctor-de-sexo-masculino-100", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_doctor_en_medicina_50 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-doctor-en-medicina-50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_efectivo_en_mano_50 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-efectivo-en-mano-50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_en_inventario_100 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-en-inventario-100", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_flujo_de_fondos_100 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-flujo-de-fondos-100", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_grupo_de_usuarios_hombre_y_mujer_100 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-grupo-de-usuarios-hombre-y-mujer-100", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +333,129 @@ namespace Mockup.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_producto_50 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-producto-50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_producto_50__1_ {
+            get {
+                object obj = ResourceManager.GetObject("icons8-producto-50 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_proveedor_50 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-proveedor-50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_restaurar_ventana_50__1_ {
             get {
                 object obj = ResourceManager.GetObject("icons8-restaurar-ventana-50 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_save_the_children_50 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-save-the-children-50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_tarea_50__1_ {
+            get {
+                object obj = ResourceManager.GetObject("icons8-tarea-50 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_tarjeta_de_empleado_50 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-tarjeta-de-empleado-50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_tarjeta_de_identificación_50 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-tarjeta-de-identificación-50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_tarjeta_de_identificación_50__1_ {
+            get {
+                object obj = ResourceManager.GetObject("icons8-tarjeta-de-identificación-50 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_test_aprobado_50 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-test-aprobado-50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_vender_50 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-vender-50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Most_Popular_Social_Media_Websites_UK_2014 {
+            get {
+                object obj = ResourceManager.GetObject("Most Popular Social Media Websites UK 2014", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap User_Groups_48px {
+            get {
+                object obj = ResourceManager.GetObject("User Groups_48px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
