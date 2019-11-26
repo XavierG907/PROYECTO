@@ -124,7 +124,7 @@ namespace Mockup
 
         //    cargardatagridview();
 
-        //    conexion.Close();//
+        //    conexion.Close();
         }
         private void btnSalir_Click(object sender, EventArgs e)
         {
