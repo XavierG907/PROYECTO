@@ -50,6 +50,8 @@
             this.textBoxUser.TabIndex = 0;
             this.textBoxUser.Text = "Username";
             this.textBoxUser.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxUser.Enter += new System.EventHandler(this.textBoxUser_Enter);
+            this.textBoxUser.Leave += new System.EventHandler(this.textBoxUser_Leave);
             // 
             // textBoxPassword
             // 
@@ -59,8 +61,11 @@
             this.textBoxPassword.Name = "textBoxPassword";
             this.textBoxPassword.Size = new System.Drawing.Size(168, 27);
             this.textBoxPassword.TabIndex = 1;
-            this.textBoxPassword.Text = "*************";
+            this.textBoxPassword.Text = "Password";
             this.textBoxPassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxPassword.UseSystemPasswordChar = true;
+            this.textBoxPassword.Enter += new System.EventHandler(this.textBoxPassword_Enter);
+            this.textBoxPassword.Leave += new System.EventHandler(this.textBoxPassword_Leave);
             // 
             // label1
             // 
@@ -75,11 +80,10 @@
             // 
             // btnLogin
             // 
-            this.btnLogin.Activecolor = System.Drawing.Color.Purple;
+            this.btnLogin.Activecolor = System.Drawing.Color.Indigo;
             this.btnLogin.BackColor = System.Drawing.Color.Purple;
             this.btnLogin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnLogin.BorderRadius = 0;
-            this.btnLogin.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.btnLogin.ButtonText = "Login";
             this.btnLogin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnLogin.DisabledColor = System.Drawing.Color.Gray;
@@ -96,14 +100,14 @@
             this.btnLogin.IconVisible = true;
             this.btnLogin.IconZoom = 90D;
             this.btnLogin.IsTab = false;
-            this.btnLogin.Location = new System.Drawing.Point(90, 275);
+            this.btnLogin.Location = new System.Drawing.Point(85, 284);
             this.btnLogin.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Normalcolor = System.Drawing.Color.Purple;
-            this.btnLogin.OnHovercolor = System.Drawing.Color.Purple;
+            this.btnLogin.OnHovercolor = System.Drawing.Color.DarkViolet;
             this.btnLogin.OnHoverTextColor = System.Drawing.Color.White;
             this.btnLogin.selected = false;
-            this.btnLogin.Size = new System.Drawing.Size(110, 39);
+            this.btnLogin.Size = new System.Drawing.Size(116, 38);
             this.btnLogin.TabIndex = 3;
             this.btnLogin.Text = "Login";
             this.btnLogin.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -145,6 +149,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(46)))));
             this.ClientSize = new System.Drawing.Size(284, 351);
             this.Controls.Add(this.pictureBox3);
@@ -155,6 +160,7 @@
             this.Controls.Add(this.textBoxPassword);
             this.Controls.Add(this.textBoxUser);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.MaximizeBox = false;
             this.Name = "LogIn";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LogIn";

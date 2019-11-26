@@ -57,5 +57,41 @@ namespace Mockup
             }
             conexion.Close();
         }
+
+        private void textBoxUser_Enter(object sender, EventArgs e)
+        {
+            if (textBoxUser.Text.Equals("Username"))
+            {
+                textBoxUser.Clear();
+                textBoxUser.ForeColor = Color.DarkSlateBlue;
+            }
+        }
+
+        private void textBoxUser_Leave(object sender, EventArgs e)
+        {
+            if (textBoxUser.Text.Equals(""))
+            {
+                textBoxUser.Text = "Username";
+                textBoxUser.ForeColor = Color.DimGray;
+            }
+        }
+
+        private void textBoxPassword_Enter(object sender, EventArgs e)
+        {
+            if (textBoxPassword.Text.Equals("Password"))
+            {
+                textBoxPassword.Clear();
+                textBoxPassword.ForeColor = Color.DarkSlateBlue;
+            }
+        }
+
+        private void textBoxPassword_Leave(object sender, EventArgs e)
+        {
+            if (textBoxPassword.Text.Equals(""))
+            {
+                textBoxPassword.Text = "Password";
+                textBoxPassword.ForeColor = Color.DimGray;
+            }
+        }
     }
 }
