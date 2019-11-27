@@ -259,5 +259,29 @@
   <ItemGroup>
     <None Include="Resources\icons8-flujo-de-fondos-100.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\43504cf2-abe6-4f26-9e99-0d03081f906c_200x200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7a8a2134-4048-4b63-ba13-df645c5d82a2_200x200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\031aa062-c5bf-4ac2-b181-7933091f7052_200x200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5755c561-201e-4ce3-b870-2e1f9c9a2c66_200x200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\63a53184-ab0c-4dfd-af59-7d8e6dc43a4b_200x200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a60d57a7-6ab8-4fe0-ae13-b0c741583fe8_200x200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b55c841b-67e6-46de-891c-9d2c4aeab399_200x200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\621958f0-33b8-4372-a777-e8e5472882e4_200x200.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -72,31 +72,38 @@
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.btnSalir2 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.btnModificar = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.textBoxId1 = new System.Windows.Forms.TextBox();
+            this.label31 = new System.Windows.Forms.Label();
+            this.textBoxBuscar = new System.Windows.Forms.TextBox();
+            this.btnBuscar1 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.label25 = new System.Windows.Forms.Label();
+            this.textBoxEstado1 = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBoxMunicipio1 = new System.Windows.Forms.TextBox();
+            this.textBoxNo1 = new System.Windows.Forms.TextBox();
+            this.textBoxColonia1 = new System.Windows.Forms.TextBox();
+            this.textBoxCalle1 = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.bunifuSeparator2 = new Bunifu.Framework.UI.BunifuSeparator();
             this.label21 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBoxProfesion1 = new System.Windows.Forms.TextBox();
             this.label22 = new System.Windows.Forms.Label();
             this.bunifuSeparator3 = new Bunifu.Framework.UI.BunifuSeparator();
             this.label23 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.comboBoxSexo1 = new System.Windows.Forms.ComboBox();
+            this.textBoxEdad1 = new System.Windows.Forms.TextBox();
             this.label24 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.textBoxMaterno1 = new System.Windows.Forms.TextBox();
             this.label26 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.txtNombre = new System.Windows.Forms.TextBox();
+            this.textBoxPaterno1 = new System.Windows.Forms.TextBox();
+            this.textBoxTelefono1 = new System.Windows.Forms.TextBox();
+            this.textBoxNombre1 = new System.Windows.Forms.TextBox();
             this.label27 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
@@ -105,14 +112,6 @@
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.panel3 = new System.Windows.Forms.Panel();
             this.dataGridPaciente = new Bunifu.Framework.UI.BunifuCustomDataGrid();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.bunifuSeparator5 = new Bunifu.Framework.UI.BunifuSeparator();
-            this.label38 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.btnBuscar = new System.Windows.Forms.Button();
-            this.bunifuGradientPanel3 = new Bunifu.Framework.UI.BunifuGradientPanel();
-            this.label30 = new System.Windows.Forms.Label();
             this.IdP = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nombreP = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.apaternoP = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -126,13 +125,14 @@
             this.municipioP = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.estadoP = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.telefonoP = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.textBoxBuscador = new System.Windows.Forms.TextBox();
-            this.btnBuscar1 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label31 = new System.Windows.Forms.Label();
-            this.textBoxId = new System.Windows.Forms.TextBox();
-            this.btnModificar = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.btnSalir2 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.bunifuSeparator5 = new Bunifu.Framework.UI.BunifuSeparator();
+            this.label38 = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.bunifuGradientPanel3 = new Bunifu.Framework.UI.BunifuGradientPanel();
+            this.label30 = new System.Windows.Forms.Label();
+            this.btnSalir3 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.bunifuFlatButton2 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.tabPaciente.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -140,13 +140,13 @@
             this.bunifuGradientPanel2.SuspendLayout();
             this.tabPage4.SuspendLayout();
             this.panel1.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.bunifuGradientPanel1.SuspendLayout();
             this.tabPage5.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridPaciente)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.bunifuGradientPanel3.SuspendLayout();
-            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabPaciente
@@ -174,7 +174,7 @@
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(715, 506);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "tabPage1";
+            this.tabPage1.Text = "Agregar";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // panel2
@@ -326,7 +326,7 @@
             this.bunifuSeparator1.LineThickness = 1;
             this.bunifuSeparator1.Location = new System.Drawing.Point(11, 276);
             this.bunifuSeparator1.Name = "bunifuSeparator1";
-            this.bunifuSeparator1.Size = new System.Drawing.Size(695, 10);
+            this.bunifuSeparator1.Size = new System.Drawing.Size(683, 10);
             this.bunifuSeparator1.TabIndex = 23;
             this.bunifuSeparator1.Transparency = 255;
             this.bunifuSeparator1.Vertical = false;
@@ -370,7 +370,7 @@
             this.line.LineThickness = 1;
             this.line.Location = new System.Drawing.Point(11, 30);
             this.line.Name = "line";
-            this.line.Size = new System.Drawing.Size(695, 10);
+            this.line.Size = new System.Drawing.Size(683, 10);
             this.line.TabIndex = 19;
             this.line.Transparency = 255;
             this.line.Vertical = false;
@@ -466,7 +466,7 @@
             this.btnSalir.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSalir.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSalir.ForeColor = System.Drawing.Color.White;
-            this.btnSalir.Location = new System.Drawing.Point(589, 376);
+            this.btnSalir.Location = new System.Drawing.Point(582, 376);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(112, 46);
             this.btnSalir.TabIndex = 9;
@@ -481,7 +481,7 @@
             this.btnAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAgregar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAgregar.ForeColor = System.Drawing.Color.White;
-            this.btnAgregar.Location = new System.Drawing.Point(589, 304);
+            this.btnAgregar.Location = new System.Drawing.Point(582, 304);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(112, 46);
             this.btnAgregar.TabIndex = 8;
@@ -607,7 +607,7 @@
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage4.Size = new System.Drawing.Size(715, 506);
             this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "tabPage4";
+            this.tabPage4.Text = "Modificar";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
             // panel1
@@ -618,30 +618,30 @@
             this.panel1.Controls.Add(this.btnModificar);
             this.panel1.Controls.Add(this.groupBox1);
             this.panel1.Controls.Add(this.label25);
-            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.textBoxEstado1);
             this.panel1.Controls.Add(this.label16);
-            this.panel1.Controls.Add(this.textBox2);
-            this.panel1.Controls.Add(this.textBox3);
-            this.panel1.Controls.Add(this.textBox4);
-            this.panel1.Controls.Add(this.textBox5);
+            this.panel1.Controls.Add(this.textBoxMunicipio1);
+            this.panel1.Controls.Add(this.textBoxNo1);
+            this.panel1.Controls.Add(this.textBoxColonia1);
+            this.panel1.Controls.Add(this.textBoxCalle1);
             this.panel1.Controls.Add(this.label17);
             this.panel1.Controls.Add(this.label18);
             this.panel1.Controls.Add(this.label19);
             this.panel1.Controls.Add(this.label20);
             this.panel1.Controls.Add(this.bunifuSeparator2);
             this.panel1.Controls.Add(this.label21);
-            this.panel1.Controls.Add(this.textBox6);
+            this.panel1.Controls.Add(this.textBoxProfesion1);
             this.panel1.Controls.Add(this.label22);
             this.panel1.Controls.Add(this.bunifuSeparator3);
             this.panel1.Controls.Add(this.label23);
-            this.panel1.Controls.Add(this.comboBox1);
-            this.panel1.Controls.Add(this.textBox7);
+            this.panel1.Controls.Add(this.comboBoxSexo1);
+            this.panel1.Controls.Add(this.textBoxEdad1);
             this.panel1.Controls.Add(this.label24);
-            this.panel1.Controls.Add(this.textBox8);
+            this.panel1.Controls.Add(this.textBoxMaterno1);
             this.panel1.Controls.Add(this.label26);
-            this.panel1.Controls.Add(this.textBox9);
-            this.panel1.Controls.Add(this.textBox10);
-            this.panel1.Controls.Add(this.txtNombre);
+            this.panel1.Controls.Add(this.textBoxPaterno1);
+            this.panel1.Controls.Add(this.textBoxTelefono1);
+            this.panel1.Controls.Add(this.textBoxNombre1);
             this.panel1.Controls.Add(this.label27);
             this.panel1.Controls.Add(this.label28);
             this.panel1.Controls.Add(this.label29);
@@ -651,14 +651,180 @@
             this.panel1.Size = new System.Drawing.Size(709, 436);
             this.panel1.TabIndex = 13;
             // 
-            // textBox1
+            // btnSalir2
             // 
-            this.textBox1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(334, 386);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(153, 27);
-            this.textBox1.TabIndex = 33;
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btnSalir2.Activecolor = System.Drawing.Color.Maroon;
+            this.btnSalir2.BackColor = System.Drawing.Color.Maroon;
+            this.btnSalir2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnSalir2.BorderRadius = 0;
+            this.btnSalir2.ButtonText = "SALIR";
+            this.btnSalir2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSalir2.DisabledColor = System.Drawing.Color.Gray;
+            this.btnSalir2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalir2.Iconcolor = System.Drawing.Color.Transparent;
+            this.btnSalir2.Iconimage = null;
+            this.btnSalir2.Iconimage_right = null;
+            this.btnSalir2.Iconimage_right_Selected = null;
+            this.btnSalir2.Iconimage_Selected = null;
+            this.btnSalir2.IconMarginLeft = 0;
+            this.btnSalir2.IconMarginRight = 0;
+            this.btnSalir2.IconRightVisible = false;
+            this.btnSalir2.IconRightZoom = 0D;
+            this.btnSalir2.IconVisible = false;
+            this.btnSalir2.IconZoom = 90D;
+            this.btnSalir2.IsTab = false;
+            this.btnSalir2.Location = new System.Drawing.Point(176, 367);
+            this.btnSalir2.Margin = new System.Windows.Forms.Padding(5);
+            this.btnSalir2.Name = "btnSalir2";
+            this.btnSalir2.Normalcolor = System.Drawing.Color.Maroon;
+            this.btnSalir2.OnHovercolor = System.Drawing.Color.Maroon;
+            this.btnSalir2.OnHoverTextColor = System.Drawing.Color.White;
+            this.btnSalir2.selected = false;
+            this.btnSalir2.Size = new System.Drawing.Size(113, 46);
+            this.btnSalir2.TabIndex = 40;
+            this.btnSalir2.Text = "SALIR";
+            this.btnSalir2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnSalir2.Textcolor = System.Drawing.Color.White;
+            this.btnSalir2.TextFont = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalir2.Click += new System.EventHandler(this.btnSalir2_Click);
+            // 
+            // btnModificar
+            // 
+            this.btnModificar.Activecolor = System.Drawing.Color.LightSeaGreen;
+            this.btnModificar.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.btnModificar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnModificar.BorderRadius = 0;
+            this.btnModificar.ButtonText = "MODIFICAR";
+            this.btnModificar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnModificar.DisabledColor = System.Drawing.Color.Gray;
+            this.btnModificar.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnModificar.Iconcolor = System.Drawing.Color.Transparent;
+            this.btnModificar.Iconimage = null;
+            this.btnModificar.Iconimage_right = null;
+            this.btnModificar.Iconimage_right_Selected = null;
+            this.btnModificar.Iconimage_Selected = null;
+            this.btnModificar.IconMarginLeft = 0;
+            this.btnModificar.IconMarginRight = 0;
+            this.btnModificar.IconRightVisible = false;
+            this.btnModificar.IconRightZoom = 0D;
+            this.btnModificar.IconVisible = false;
+            this.btnModificar.IconZoom = 90D;
+            this.btnModificar.IsTab = false;
+            this.btnModificar.Location = new System.Drawing.Point(29, 367);
+            this.btnModificar.Margin = new System.Windows.Forms.Padding(5);
+            this.btnModificar.Name = "btnModificar";
+            this.btnModificar.Normalcolor = System.Drawing.Color.LightSeaGreen;
+            this.btnModificar.OnHovercolor = System.Drawing.Color.Teal;
+            this.btnModificar.OnHoverTextColor = System.Drawing.Color.White;
+            this.btnModificar.selected = false;
+            this.btnModificar.Size = new System.Drawing.Size(113, 46);
+            this.btnModificar.TabIndex = 39;
+            this.btnModificar.Text = "MODIFICAR";
+            this.btnModificar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnModificar.Textcolor = System.Drawing.Color.White;
+            this.btnModificar.TextFont = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnModificar.Click += new System.EventHandler(this.btnModificar_Click);
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.textBoxId1);
+            this.groupBox1.Controls.Add(this.label31);
+            this.groupBox1.Controls.Add(this.textBoxBuscar);
+            this.groupBox1.Controls.Add(this.btnBuscar1);
+            this.groupBox1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.groupBox1.Location = new System.Drawing.Point(11, 30);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(226, 199);
+            this.groupBox1.TabIndex = 38;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "BUSCADOR POR ID";
+            // 
+            // textBoxId1
+            // 
+            this.textBoxId1.Enabled = false;
+            this.textBoxId1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxId1.Location = new System.Drawing.Point(18, 144);
+            this.textBoxId1.Name = "textBoxId1";
+            this.textBoxId1.Size = new System.Drawing.Size(126, 27);
+            this.textBoxId1.TabIndex = 38;
+            this.textBoxId1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.ForeColor = System.Drawing.Color.White;
+            this.label31.Location = new System.Drawing.Point(14, 122);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(130, 19);
+            this.label31.TabIndex = 37;
+            this.label31.Text = "ID DEL PACIENTE";
+            // 
+            // textBoxBuscar
+            // 
+            this.textBoxBuscar.Font = new System.Drawing.Font("Century Gothic", 12F);
+            this.textBoxBuscar.Location = new System.Drawing.Point(18, 40);
+            this.textBoxBuscar.Name = "textBoxBuscar";
+            this.textBoxBuscar.Size = new System.Drawing.Size(180, 27);
+            this.textBoxBuscar.TabIndex = 35;
+            // 
+            // btnBuscar1
+            // 
+            this.btnBuscar1.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.btnBuscar1.BackColor = System.Drawing.Color.Purple;
+            this.btnBuscar1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnBuscar1.BorderRadius = 0;
+            this.btnBuscar1.ButtonText = "BUSCAR";
+            this.btnBuscar1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBuscar1.DisabledColor = System.Drawing.Color.Gray;
+            this.btnBuscar1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuscar1.Iconcolor = System.Drawing.Color.Transparent;
+            this.btnBuscar1.Iconimage = null;
+            this.btnBuscar1.Iconimage_right = null;
+            this.btnBuscar1.Iconimage_right_Selected = null;
+            this.btnBuscar1.Iconimage_Selected = null;
+            this.btnBuscar1.IconMarginLeft = 0;
+            this.btnBuscar1.IconMarginRight = 0;
+            this.btnBuscar1.IconRightVisible = false;
+            this.btnBuscar1.IconRightZoom = 0D;
+            this.btnBuscar1.IconVisible = false;
+            this.btnBuscar1.IconZoom = 90D;
+            this.btnBuscar1.IsTab = false;
+            this.btnBuscar1.Location = new System.Drawing.Point(18, 75);
+            this.btnBuscar1.Margin = new System.Windows.Forms.Padding(5);
+            this.btnBuscar1.Name = "btnBuscar1";
+            this.btnBuscar1.Normalcolor = System.Drawing.Color.Purple;
+            this.btnBuscar1.OnHovercolor = System.Drawing.Color.DarkViolet;
+            this.btnBuscar1.OnHoverTextColor = System.Drawing.Color.White;
+            this.btnBuscar1.selected = false;
+            this.btnBuscar1.Size = new System.Drawing.Size(85, 28);
+            this.btnBuscar1.TabIndex = 36;
+            this.btnBuscar1.Text = "BUSCAR";
+            this.btnBuscar1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnBuscar1.Textcolor = System.Drawing.Color.White;
+            this.btnBuscar1.TextFont = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuscar1.Click += new System.EventHandler(this.btnBuscar1_Click);
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.ForeColor = System.Drawing.Color.White;
+            this.label25.Location = new System.Drawing.Point(544, 51);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(49, 19);
+            this.label25.TabIndex = 14;
+            this.label25.Text = "SEXO";
+            // 
+            // textBoxEstado1
+            // 
+            this.textBoxEstado1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxEstado1.Location = new System.Drawing.Point(334, 386);
+            this.textBoxEstado1.Name = "textBoxEstado1";
+            this.textBoxEstado1.Size = new System.Drawing.Size(153, 27);
+            this.textBoxEstado1.TabIndex = 33;
+            this.textBoxEstado1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label16
             // 
@@ -671,41 +837,41 @@
             this.label16.TabIndex = 32;
             this.label16.Text = "ESTADO";
             // 
-            // textBox2
+            // textBoxMunicipio1
             // 
-            this.textBox2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(516, 326);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(153, 27);
-            this.textBox2.TabIndex = 31;
-            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxMunicipio1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxMunicipio1.Location = new System.Drawing.Point(516, 326);
+            this.textBoxMunicipio1.Name = "textBoxMunicipio1";
+            this.textBoxMunicipio1.Size = new System.Drawing.Size(153, 27);
+            this.textBoxMunicipio1.TabIndex = 31;
+            this.textBoxMunicipio1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox3
+            // textBoxNo1
             // 
-            this.textBox3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(207, 326);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(82, 27);
-            this.textBox3.TabIndex = 30;
-            this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxNo1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNo1.Location = new System.Drawing.Point(207, 326);
+            this.textBoxNo1.Name = "textBoxNo1";
+            this.textBoxNo1.Size = new System.Drawing.Size(82, 27);
+            this.textBoxNo1.TabIndex = 30;
+            this.textBoxNo1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox4
+            // textBoxColonia1
             // 
-            this.textBox4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(334, 326);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(153, 27);
-            this.textBox4.TabIndex = 29;
-            this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxColonia1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxColonia1.Location = new System.Drawing.Point(334, 326);
+            this.textBoxColonia1.Name = "textBoxColonia1";
+            this.textBoxColonia1.Size = new System.Drawing.Size(153, 27);
+            this.textBoxColonia1.TabIndex = 29;
+            this.textBoxColonia1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox5
+            // textBoxCalle1
             // 
-            this.textBox5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(29, 326);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(153, 27);
-            this.textBox5.TabIndex = 28;
-            this.textBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxCalle1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxCalle1.Location = new System.Drawing.Point(29, 326);
+            this.textBoxCalle1.Name = "textBoxCalle1";
+            this.textBoxCalle1.Size = new System.Drawing.Size(153, 27);
+            this.textBoxCalle1.TabIndex = 28;
+            this.textBoxCalle1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label17
             // 
@@ -775,14 +941,14 @@
             this.label21.TabIndex = 22;
             this.label21.Text = "DATOS A MODIFICAR DEL HOGAR";
             // 
-            // textBox6
+            // textBoxProfesion1
             // 
-            this.textBox6.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(472, 202);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(180, 27);
-            this.textBox6.TabIndex = 21;
-            this.textBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxProfesion1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxProfesion1.Location = new System.Drawing.Point(472, 202);
+            this.textBoxProfesion1.Name = "textBoxProfesion1";
+            this.textBoxProfesion1.Size = new System.Drawing.Size(180, 27);
+            this.textBoxProfesion1.TabIndex = 21;
+            this.textBoxProfesion1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label22
             // 
@@ -803,7 +969,7 @@
             this.bunifuSeparator3.LineThickness = 1;
             this.bunifuSeparator3.Location = new System.Drawing.Point(257, 30);
             this.bunifuSeparator3.Name = "bunifuSeparator3";
-            this.bunifuSeparator3.Size = new System.Drawing.Size(449, 18);
+            this.bunifuSeparator3.Size = new System.Drawing.Size(437, 18);
             this.bunifuSeparator3.TabIndex = 19;
             this.bunifuSeparator3.Transparency = 255;
             this.bunifuSeparator3.Vertical = false;
@@ -819,27 +985,27 @@
             this.label23.TabIndex = 18;
             this.label23.Text = "DATOS DEL PACIENTE A MODIFICAR";
             // 
-            // comboBox1
+            // comboBoxSexo1
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Century Gothic", 12F);
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.comboBoxSexo1.Font = new System.Drawing.Font("Century Gothic", 12F);
+            this.comboBoxSexo1.FormattingEnabled = true;
+            this.comboBoxSexo1.Items.AddRange(new object[] {
             "Hombre",
             "Mujer",
             "Indefinido"});
-            this.comboBox1.Location = new System.Drawing.Point(548, 73);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 29);
-            this.comboBox1.TabIndex = 17;
+            this.comboBoxSexo1.Location = new System.Drawing.Point(548, 73);
+            this.comboBoxSexo1.Name = "comboBoxSexo1";
+            this.comboBoxSexo1.Size = new System.Drawing.Size(121, 29);
+            this.comboBoxSexo1.TabIndex = 17;
             // 
-            // textBox7
+            // textBoxEdad1
             // 
-            this.textBox7.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(472, 73);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(47, 27);
-            this.textBox7.TabIndex = 16;
-            this.textBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxEdad1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxEdad1.Location = new System.Drawing.Point(472, 73);
+            this.textBoxEdad1.Name = "textBoxEdad1";
+            this.textBoxEdad1.Size = new System.Drawing.Size(47, 27);
+            this.textBoxEdad1.TabIndex = 16;
+            this.textBoxEdad1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label24
             // 
@@ -852,25 +1018,14 @@
             this.label24.TabIndex = 15;
             this.label24.Text = "EDAD";
             // 
-            // label25
+            // textBoxMaterno1
             // 
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.ForeColor = System.Drawing.Color.White;
-            this.label25.Location = new System.Drawing.Point(544, 51);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(49, 19);
-            this.label25.TabIndex = 14;
-            this.label25.Text = "SEXO";
-            // 
-            // textBox8
-            // 
-            this.textBox8.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox8.Location = new System.Drawing.Point(257, 202);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(180, 27);
-            this.textBox8.TabIndex = 13;
-            this.textBox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxMaterno1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxMaterno1.Location = new System.Drawing.Point(257, 202);
+            this.textBoxMaterno1.Name = "textBoxMaterno1";
+            this.textBoxMaterno1.Size = new System.Drawing.Size(180, 27);
+            this.textBoxMaterno1.TabIndex = 13;
+            this.textBoxMaterno1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label26
             // 
@@ -883,32 +1038,32 @@
             this.label26.TabIndex = 12;
             this.label26.Text = "APELLIDO MATERNO";
             // 
-            // textBox9
+            // textBoxPaterno1
             // 
-            this.textBox9.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox9.Location = new System.Drawing.Point(257, 136);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(180, 27);
-            this.textBox9.TabIndex = 6;
-            this.textBox9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxPaterno1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxPaterno1.Location = new System.Drawing.Point(257, 136);
+            this.textBoxPaterno1.Name = "textBoxPaterno1";
+            this.textBoxPaterno1.Size = new System.Drawing.Size(180, 27);
+            this.textBoxPaterno1.TabIndex = 6;
+            this.textBoxPaterno1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox10
+            // textBoxTelefono1
             // 
-            this.textBox10.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox10.Location = new System.Drawing.Point(472, 136);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(180, 27);
-            this.textBox10.TabIndex = 5;
-            this.textBox10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxTelefono1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxTelefono1.Location = new System.Drawing.Point(472, 136);
+            this.textBoxTelefono1.Name = "textBoxTelefono1";
+            this.textBoxTelefono1.Size = new System.Drawing.Size(180, 27);
+            this.textBoxTelefono1.TabIndex = 5;
+            this.textBoxTelefono1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // txtNombre
+            // textBoxNombre1
             // 
-            this.txtNombre.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNombre.Location = new System.Drawing.Point(257, 73);
-            this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(180, 27);
-            this.txtNombre.TabIndex = 4;
-            this.txtNombre.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxNombre1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNombre1.Location = new System.Drawing.Point(257, 73);
+            this.textBoxNombre1.Name = "textBoxNombre1";
+            this.textBoxNombre1.Size = new System.Drawing.Size(180, 27);
+            this.textBoxNombre1.TabIndex = 4;
+            this.textBoxNombre1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label27
             // 
@@ -965,7 +1120,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(267, 13);
+            this.label1.Location = new System.Drawing.Point(301, 12);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(137, 33);
             this.label1.TabIndex = 7;
@@ -981,20 +1136,20 @@
             this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage5.Size = new System.Drawing.Size(715, 506);
             this.tabPage5.TabIndex = 4;
-            this.tabPage5.Text = "tabPage5";
+            this.tabPage5.Text = "Mostrar";
             this.tabPage5.UseVisualStyleBackColor = true;
             // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(46)))));
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel3.Controls.Add(this.btnSalir3);
+            this.panel3.Controls.Add(this.bunifuFlatButton2);
             this.panel3.Controls.Add(this.dataGridPaciente);
             this.panel3.Controls.Add(this.textBox11);
             this.panel3.Controls.Add(this.bunifuSeparator5);
             this.panel3.Controls.Add(this.label38);
             this.panel3.Controls.Add(this.pictureBox3);
-            this.panel3.Controls.Add(this.button1);
-            this.panel3.Controls.Add(this.btnBuscar);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(3, 67);
             this.panel3.Name = "panel3";
@@ -1041,7 +1196,7 @@
             this.dataGridPaciente.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White;
@@ -1049,105 +1204,6 @@
             this.dataGridPaciente.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.dataGridPaciente.Size = new System.Drawing.Size(655, 246);
             this.dataGridPaciente.TabIndex = 21;
-            // 
-            // textBox11
-            // 
-            this.textBox11.Font = new System.Drawing.Font("Century Gothic", 12F);
-            this.textBox11.Location = new System.Drawing.Point(156, 90);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(277, 27);
-            this.textBox11.TabIndex = 20;
-            // 
-            // bunifuSeparator5
-            // 
-            this.bunifuSeparator5.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuSeparator5.ForeColor = System.Drawing.Color.Navy;
-            this.bunifuSeparator5.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.bunifuSeparator5.LineThickness = 1;
-            this.bunifuSeparator5.Location = new System.Drawing.Point(11, 30);
-            this.bunifuSeparator5.Name = "bunifuSeparator5";
-            this.bunifuSeparator5.Size = new System.Drawing.Size(695, 10);
-            this.bunifuSeparator5.TabIndex = 19;
-            this.bunifuSeparator5.Transparency = 255;
-            this.bunifuSeparator5.Vertical = false;
-            // 
-            // label38
-            // 
-            this.label38.AutoSize = true;
-            this.label38.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label38.ForeColor = System.Drawing.Color.LightGray;
-            this.label38.Location = new System.Drawing.Point(55, 8);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(166, 19);
-            this.label38.TabIndex = 18;
-            this.label38.Text = "DATOS DEL PACIENTE";
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::Mockup.Properties.Resources.icons8_grupo_de_usuarios_hombre_y_mujer_100;
-            this.pictureBox3.Location = new System.Drawing.Point(27, 55);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(100, 100);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox3.TabIndex = 11;
-            this.pictureBox3.TabStop = false;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Maroon;
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(583, 90);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(99, 32);
-            this.button1.TabIndex = 9;
-            this.button1.Text = "SALIR";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // btnBuscar
-            // 
-            this.btnBuscar.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.btnBuscar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBuscar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBuscar.ForeColor = System.Drawing.Color.White;
-            this.btnBuscar.Location = new System.Drawing.Point(466, 90);
-            this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(99, 32);
-            this.btnBuscar.TabIndex = 8;
-            this.btnBuscar.Text = "BUSCAR";
-            this.btnBuscar.UseVisualStyleBackColor = false;
-            // 
-            // bunifuGradientPanel3
-            // 
-            this.bunifuGradientPanel3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel3.BackgroundImage")));
-            this.bunifuGradientPanel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuGradientPanel3.Controls.Add(this.label30);
-            this.bunifuGradientPanel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.bunifuGradientPanel3.GradientBottomLeft = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(101)))), ((int)(((byte)(186)))));
-            this.bunifuGradientPanel3.GradientBottomRight = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(152)))), ((int)(((byte)(163)))));
-            this.bunifuGradientPanel3.GradientTopLeft = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(152)))), ((int)(((byte)(163)))));
-            this.bunifuGradientPanel3.GradientTopRight = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(46)))));
-            this.bunifuGradientPanel3.Location = new System.Drawing.Point(3, 3);
-            this.bunifuGradientPanel3.Name = "bunifuGradientPanel3";
-            this.bunifuGradientPanel3.Quality = 10;
-            this.bunifuGradientPanel3.Size = new System.Drawing.Size(709, 64);
-            this.bunifuGradientPanel3.TabIndex = 12;
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.BackColor = System.Drawing.Color.Transparent;
-            this.label30.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.ForeColor = System.Drawing.Color.White;
-            this.label30.Location = new System.Drawing.Point(284, 15);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(150, 33);
-            this.label30.TabIndex = 7;
-            this.label30.Text = "PACIENTES";
-            this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // IdP
             // 
@@ -1214,158 +1270,149 @@
             this.telefonoP.HeaderText = "Teléfono";
             this.telefonoP.Name = "telefonoP";
             // 
-            // textBoxBuscador
+            // textBox11
             // 
-            this.textBoxBuscador.Font = new System.Drawing.Font("Century Gothic", 12F);
-            this.textBoxBuscador.Location = new System.Drawing.Point(18, 40);
-            this.textBoxBuscador.Name = "textBoxBuscador";
-            this.textBoxBuscador.Size = new System.Drawing.Size(180, 27);
-            this.textBoxBuscador.TabIndex = 35;
+            this.textBox11.Font = new System.Drawing.Font("Century Gothic", 12F);
+            this.textBox11.Location = new System.Drawing.Point(156, 90);
+            this.textBox11.Name = "textBox11";
+            this.textBox11.Size = new System.Drawing.Size(277, 27);
+            this.textBox11.TabIndex = 20;
             // 
-            // btnBuscar1
+            // bunifuSeparator5
             // 
-            this.btnBuscar1.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.btnBuscar1.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.btnBuscar1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnBuscar1.BorderRadius = 0;
-            this.btnBuscar1.ButtonText = "BUSCAR";
-            this.btnBuscar1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnBuscar1.DisabledColor = System.Drawing.Color.Gray;
-            this.btnBuscar1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBuscar1.Iconcolor = System.Drawing.Color.Transparent;
-            this.btnBuscar1.Iconimage = null;
-            this.btnBuscar1.Iconimage_right = null;
-            this.btnBuscar1.Iconimage_right_Selected = null;
-            this.btnBuscar1.Iconimage_Selected = null;
-            this.btnBuscar1.IconMarginLeft = 0;
-            this.btnBuscar1.IconMarginRight = 0;
-            this.btnBuscar1.IconRightVisible = true;
-            this.btnBuscar1.IconRightZoom = 0D;
-            this.btnBuscar1.IconVisible = true;
-            this.btnBuscar1.IconZoom = 90D;
-            this.btnBuscar1.IsTab = false;
-            this.btnBuscar1.Location = new System.Drawing.Point(18, 75);
-            this.btnBuscar1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.btnBuscar1.Name = "btnBuscar1";
-            this.btnBuscar1.Normalcolor = System.Drawing.Color.Purple;
-            this.btnBuscar1.OnHovercolor = System.Drawing.Color.DarkViolet;
-            this.btnBuscar1.OnHoverTextColor = System.Drawing.Color.White;
-            this.btnBuscar1.selected = false;
-            this.btnBuscar1.Size = new System.Drawing.Size(85, 28);
-            this.btnBuscar1.TabIndex = 36;
-            this.btnBuscar1.Text = "BUSCAR";
-            this.btnBuscar1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnBuscar1.Textcolor = System.Drawing.Color.White;
-            this.btnBuscar1.TextFont = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBuscar1.Click += new System.EventHandler(this.btnBuscar1_Click);
+            this.bunifuSeparator5.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuSeparator5.ForeColor = System.Drawing.Color.Navy;
+            this.bunifuSeparator5.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.bunifuSeparator5.LineThickness = 1;
+            this.bunifuSeparator5.Location = new System.Drawing.Point(11, 30);
+            this.bunifuSeparator5.Name = "bunifuSeparator5";
+            this.bunifuSeparator5.Size = new System.Drawing.Size(695, 10);
+            this.bunifuSeparator5.TabIndex = 19;
+            this.bunifuSeparator5.Transparency = 255;
+            this.bunifuSeparator5.Vertical = false;
             // 
-            // groupBox1
+            // label38
             // 
-            this.groupBox1.Controls.Add(this.textBoxId);
-            this.groupBox1.Controls.Add(this.label31);
-            this.groupBox1.Controls.Add(this.textBoxBuscador);
-            this.groupBox1.Controls.Add(this.btnBuscar1);
-            this.groupBox1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.groupBox1.Location = new System.Drawing.Point(11, 30);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(235, 199);
-            this.groupBox1.TabIndex = 38;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "BUSCADOR POR ID";
+            this.label38.AutoSize = true;
+            this.label38.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label38.ForeColor = System.Drawing.Color.LightGray;
+            this.label38.Location = new System.Drawing.Point(55, 8);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(166, 19);
+            this.label38.TabIndex = 18;
+            this.label38.Text = "DATOS DEL PACIENTE";
             // 
-            // label31
+            // pictureBox3
             // 
-            this.label31.AutoSize = true;
-            this.label31.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label31.ForeColor = System.Drawing.Color.White;
-            this.label31.Location = new System.Drawing.Point(14, 122);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(130, 19);
-            this.label31.TabIndex = 37;
-            this.label31.Text = "ID DEL PACIENTE";
+            this.pictureBox3.Image = global::Mockup.Properties.Resources.icons8_grupo_de_usuarios_hombre_y_mujer_100;
+            this.pictureBox3.Location = new System.Drawing.Point(27, 55);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(100, 100);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox3.TabIndex = 11;
+            this.pictureBox3.TabStop = false;
             // 
-            // textBoxId
+            // bunifuGradientPanel3
             // 
-            this.textBoxId.Enabled = false;
-            this.textBoxId.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxId.Location = new System.Drawing.Point(18, 144);
-            this.textBoxId.Name = "textBoxId";
-            this.textBoxId.Size = new System.Drawing.Size(126, 27);
-            this.textBoxId.TabIndex = 38;
-            this.textBoxId.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.bunifuGradientPanel3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel3.BackgroundImage")));
+            this.bunifuGradientPanel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuGradientPanel3.Controls.Add(this.label30);
+            this.bunifuGradientPanel3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.bunifuGradientPanel3.GradientBottomLeft = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(101)))), ((int)(((byte)(186)))));
+            this.bunifuGradientPanel3.GradientBottomRight = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(152)))), ((int)(((byte)(163)))));
+            this.bunifuGradientPanel3.GradientTopLeft = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(152)))), ((int)(((byte)(163)))));
+            this.bunifuGradientPanel3.GradientTopRight = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(46)))));
+            this.bunifuGradientPanel3.Location = new System.Drawing.Point(3, 3);
+            this.bunifuGradientPanel3.Name = "bunifuGradientPanel3";
+            this.bunifuGradientPanel3.Quality = 10;
+            this.bunifuGradientPanel3.Size = new System.Drawing.Size(709, 64);
+            this.bunifuGradientPanel3.TabIndex = 12;
             // 
-            // btnModificar
+            // label30
             // 
-            this.btnModificar.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.btnModificar.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.btnModificar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnModificar.BorderRadius = 0;
-            this.btnModificar.ButtonText = "MODIFICAR";
-            this.btnModificar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnModificar.DisabledColor = System.Drawing.Color.Gray;
-            this.btnModificar.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnModificar.Iconcolor = System.Drawing.Color.Transparent;
-            this.btnModificar.Iconimage = null;
-            this.btnModificar.Iconimage_right = null;
-            this.btnModificar.Iconimage_right_Selected = null;
-            this.btnModificar.Iconimage_Selected = null;
-            this.btnModificar.IconMarginLeft = 0;
-            this.btnModificar.IconMarginRight = 0;
-            this.btnModificar.IconRightVisible = true;
-            this.btnModificar.IconRightZoom = 0D;
-            this.btnModificar.IconVisible = true;
-            this.btnModificar.IconZoom = 90D;
-            this.btnModificar.IsTab = false;
-            this.btnModificar.Location = new System.Drawing.Point(29, 378);
-            this.btnModificar.Margin = new System.Windows.Forms.Padding(5);
-            this.btnModificar.Name = "btnModificar";
-            this.btnModificar.Normalcolor = System.Drawing.Color.LightSeaGreen;
-            this.btnModificar.OnHovercolor = System.Drawing.Color.Teal;
-            this.btnModificar.OnHoverTextColor = System.Drawing.Color.White;
-            this.btnModificar.selected = false;
-            this.btnModificar.Size = new System.Drawing.Size(113, 35);
-            this.btnModificar.TabIndex = 39;
-            this.btnModificar.Text = "MODIFICAR";
-            this.btnModificar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnModificar.Textcolor = System.Drawing.Color.White;
-            this.btnModificar.TextFont = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.AutoSize = true;
+            this.label30.BackColor = System.Drawing.Color.Transparent;
+            this.label30.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.ForeColor = System.Drawing.Color.White;
+            this.label30.Location = new System.Drawing.Point(284, 15);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(150, 33);
+            this.label30.TabIndex = 7;
+            this.label30.Text = "PACIENTES";
+            this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // btnSalir2
+            // btnSalir3
             // 
-            this.btnSalir2.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.btnSalir2.BackColor = System.Drawing.Color.Maroon;
-            this.btnSalir2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnSalir2.BorderRadius = 0;
-            this.btnSalir2.ButtonText = "SALIR";
-            this.btnSalir2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSalir2.DisabledColor = System.Drawing.Color.Gray;
-            this.btnSalir2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalir2.Iconcolor = System.Drawing.Color.Transparent;
-            this.btnSalir2.Iconimage = null;
-            this.btnSalir2.Iconimage_right = null;
-            this.btnSalir2.Iconimage_right_Selected = null;
-            this.btnSalir2.Iconimage_Selected = null;
-            this.btnSalir2.IconMarginLeft = 0;
-            this.btnSalir2.IconMarginRight = 0;
-            this.btnSalir2.IconRightVisible = true;
-            this.btnSalir2.IconRightZoom = 0D;
-            this.btnSalir2.IconVisible = true;
-            this.btnSalir2.IconZoom = 90D;
-            this.btnSalir2.IsTab = false;
-            this.btnSalir2.Location = new System.Drawing.Point(179, 378);
-            this.btnSalir2.Margin = new System.Windows.Forms.Padding(5);
-            this.btnSalir2.Name = "btnSalir2";
-            this.btnSalir2.Normalcolor = System.Drawing.Color.Maroon;
-            this.btnSalir2.OnHovercolor = System.Drawing.Color.Maroon;
-            this.btnSalir2.OnHoverTextColor = System.Drawing.Color.White;
-            this.btnSalir2.selected = false;
-            this.btnSalir2.Size = new System.Drawing.Size(113, 35);
-            this.btnSalir2.TabIndex = 40;
-            this.btnSalir2.Text = "SALIR";
-            this.btnSalir2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnSalir2.Textcolor = System.Drawing.Color.White;
-            this.btnSalir2.TextFont = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalir3.Activecolor = System.Drawing.Color.Maroon;
+            this.btnSalir3.BackColor = System.Drawing.Color.Maroon;
+            this.btnSalir3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnSalir3.BorderRadius = 0;
+            this.btnSalir3.ButtonText = "SALIR";
+            this.btnSalir3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSalir3.DisabledColor = System.Drawing.Color.Gray;
+            this.btnSalir3.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalir3.Iconcolor = System.Drawing.Color.Transparent;
+            this.btnSalir3.Iconimage = null;
+            this.btnSalir3.Iconimage_right = null;
+            this.btnSalir3.Iconimage_right_Selected = null;
+            this.btnSalir3.Iconimage_Selected = null;
+            this.btnSalir3.IconMarginLeft = 0;
+            this.btnSalir3.IconMarginRight = 0;
+            this.btnSalir3.IconRightVisible = true;
+            this.btnSalir3.IconRightZoom = 0D;
+            this.btnSalir3.IconVisible = true;
+            this.btnSalir3.IconZoom = 90D;
+            this.btnSalir3.IsTab = false;
+            this.btnSalir3.Location = new System.Drawing.Point(583, 90);
+            this.btnSalir3.Margin = new System.Windows.Forms.Padding(5);
+            this.btnSalir3.Name = "btnSalir3";
+            this.btnSalir3.Normalcolor = System.Drawing.Color.Maroon;
+            this.btnSalir3.OnHovercolor = System.Drawing.Color.Maroon;
+            this.btnSalir3.OnHoverTextColor = System.Drawing.Color.White;
+            this.btnSalir3.selected = false;
+            this.btnSalir3.Size = new System.Drawing.Size(99, 32);
+            this.btnSalir3.TabIndex = 42;
+            this.btnSalir3.Text = "SALIR";
+            this.btnSalir3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnSalir3.Textcolor = System.Drawing.Color.White;
+            this.btnSalir3.TextFont = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalir3.Click += new System.EventHandler(this.btnSalir3_Click);
+            // 
+            // bunifuFlatButton2
+            // 
+            this.bunifuFlatButton2.Activecolor = System.Drawing.Color.LightSeaGreen;
+            this.bunifuFlatButton2.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.bunifuFlatButton2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuFlatButton2.BorderRadius = 0;
+            this.bunifuFlatButton2.ButtonText = "BUSCAR";
+            this.bunifuFlatButton2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuFlatButton2.DisabledColor = System.Drawing.Color.Gray;
+            this.bunifuFlatButton2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton2.Iconcolor = System.Drawing.Color.Transparent;
+            this.bunifuFlatButton2.Iconimage = null;
+            this.bunifuFlatButton2.Iconimage_right = null;
+            this.bunifuFlatButton2.Iconimage_right_Selected = null;
+            this.bunifuFlatButton2.Iconimage_Selected = null;
+            this.bunifuFlatButton2.IconMarginLeft = 0;
+            this.bunifuFlatButton2.IconMarginRight = 0;
+            this.bunifuFlatButton2.IconRightVisible = true;
+            this.bunifuFlatButton2.IconRightZoom = 0D;
+            this.bunifuFlatButton2.IconVisible = true;
+            this.bunifuFlatButton2.IconZoom = 90D;
+            this.bunifuFlatButton2.IsTab = false;
+            this.bunifuFlatButton2.Location = new System.Drawing.Point(466, 90);
+            this.bunifuFlatButton2.Margin = new System.Windows.Forms.Padding(5);
+            this.bunifuFlatButton2.Name = "bunifuFlatButton2";
+            this.bunifuFlatButton2.Normalcolor = System.Drawing.Color.LightSeaGreen;
+            this.bunifuFlatButton2.OnHovercolor = System.Drawing.Color.Teal;
+            this.bunifuFlatButton2.OnHoverTextColor = System.Drawing.Color.White;
+            this.bunifuFlatButton2.selected = false;
+            this.bunifuFlatButton2.Size = new System.Drawing.Size(99, 32);
+            this.bunifuFlatButton2.TabIndex = 41;
+            this.bunifuFlatButton2.Text = "BUSCAR";
+            this.bunifuFlatButton2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuFlatButton2.Textcolor = System.Drawing.Color.White;
+            this.bunifuFlatButton2.TextFont = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
             // Paciente
             // 
@@ -1389,6 +1436,8 @@
             this.tabPage4.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.bunifuGradientPanel1.ResumeLayout(false);
             this.bunifuGradientPanel1.PerformLayout();
             this.tabPage5.ResumeLayout(false);
@@ -1398,8 +1447,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.bunifuGradientPanel3.ResumeLayout(false);
             this.bunifuGradientPanel3.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1446,31 +1493,31 @@
         private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.TabPage tabPage4;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBoxEstado1;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textBoxMunicipio1;
+        private System.Windows.Forms.TextBox textBoxNo1;
+        private System.Windows.Forms.TextBox textBoxColonia1;
+        private System.Windows.Forms.TextBox textBoxCalle1;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label20;
         private Bunifu.Framework.UI.BunifuSeparator bunifuSeparator2;
         private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox textBoxProfesion1;
         private System.Windows.Forms.Label label22;
         private Bunifu.Framework.UI.BunifuSeparator bunifuSeparator3;
         private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.ComboBox comboBoxSexo1;
+        private System.Windows.Forms.TextBox textBoxEdad1;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox textBoxMaterno1;
         private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox txtNombre;
+        private System.Windows.Forms.TextBox textBoxPaterno1;
+        private System.Windows.Forms.TextBox textBoxTelefono1;
+        private System.Windows.Forms.TextBox textBoxNombre1;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.Label label29;
@@ -1482,8 +1529,6 @@
         private Bunifu.Framework.UI.BunifuSeparator bunifuSeparator5;
         private System.Windows.Forms.Label label38;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button btnBuscar;
         private Bunifu.Framework.UI.BunifuGradientPanel bunifuGradientPanel3;
         private System.Windows.Forms.Label label30;
         private Bunifu.Framework.UI.BunifuCustomDataGrid dataGridPaciente;
@@ -1500,12 +1545,14 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn municipioP;
         private System.Windows.Forms.DataGridViewTextBoxColumn estadoP;
         private System.Windows.Forms.DataGridViewTextBoxColumn telefonoP;
-        private System.Windows.Forms.TextBox textBoxBuscador;
+        private System.Windows.Forms.TextBox textBoxBuscar;
         private Bunifu.Framework.UI.BunifuFlatButton btnBuscar1;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox textBoxId;
+        private System.Windows.Forms.TextBox textBoxId1;
         private System.Windows.Forms.Label label31;
         private Bunifu.Framework.UI.BunifuFlatButton btnSalir2;
         private Bunifu.Framework.UI.BunifuFlatButton btnModificar;
+        private Bunifu.Framework.UI.BunifuFlatButton btnSalir3;
+        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton2;
     }
 }

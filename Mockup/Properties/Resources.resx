@@ -133,6 +133,9 @@
   <data name="icons8-vender-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-vender-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="b55c841b-67e6-46de-891c-9d2c4aeab399_200x200" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b55c841b-67e6-46de-891c-9d2c4aeab399_200x200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icons8-botón-de-apagado-64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-botón-de-apagado-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -157,6 +160,9 @@
   <data name="Most Popular Social Media Websites UK 2014" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Most Popular Social Media Websites UK 2014.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="63a53184-ab0c-4dfd-af59-7d8e6dc43a4b_200x200" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\63a53184-ab0c-4dfd-af59-7d8e6dc43a4b_200x200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icons8-test-aprobado-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-test-aprobado-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -166,11 +172,23 @@
   <data name="icons8-tarjeta-de-empleado-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-tarjeta-de-empleado-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="icons8-flujo-de-fondos-100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-flujo-de-fondos-100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-agregar-a-carrito-de-compras-30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-agregar-a-carrito-de-compras-30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icons8-producto-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-producto-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="depositphotos_161980192-stock-illustration-vr-connected-letters-logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\depositphotos_161980192-stock-illustration-vr-connected-letters-logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icons8-grupo-de-usuarios-hombre-y-mujer-100" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-grupo-de-usuarios-hombre-y-mujer-100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="a60d57a7-6ab8-4fe0-ae13-b0c741583fe8_200x200" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\a60d57a7-6ab8-4fe0-ae13-b0c741583fe8_200x200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-minimizar-la-ventana-50 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-minimizar-la-ventana-50 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -184,14 +202,11 @@
   <data name="icons8-maximizar-la-ventana-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-maximizar-la-ventana-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8-en-inventario-100" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-en-inventario-100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="icons8-tarjeta-de-identificación-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-tarjeta-de-identificación-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="depositphotos_161980192-stock-illustration-vr-connected-letters-logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\depositphotos_161980192-stock-illustration-vr-connected-letters-logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="7a8a2134-4048-4b63-ba13-df645c5d82a2_200x200" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7a8a2134-4048-4b63-ba13-df645c5d82a2_200x200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-save-the-children-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-save-the-children-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -214,20 +229,29 @@
   <data name="User Groups_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\User Groups_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="43504cf2-abe6-4f26-9e99-0d03081f906c_200x200" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\43504cf2-abe6-4f26-9e99-0d03081f906c_200x200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icons8-tarjeta-de-identificación-50 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-tarjeta-de-identificación-50 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-cerrar-ventana-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-cerrar-ventana-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="031aa062-c5bf-4ac2-b181-7933091f7052_200x200" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\031aa062-c5bf-4ac2-b181-7933091f7052_200x200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icons8-tarea-50 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-tarea-50 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8-agregar-a-carrito-de-compras-30" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-agregar-a-carrito-de-compras-30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-en-inventario-100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-en-inventario-100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-costo-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-costo-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5755c561-201e-4ce3-b870-2e1f9c9a2c66_200x200" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5755c561-201e-4ce3-b870-2e1f9c9a2c66_200x200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-efectivo-en-mano-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-efectivo-en-mano-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -235,7 +259,7 @@
   <data name="FondoAzulDegradadoCentro (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FondoAzulDegradadoCentro (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8-flujo-de-fondos-100" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-flujo-de-fondos-100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="621958f0-33b8-4372-a777-e8e5472882e4_200x200" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\621958f0-33b8-4372-a777-e8e5472882e4_200x200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -63,6 +63,86 @@ namespace Mockup.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _031aa062_c5bf_4ac2_b181_7933091f7052_200x200 {
+            get {
+                object obj = ResourceManager.GetObject("031aa062-c5bf-4ac2-b181-7933091f7052_200x200", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _43504cf2_abe6_4f26_9e99_0d03081f906c_200x200 {
+            get {
+                object obj = ResourceManager.GetObject("43504cf2-abe6-4f26-9e99-0d03081f906c_200x200", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _5755c561_201e_4ce3_b870_2e1f9c9a2c66_200x200 {
+            get {
+                object obj = ResourceManager.GetObject("5755c561-201e-4ce3-b870-2e1f9c9a2c66_200x200", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _621958f0_33b8_4372_a777_e8e5472882e4_200x200 {
+            get {
+                object obj = ResourceManager.GetObject("621958f0-33b8-4372-a777-e8e5472882e4_200x200", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _63a53184_ab0c_4dfd_af59_7d8e6dc43a4b_200x200 {
+            get {
+                object obj = ResourceManager.GetObject("63a53184-ab0c-4dfd-af59-7d8e6dc43a4b_200x200", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _7a8a2134_4048_4b63_ba13_df645c5d82a2_200x200 {
+            get {
+                object obj = ResourceManager.GetObject("7a8a2134-4048-4b63-ba13-df645c5d82a2_200x200", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap a60d57a7_6ab8_4fe0_ae13_b0c741583fe8_200x200 {
+            get {
+                object obj = ResourceManager.GetObject("a60d57a7-6ab8-4fe0-ae13-b0c741583fe8_200x200", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap b55c841b_67e6_46de_891c_9d2c4aeab399_200x200 {
+            get {
+                object obj = ResourceManager.GetObject("b55c841b-67e6-46de-891c-9d2c4aeab399_200x200", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap depositphotos_161980192_stock_illustration_vr_connected_letters_logo {
             get {
                 object obj = ResourceManager.GetObject("depositphotos_161980192-stock-illustration-vr-connected-letters-logo", resourceCulture);
