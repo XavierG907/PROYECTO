@@ -30,6 +30,10 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Medico));
             this.panel2 = new System.Windows.Forms.Panel();
+            this.textBoxComision = new System.Windows.Forms.TextBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.textBoxEstado = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
             this.textBoxMunicipio = new System.Windows.Forms.TextBox();
@@ -62,25 +66,21 @@
             this.Id = new System.Windows.Forms.Label();
             this.bunifuGradientPanel1 = new Bunifu.Framework.UI.BunifuGradientPanel();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.btnFoto = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label15 = new System.Windows.Forms.Label();
-            this.textBoxComision = new System.Windows.Forms.TextBox();
+            this.btnFoto = new Bunifu.Framework.UI.BunifuFlatButton();
             this.panel2.SuspendLayout();
-            this.bunifuGradientPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.bunifuGradientPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(46)))));
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.btnFoto);
             this.panel2.Controls.Add(this.textBoxComision);
             this.panel2.Controls.Add(this.label15);
             this.panel2.Controls.Add(this.pictureBox1);
-            this.panel2.Controls.Add(this.btnFoto);
             this.panel2.Controls.Add(this.pictureBox2);
             this.panel2.Controls.Add(this.textBoxEstado);
             this.panel2.Controls.Add(this.label14);
@@ -117,6 +117,46 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(723, 495);
             this.panel2.TabIndex = 4;
+            // 
+            // textBoxComision
+            // 
+            this.textBoxComision.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxComision.Location = new System.Drawing.Point(578, 386);
+            this.textBoxComision.Name = "textBoxComision";
+            this.textBoxComision.Size = new System.Drawing.Size(111, 27);
+            this.textBoxComision.TabIndex = 69;
+            this.textBoxComision.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.ForeColor = System.Drawing.Color.White;
+            this.label15.Location = new System.Drawing.Point(574, 364);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(89, 19);
+            this.label15.TabIndex = 68;
+            this.label15.Text = "COMISIÓN";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Mockup.Properties.Resources.icons8_añadir_imagen_30;
+            this.pictureBox1.Location = new System.Drawing.Point(542, 272);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(30, 30);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox1.TabIndex = 67;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Mockup.Properties.Resources.icons8_doctor_de_sexo_masculino_100;
+            this.pictureBox2.Location = new System.Drawing.Point(578, 140);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(100, 100);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 65;
+            this.pictureBox2.TabStop = false;
             // 
             // textBoxEstado
             // 
@@ -224,7 +264,7 @@
             this.bunifuSeparator1.ForeColor = System.Drawing.Color.Navy;
             this.bunifuSeparator1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.bunifuSeparator1.LineThickness = 1;
-            this.bunifuSeparator1.Location = new System.Drawing.Point(9, 351);
+            this.bunifuSeparator1.Location = new System.Drawing.Point(9, 341);
             this.bunifuSeparator1.Name = "bunifuSeparator1";
             this.bunifuSeparator1.Size = new System.Drawing.Size(695, 10);
             this.bunifuSeparator1.TabIndex = 54;
@@ -236,7 +276,7 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.LightGray;
-            this.label9.Location = new System.Drawing.Point(53, 329);
+            this.label9.Location = new System.Drawing.Point(53, 319);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(152, 19);
             this.label9.TabIndex = 53;
@@ -293,7 +333,7 @@
             this.comboBoxSexo.Items.AddRange(new object[] {
             "Hombre",
             "Mujer",
-            "Indefinido"});
+            "Otro"});
             this.comboBoxSexo.Location = new System.Drawing.Point(304, 211);
             this.comboBoxSexo.Name = "comboBoxSexo";
             this.comboBoxSexo.Size = new System.Drawing.Size(121, 29);
@@ -465,59 +505,41 @@
             this.label1.Text = "MÉDICO";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::Mockup.Properties.Resources.icons8_doctor_de_sexo_masculino_100;
-            this.pictureBox2.Location = new System.Drawing.Point(553, 140);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(100, 100);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox2.TabIndex = 65;
-            this.pictureBox2.TabStop = false;
-            // 
             // btnFoto
             // 
+            this.btnFoto.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.btnFoto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(101)))), ((int)(((byte)(186)))));
+            this.btnFoto.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnFoto.BorderRadius = 0;
+            this.btnFoto.ButtonText = "AÑADIR FOTO";
             this.btnFoto.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnFoto.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnFoto.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFoto.ForeColor = System.Drawing.Color.White;
-            this.btnFoto.Location = new System.Drawing.Point(578, 272);
+            this.btnFoto.DisabledColor = System.Drawing.Color.Gray;
+            this.btnFoto.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFoto.Iconcolor = System.Drawing.Color.Transparent;
+            this.btnFoto.Iconimage = null;
+            this.btnFoto.Iconimage_right = null;
+            this.btnFoto.Iconimage_right_Selected = null;
+            this.btnFoto.Iconimage_Selected = null;
+            this.btnFoto.IconMarginLeft = 0;
+            this.btnFoto.IconMarginRight = 0;
+            this.btnFoto.IconRightVisible = false;
+            this.btnFoto.IconRightZoom = 0D;
+            this.btnFoto.IconVisible = false;
+            this.btnFoto.IconZoom = 90D;
+            this.btnFoto.IsTab = false;
+            this.btnFoto.Location = new System.Drawing.Point(580, 272);
+            this.btnFoto.Margin = new System.Windows.Forms.Padding(5);
             this.btnFoto.Name = "btnFoto";
-            this.btnFoto.Size = new System.Drawing.Size(92, 30);
-            this.btnFoto.TabIndex = 66;
-            this.btnFoto.Text = "Añadir Foto";
-            this.btnFoto.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Mockup.Properties.Resources.icons8_añadir_imagen_30;
-            this.pictureBox1.Location = new System.Drawing.Point(542, 272);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(30, 30);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox1.TabIndex = 67;
-            this.pictureBox1.TabStop = false;
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.ForeColor = System.Drawing.Color.White;
-            this.label15.Location = new System.Drawing.Point(574, 364);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(89, 19);
-            this.label15.TabIndex = 68;
-            this.label15.Text = "COMISIÓN";
-            // 
-            // textBoxComision
-            // 
-            this.textBoxComision.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxComision.Location = new System.Drawing.Point(578, 386);
-            this.textBoxComision.Name = "textBoxComision";
-            this.textBoxComision.Size = new System.Drawing.Size(111, 27);
-            this.textBoxComision.TabIndex = 69;
-            this.textBoxComision.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btnFoto.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(101)))), ((int)(((byte)(186)))));
+            this.btnFoto.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(101)))), ((int)(((byte)(186)))));
+            this.btnFoto.OnHoverTextColor = System.Drawing.Color.White;
+            this.btnFoto.selected = false;
+            this.btnFoto.Size = new System.Drawing.Size(98, 30);
+            this.btnFoto.TabIndex = 70;
+            this.btnFoto.Text = "AÑADIR FOTO";
+            this.btnFoto.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnFoto.Textcolor = System.Drawing.Color.White;
+            this.btnFoto.TextFont = new System.Drawing.Font("Century Gothic", 9.75F);
             // 
             // Medico
             // 
@@ -533,10 +555,10 @@
             this.Text = "MÉDICO";
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.bunifuGradientPanel1.ResumeLayout(false);
             this.bunifuGradientPanel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -577,8 +599,8 @@
         private System.Windows.Forms.Label Id;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button btnFoto;
         private System.Windows.Forms.TextBox textBoxComision;
         private System.Windows.Forms.Label label15;
+        private Bunifu.Framework.UI.BunifuFlatButton btnFoto;
     }
 }
