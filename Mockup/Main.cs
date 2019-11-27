@@ -41,10 +41,6 @@ namespace Mockup
             maximizar.Visible = true;
             
         }
-        private void Panel4_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
 
         private void Timer1_Tick(object sender, EventArgs e)
         {
@@ -66,7 +62,7 @@ namespace Mockup
                 MenuSide.Visible = false;
                 MenuSide.Width = 68;
                 panelSide.Width = 90;
-                line.Width = 52;
+                line.Width = 46;
                 transicionMenu.Show(MenuSide);
             }
             else
@@ -74,7 +70,7 @@ namespace Mockup
                 MenuSide.Visible = false;
                 MenuSide.Width = 225;
                 panelSide.Width = 252;
-                line.Width = 205;
+                line.Width = 197;
                 transicionMenu2.Show(MenuSide);
             }
         }

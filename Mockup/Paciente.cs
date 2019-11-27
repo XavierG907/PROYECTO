@@ -24,6 +24,9 @@ namespace Mockup
         private void Paciente_Load_1(object sender, EventArgs e)
         {
             cargardatagridview();
+
+            //DateTime dt = new DateTime.;
+            textBoxFecha1E.Text = DateTime.Now.ToShortDateString();
         }
 
         public void cargardatagridview()
@@ -175,17 +178,11 @@ namespace Mockup
                 "telefono = '" + textBoxTelefono1.Text + "' " +
                 "WHERE id = '" + textBoxId1.Text + "';";
 
-            //"WHERE id = @ID;";
-
             NpgsqlCommand comando1 = new NpgsqlCommand(query1, conexion1);
-
-            //int id1 = System.Convert.ToInt32(textBoxId1.Text);
-
-            //comando1.Parameters.AddWithValue("@ID", id1);
 
             comando1.ExecuteNonQuery();
 
-            MessageBox.Show("Paciente Modificado con Exito!!");
+            MessageBox.Show("El Paciente Ha Sido Modificado con Exito!!");
 
             textBoxBuscar.Clear();
             textBoxId1.Clear();
@@ -214,12 +211,66 @@ namespace Mockup
 
         private void btnSalir2_Click(object sender, EventArgs e)
         {
+            btnSalir2.Enabled = false;
             this.Close();
         }
 
         private void btnSalir3_Click(object sender, EventArgs e)
         {
+            btnSalir3.Enabled = false;
             this.Close();
+        }
+
+        private void btnFirma_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog img = new OpenFileDialog();
+            img.InitialDirectory = "C:\\";
+
+            img.Filter = "Archivos de Imagen (*.png)|*.png|JPG (*.jpg)(*.jpeg)|*.jpg;*.jpeg";
+
+            if (img.ShowDialog() == DialogResult.OK)
+            {
+                pictureBoxFirma.ImageLocation = img.FileName; 
+            }
+            else
+            {
+                MessageBox.Show("No Se Seleccionó Ninguna Imagen", "Sin Selección", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+        }
+
+        private void btnActualizar_Click(object sender, EventArgs e)
+        {
+            NpgsqlConnection conexion = new NpgsqlConnection();
+            conexion.ConnectionString = "Server=localhost; Port=5432; Username=postgres; Password=9693; Database= nucleo;";
+            conexion.Open(); //Abrir la Conexión
+
+
+            string query = "INSERT INTO evolucion(descripcion,comentarios,fechacita,fechaproxcita,firma,idpaciente)" +
+                "VALUES('" + textBoxDE.Text + "','" + textBoxCE.Text + "','" + textBoxFecha1E.Text + "'," +
+                " '" + textBoxFecha2E.Text + "',"+"@img"+",'" + textBoxIdE.Text + "');";
+
+          
+            NpgsqlCommand comando = new NpgsqlCommand(query, conexion);
+
+            comando.Parameters.Add("@img", NpgsqlDbType.Bytea);
+            System.IO.MemoryStream ms = new System.IO.MemoryStream(); //img a buffer
+
+            //pictureBoxFirma.Image.Save(ms, System.Drawing.Imaging.ImageFormat.Png);
+            pictureBoxFirma.Image.Save(ms, pictureBoxFirma.Image.RawFormat);
+
+            //Extrae los bytes del buffer
+
+            comando.Parameters["@img"].Value = ms.GetBuffer();
+
+            comando.ExecuteNonQuery();
+            MessageBox.Show("Evolución del Paciente Actualizado con Exito!!");
+
+            textBoxDE.Clear();
+            textBoxCE.Clear();
+            textBoxFecha2E.Clear();
+            textBoxIdE.Clear();
+
+            conexion.Close();
         }
     }
 }

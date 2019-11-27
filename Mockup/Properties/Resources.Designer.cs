@@ -203,6 +203,16 @@ namespace Mockup.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_accesibilidad_2_100 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-accesibilidad-2-100", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_administración_de_explotación_comercial_50 {
             get {
                 object obj = ResourceManager.GetObject("icons8-administración-de-explotación-comercial-50", resourceCulture);
@@ -256,6 +266,26 @@ namespace Mockup.Properties {
         internal static System.Drawing.Bitmap icons8_añadir_imagen_50 {
             get {
                 object obj = ResourceManager.GetObject("icons8-añadir-imagen-50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_autógrafo_100 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-autógrafo-100", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_autógrafo_100__1_ {
+            get {
+                object obj = ResourceManager.GetObject("icons8-autógrafo-100 (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

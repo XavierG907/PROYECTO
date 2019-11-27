@@ -29,24 +29,20 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            BunifuAnimatorNS.Animation animation5 = new BunifuAnimatorNS.Animation();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
-            BunifuAnimatorNS.Animation animation6 = new BunifuAnimatorNS.Animation();
+            BunifuAnimatorNS.Animation animation3 = new BunifuAnimatorNS.Animation();
+            BunifuAnimatorNS.Animation animation4 = new BunifuAnimatorNS.Animation();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.backgroundWorker2 = new System.ComponentModel.BackgroundWorker();
             this.Menú = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.restaurar = new System.Windows.Forms.PictureBox();
+            this.maximizar = new System.Windows.Forms.PictureBox();
+            this.minimizar = new System.Windows.Forms.PictureBox();
+            this.salir = new System.Windows.Forms.PictureBox();
+            this.opcionMenu = new System.Windows.Forms.PictureBox();
             this.Nombre = new System.Windows.Forms.Label();
             this.panelSide = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.fecha = new System.Windows.Forms.Label();
-            this.hora = new System.Windows.Forms.Label();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.curvaMenu = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.transicionMenu = new BunifuAnimatorNS.BunifuTransition(this.components);
-            this.transicionMenu2 = new BunifuAnimatorNS.BunifuTransition(this.components);
-            this.bunifuFlatButton11 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.MenuSide = new Bunifu.Framework.UI.BunifuGradientPanel();
             this.line = new Bunifu.Framework.UI.BunifuSeparator();
             this.btnPaciente = new Bunifu.Framework.UI.BunifuFlatButton();
@@ -54,22 +50,26 @@
             this.btnMedico = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btnInventario = new Bunifu.Framework.UI.BunifuFlatButton();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.restaurar = new System.Windows.Forms.PictureBox();
-            this.maximizar = new System.Windows.Forms.PictureBox();
-            this.minimizar = new System.Windows.Forms.PictureBox();
-            this.salir = new System.Windows.Forms.PictureBox();
-            this.opcionMenu = new System.Windows.Forms.PictureBox();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.bunifuFlatButton11 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.fecha = new System.Windows.Forms.Label();
+            this.hora = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.curvaMenu = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.transicionMenu = new BunifuAnimatorNS.BunifuTransition(this.components);
+            this.transicionMenu2 = new BunifuAnimatorNS.BunifuTransition(this.components);
             this.panel1.SuspendLayout();
-            this.panelSide.SuspendLayout();
-            this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.MenuSide.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.restaurar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.maximizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.minimizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.salir)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.opcionMenu)).BeginInit();
+            this.panelSide.SuspendLayout();
+            this.MenuSide.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // Menú
@@ -103,6 +103,77 @@
             this.panel1.Size = new System.Drawing.Size(867, 60);
             this.panel1.TabIndex = 0;
             // 
+            // restaurar
+            // 
+            this.restaurar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.transicionMenu.SetDecoration(this.restaurar, BunifuAnimatorNS.DecorationType.None);
+            this.transicionMenu2.SetDecoration(this.restaurar, BunifuAnimatorNS.DecorationType.None);
+            this.restaurar.Image = global::Mockup.Properties.Resources.icons8_restaurar_ventana_50__1_;
+            this.restaurar.Location = new System.Drawing.Point(799, 17);
+            this.restaurar.Name = "restaurar";
+            this.restaurar.Size = new System.Drawing.Size(25, 25);
+            this.restaurar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.restaurar.TabIndex = 4;
+            this.restaurar.TabStop = false;
+            this.restaurar.Visible = false;
+            this.restaurar.Click += new System.EventHandler(this.Restaurar_Click);
+            // 
+            // maximizar
+            // 
+            this.maximizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.transicionMenu.SetDecoration(this.maximizar, BunifuAnimatorNS.DecorationType.None);
+            this.transicionMenu2.SetDecoration(this.maximizar, BunifuAnimatorNS.DecorationType.None);
+            this.maximizar.Image = global::Mockup.Properties.Resources.icons8_maximizar_la_ventana_50;
+            this.maximizar.Location = new System.Drawing.Point(799, 17);
+            this.maximizar.Name = "maximizar";
+            this.maximizar.Size = new System.Drawing.Size(25, 25);
+            this.maximizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.maximizar.TabIndex = 3;
+            this.maximizar.TabStop = false;
+            this.maximizar.Click += new System.EventHandler(this.Maximizar_Click);
+            // 
+            // minimizar
+            // 
+            this.minimizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.transicionMenu.SetDecoration(this.minimizar, BunifuAnimatorNS.DecorationType.None);
+            this.transicionMenu2.SetDecoration(this.minimizar, BunifuAnimatorNS.DecorationType.None);
+            this.minimizar.Image = global::Mockup.Properties.Resources.icons8_minimizar_la_ventana_50__1_;
+            this.minimizar.Location = new System.Drawing.Point(768, 17);
+            this.minimizar.Name = "minimizar";
+            this.minimizar.Size = new System.Drawing.Size(25, 25);
+            this.minimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.minimizar.TabIndex = 2;
+            this.minimizar.TabStop = false;
+            this.minimizar.Click += new System.EventHandler(this.Minimizar_Click);
+            // 
+            // salir
+            // 
+            this.salir.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.transicionMenu.SetDecoration(this.salir, BunifuAnimatorNS.DecorationType.None);
+            this.transicionMenu2.SetDecoration(this.salir, BunifuAnimatorNS.DecorationType.None);
+            this.salir.Image = global::Mockup.Properties.Resources.icons8_cerrar_ventana_50;
+            this.salir.Location = new System.Drawing.Point(830, 17);
+            this.salir.Name = "salir";
+            this.salir.Size = new System.Drawing.Size(25, 25);
+            this.salir.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.salir.TabIndex = 1;
+            this.salir.TabStop = false;
+            this.salir.Click += new System.EventHandler(this.Salir_Click);
+            // 
+            // opcionMenu
+            // 
+            this.opcionMenu.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.transicionMenu.SetDecoration(this.opcionMenu, BunifuAnimatorNS.DecorationType.None);
+            this.transicionMenu2.SetDecoration(this.opcionMenu, BunifuAnimatorNS.DecorationType.None);
+            this.opcionMenu.Image = global::Mockup.Properties.Resources.icons8_menú_redondeado_50;
+            this.opcionMenu.Location = new System.Drawing.Point(26, 17);
+            this.opcionMenu.Name = "opcionMenu";
+            this.opcionMenu.Size = new System.Drawing.Size(25, 25);
+            this.opcionMenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.opcionMenu.TabIndex = 0;
+            this.opcionMenu.TabStop = false;
+            this.opcionMenu.Click += new System.EventHandler(this.opcionMenu_Click);
+            // 
             // Nombre
             // 
             this.Nombre.Anchor = System.Windows.Forms.AnchorStyles.Top;
@@ -131,160 +202,6 @@
             this.panelSide.Name = "panelSide";
             this.panelSide.Size = new System.Drawing.Size(252, 574);
             this.panelSide.TabIndex = 1;
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(46)))));
-            this.panel3.Controls.Add(this.dataGridView1);
-            this.panel3.Controls.Add(this.bunifuFlatButton11);
-            this.panel3.Controls.Add(this.fecha);
-            this.panel3.Controls.Add(this.hora);
-            this.transicionMenu2.SetDecoration(this.panel3, BunifuAnimatorNS.DecorationType.None);
-            this.transicionMenu.SetDecoration(this.panel3, BunifuAnimatorNS.DecorationType.None);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(252, 60);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(615, 574);
-            this.panel3.TabIndex = 2;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.transicionMenu2.SetDecoration(this.dataGridView1, BunifuAnimatorNS.DecorationType.None);
-            this.transicionMenu.SetDecoration(this.dataGridView1, BunifuAnimatorNS.DecorationType.None);
-            this.dataGridView1.Location = new System.Drawing.Point(21, 72);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(570, 328);
-            this.dataGridView1.TabIndex = 7;
-            // 
-            // fecha
-            // 
-            this.fecha.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.fecha.AutoSize = true;
-            this.transicionMenu.SetDecoration(this.fecha, BunifuAnimatorNS.DecorationType.None);
-            this.transicionMenu2.SetDecoration(this.fecha, BunifuAnimatorNS.DecorationType.None);
-            this.fecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.fecha.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(152)))), ((int)(((byte)(163)))));
-            this.fecha.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.fecha.Location = new System.Drawing.Point(31, 493);
-            this.fecha.Name = "fecha";
-            this.fecha.Size = new System.Drawing.Size(134, 39);
-            this.fecha.TabIndex = 2;
-            this.fecha.Text = "FECHA";
-            this.fecha.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            // 
-            // hora
-            // 
-            this.hora.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.hora.AutoSize = true;
-            this.transicionMenu.SetDecoration(this.hora, BunifuAnimatorNS.DecorationType.None);
-            this.transicionMenu2.SetDecoration(this.hora, BunifuAnimatorNS.DecorationType.None);
-            this.hora.Font = new System.Drawing.Font("Century Gothic", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hora.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(101)))), ((int)(((byte)(186)))));
-            this.hora.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.hora.Location = new System.Drawing.Point(28, 427);
-            this.hora.Name = "hora";
-            this.hora.Size = new System.Drawing.Size(164, 58);
-            this.hora.TabIndex = 1;
-            this.hora.Text = "HORA";
-            this.hora.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            // 
-            // timer1
-            // 
-            this.timer1.Enabled = true;
-            this.timer1.Tick += new System.EventHandler(this.Timer1_Tick);
-            // 
-            // curvaMenu
-            // 
-            this.curvaMenu.ElipseRadius = 7;
-            this.curvaMenu.TargetControl = this.MenuSide;
-            // 
-            // transicionMenu
-            // 
-            this.transicionMenu.AnimationType = BunifuAnimatorNS.AnimationType.Mosaic;
-            this.transicionMenu.Cursor = null;
-            animation5.AnimateOnlyDifferences = true;
-            animation5.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation5.BlindCoeff")));
-            animation5.LeafCoeff = 0F;
-            animation5.MaxTime = 1F;
-            animation5.MinTime = 0F;
-            animation5.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation5.MosaicCoeff")));
-            animation5.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation5.MosaicShift")));
-            animation5.MosaicSize = 20;
-            animation5.Padding = new System.Windows.Forms.Padding(30);
-            animation5.RotateCoeff = 0F;
-            animation5.RotateLimit = 0F;
-            animation5.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation5.ScaleCoeff")));
-            animation5.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation5.SlideCoeff")));
-            animation5.TimeCoeff = 0F;
-            animation5.TransparencyCoeff = 0F;
-            this.transicionMenu.DefaultAnimation = animation5;
-            this.transicionMenu.Interval = 5;
-            // 
-            // transicionMenu2
-            // 
-            this.transicionMenu2.AnimationType = BunifuAnimatorNS.AnimationType.HorizBlind;
-            this.transicionMenu2.Cursor = null;
-            animation6.AnimateOnlyDifferences = true;
-            animation6.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation6.BlindCoeff")));
-            animation6.LeafCoeff = 0F;
-            animation6.MaxTime = 1F;
-            animation6.MinTime = 0F;
-            animation6.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation6.MosaicCoeff")));
-            animation6.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation6.MosaicShift")));
-            animation6.MosaicSize = 0;
-            animation6.Padding = new System.Windows.Forms.Padding(0);
-            animation6.RotateCoeff = 0F;
-            animation6.RotateLimit = 0F;
-            animation6.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation6.ScaleCoeff")));
-            animation6.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation6.SlideCoeff")));
-            animation6.TimeCoeff = 0F;
-            animation6.TransparencyCoeff = 0F;
-            this.transicionMenu2.DefaultAnimation = animation6;
-            this.transicionMenu2.Interval = 15;
-            // 
-            // bunifuFlatButton11
-            // 
-            this.bunifuFlatButton11.Activecolor = System.Drawing.Color.Purple;
-            this.bunifuFlatButton11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuFlatButton11.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuFlatButton11.BorderRadius = 0;
-            this.bunifuFlatButton11.ButtonText = "Cerrar Sesión";
-            this.bunifuFlatButton11.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.transicionMenu.SetDecoration(this.bunifuFlatButton11, BunifuAnimatorNS.DecorationType.None);
-            this.transicionMenu2.SetDecoration(this.bunifuFlatButton11, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuFlatButton11.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton11.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuFlatButton11.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton11.Iconimage = global::Mockup.Properties.Resources.icons8_botón_de_apagado_64;
-            this.bunifuFlatButton11.Iconimage_right = null;
-            this.bunifuFlatButton11.Iconimage_right_Selected = null;
-            this.bunifuFlatButton11.Iconimage_Selected = null;
-            this.bunifuFlatButton11.IconMarginLeft = 0;
-            this.bunifuFlatButton11.IconMarginRight = 0;
-            this.bunifuFlatButton11.IconRightVisible = true;
-            this.bunifuFlatButton11.IconRightZoom = 0D;
-            this.bunifuFlatButton11.IconVisible = true;
-            this.bunifuFlatButton11.IconZoom = 60D;
-            this.bunifuFlatButton11.IsTab = false;
-            this.bunifuFlatButton11.Location = new System.Drawing.Point(461, 18);
-            this.bunifuFlatButton11.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.bunifuFlatButton11.Name = "bunifuFlatButton11";
-            this.bunifuFlatButton11.Normalcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton11.OnHovercolor = System.Drawing.Color.LightSeaGreen;
-            this.bunifuFlatButton11.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton11.selected = false;
-            this.bunifuFlatButton11.Size = new System.Drawing.Size(142, 37);
-            this.bunifuFlatButton11.TabIndex = 6;
-            this.bunifuFlatButton11.Text = "Cerrar Sesión";
-            this.bunifuFlatButton11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bunifuFlatButton11.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton11.TextFont = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuFlatButton11.Click += new System.EventHandler(this.BunifuFlatButton11_Click);
             // 
             // MenuSide
             // 
@@ -320,7 +237,7 @@
             this.line.LineThickness = 1;
             this.line.Location = new System.Drawing.Point(14, 102);
             this.line.Name = "line";
-            this.line.Size = new System.Drawing.Size(205, 10);
+            this.line.Size = new System.Drawing.Size(197, 10);
             this.line.TabIndex = 0;
             this.line.Transparency = 255;
             this.line.Vertical = false;
@@ -489,81 +406,164 @@
             this.pictureBox2.Image = global::Mockup.Properties.Resources._621958f0_33b8_4372_a777_e8e5472882e4_200x200;
             this.pictureBox2.Location = new System.Drawing.Point(14, 0);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(205, 102);
+            this.pictureBox2.Size = new System.Drawing.Size(197, 102);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 13;
             this.pictureBox2.TabStop = false;
             // 
-            // restaurar
+            // panel3
             // 
-            this.restaurar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.transicionMenu.SetDecoration(this.restaurar, BunifuAnimatorNS.DecorationType.None);
-            this.transicionMenu2.SetDecoration(this.restaurar, BunifuAnimatorNS.DecorationType.None);
-            this.restaurar.Image = global::Mockup.Properties.Resources.icons8_restaurar_ventana_50__1_;
-            this.restaurar.Location = new System.Drawing.Point(799, 17);
-            this.restaurar.Name = "restaurar";
-            this.restaurar.Size = new System.Drawing.Size(25, 25);
-            this.restaurar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.restaurar.TabIndex = 4;
-            this.restaurar.TabStop = false;
-            this.restaurar.Visible = false;
-            this.restaurar.Click += new System.EventHandler(this.Restaurar_Click);
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(46)))));
+            this.panel3.Controls.Add(this.dataGridView1);
+            this.panel3.Controls.Add(this.bunifuFlatButton11);
+            this.panel3.Controls.Add(this.fecha);
+            this.panel3.Controls.Add(this.hora);
+            this.transicionMenu2.SetDecoration(this.panel3, BunifuAnimatorNS.DecorationType.None);
+            this.transicionMenu.SetDecoration(this.panel3, BunifuAnimatorNS.DecorationType.None);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel3.Location = new System.Drawing.Point(252, 60);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(615, 574);
+            this.panel3.TabIndex = 2;
             // 
-            // maximizar
+            // dataGridView1
             // 
-            this.maximizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.transicionMenu.SetDecoration(this.maximizar, BunifuAnimatorNS.DecorationType.None);
-            this.transicionMenu2.SetDecoration(this.maximizar, BunifuAnimatorNS.DecorationType.None);
-            this.maximizar.Image = global::Mockup.Properties.Resources.icons8_maximizar_la_ventana_50;
-            this.maximizar.Location = new System.Drawing.Point(799, 17);
-            this.maximizar.Name = "maximizar";
-            this.maximizar.Size = new System.Drawing.Size(25, 25);
-            this.maximizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.maximizar.TabIndex = 3;
-            this.maximizar.TabStop = false;
-            this.maximizar.Click += new System.EventHandler(this.Maximizar_Click);
+            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.transicionMenu2.SetDecoration(this.dataGridView1, BunifuAnimatorNS.DecorationType.None);
+            this.transicionMenu.SetDecoration(this.dataGridView1, BunifuAnimatorNS.DecorationType.None);
+            this.dataGridView1.Location = new System.Drawing.Point(21, 72);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(570, 328);
+            this.dataGridView1.TabIndex = 7;
             // 
-            // minimizar
+            // bunifuFlatButton11
             // 
-            this.minimizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.transicionMenu.SetDecoration(this.minimizar, BunifuAnimatorNS.DecorationType.None);
-            this.transicionMenu2.SetDecoration(this.minimizar, BunifuAnimatorNS.DecorationType.None);
-            this.minimizar.Image = global::Mockup.Properties.Resources.icons8_minimizar_la_ventana_50__1_;
-            this.minimizar.Location = new System.Drawing.Point(768, 17);
-            this.minimizar.Name = "minimizar";
-            this.minimizar.Size = new System.Drawing.Size(25, 25);
-            this.minimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.minimizar.TabIndex = 2;
-            this.minimizar.TabStop = false;
-            this.minimizar.Click += new System.EventHandler(this.Minimizar_Click);
+            this.bunifuFlatButton11.Activecolor = System.Drawing.Color.Purple;
+            this.bunifuFlatButton11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuFlatButton11.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuFlatButton11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuFlatButton11.BorderRadius = 0;
+            this.bunifuFlatButton11.ButtonText = "Cerrar Sesión";
+            this.bunifuFlatButton11.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.transicionMenu.SetDecoration(this.bunifuFlatButton11, BunifuAnimatorNS.DecorationType.None);
+            this.transicionMenu2.SetDecoration(this.bunifuFlatButton11, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuFlatButton11.DisabledColor = System.Drawing.Color.Gray;
+            this.bunifuFlatButton11.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton11.Iconcolor = System.Drawing.Color.Transparent;
+            this.bunifuFlatButton11.Iconimage = global::Mockup.Properties.Resources.icons8_botón_de_apagado_64;
+            this.bunifuFlatButton11.Iconimage_right = null;
+            this.bunifuFlatButton11.Iconimage_right_Selected = null;
+            this.bunifuFlatButton11.Iconimage_Selected = null;
+            this.bunifuFlatButton11.IconMarginLeft = 0;
+            this.bunifuFlatButton11.IconMarginRight = 0;
+            this.bunifuFlatButton11.IconRightVisible = true;
+            this.bunifuFlatButton11.IconRightZoom = 0D;
+            this.bunifuFlatButton11.IconVisible = true;
+            this.bunifuFlatButton11.IconZoom = 60D;
+            this.bunifuFlatButton11.IsTab = false;
+            this.bunifuFlatButton11.Location = new System.Drawing.Point(461, 18);
+            this.bunifuFlatButton11.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.bunifuFlatButton11.Name = "bunifuFlatButton11";
+            this.bunifuFlatButton11.Normalcolor = System.Drawing.Color.Transparent;
+            this.bunifuFlatButton11.OnHovercolor = System.Drawing.Color.LightSeaGreen;
+            this.bunifuFlatButton11.OnHoverTextColor = System.Drawing.Color.White;
+            this.bunifuFlatButton11.selected = false;
+            this.bunifuFlatButton11.Size = new System.Drawing.Size(142, 37);
+            this.bunifuFlatButton11.TabIndex = 6;
+            this.bunifuFlatButton11.Text = "Cerrar Sesión";
+            this.bunifuFlatButton11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bunifuFlatButton11.Textcolor = System.Drawing.Color.White;
+            this.bunifuFlatButton11.TextFont = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton11.Click += new System.EventHandler(this.BunifuFlatButton11_Click);
             // 
-            // salir
+            // fecha
             // 
-            this.salir.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.transicionMenu.SetDecoration(this.salir, BunifuAnimatorNS.DecorationType.None);
-            this.transicionMenu2.SetDecoration(this.salir, BunifuAnimatorNS.DecorationType.None);
-            this.salir.Image = global::Mockup.Properties.Resources.icons8_cerrar_ventana_50;
-            this.salir.Location = new System.Drawing.Point(830, 17);
-            this.salir.Name = "salir";
-            this.salir.Size = new System.Drawing.Size(25, 25);
-            this.salir.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.salir.TabIndex = 1;
-            this.salir.TabStop = false;
-            this.salir.Click += new System.EventHandler(this.Salir_Click);
+            this.fecha.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.fecha.AutoSize = true;
+            this.transicionMenu.SetDecoration(this.fecha, BunifuAnimatorNS.DecorationType.None);
+            this.transicionMenu2.SetDecoration(this.fecha, BunifuAnimatorNS.DecorationType.None);
+            this.fecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fecha.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(152)))), ((int)(((byte)(163)))));
+            this.fecha.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.fecha.Location = new System.Drawing.Point(31, 493);
+            this.fecha.Name = "fecha";
+            this.fecha.Size = new System.Drawing.Size(134, 39);
+            this.fecha.TabIndex = 2;
+            this.fecha.Text = "FECHA";
+            this.fecha.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             // 
-            // opcionMenu
+            // hora
             // 
-            this.opcionMenu.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.transicionMenu.SetDecoration(this.opcionMenu, BunifuAnimatorNS.DecorationType.None);
-            this.transicionMenu2.SetDecoration(this.opcionMenu, BunifuAnimatorNS.DecorationType.None);
-            this.opcionMenu.Image = global::Mockup.Properties.Resources.icons8_menú_redondeado_50;
-            this.opcionMenu.Location = new System.Drawing.Point(26, 17);
-            this.opcionMenu.Name = "opcionMenu";
-            this.opcionMenu.Size = new System.Drawing.Size(25, 25);
-            this.opcionMenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.opcionMenu.TabIndex = 0;
-            this.opcionMenu.TabStop = false;
-            this.opcionMenu.Click += new System.EventHandler(this.opcionMenu_Click);
+            this.hora.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.hora.AutoSize = true;
+            this.transicionMenu.SetDecoration(this.hora, BunifuAnimatorNS.DecorationType.None);
+            this.transicionMenu2.SetDecoration(this.hora, BunifuAnimatorNS.DecorationType.None);
+            this.hora.Font = new System.Drawing.Font("Century Gothic", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hora.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(101)))), ((int)(((byte)(186)))));
+            this.hora.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.hora.Location = new System.Drawing.Point(28, 427);
+            this.hora.Name = "hora";
+            this.hora.Size = new System.Drawing.Size(164, 58);
+            this.hora.TabIndex = 1;
+            this.hora.Text = "HORA";
+            this.hora.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Tick += new System.EventHandler(this.Timer1_Tick);
+            // 
+            // curvaMenu
+            // 
+            this.curvaMenu.ElipseRadius = 7;
+            this.curvaMenu.TargetControl = this.MenuSide;
+            // 
+            // transicionMenu
+            // 
+            this.transicionMenu.AnimationType = BunifuAnimatorNS.AnimationType.Mosaic;
+            this.transicionMenu.Cursor = null;
+            animation3.AnimateOnlyDifferences = true;
+            animation3.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.BlindCoeff")));
+            animation3.LeafCoeff = 0F;
+            animation3.MaxTime = 1F;
+            animation3.MinTime = 0F;
+            animation3.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.MosaicCoeff")));
+            animation3.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation3.MosaicShift")));
+            animation3.MosaicSize = 20;
+            animation3.Padding = new System.Windows.Forms.Padding(30);
+            animation3.RotateCoeff = 0F;
+            animation3.RotateLimit = 0F;
+            animation3.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.ScaleCoeff")));
+            animation3.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.SlideCoeff")));
+            animation3.TimeCoeff = 0F;
+            animation3.TransparencyCoeff = 0F;
+            this.transicionMenu.DefaultAnimation = animation3;
+            this.transicionMenu.Interval = 5;
+            // 
+            // transicionMenu2
+            // 
+            this.transicionMenu2.AnimationType = BunifuAnimatorNS.AnimationType.HorizBlind;
+            this.transicionMenu2.Cursor = null;
+            animation4.AnimateOnlyDifferences = true;
+            animation4.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.BlindCoeff")));
+            animation4.LeafCoeff = 0F;
+            animation4.MaxTime = 1F;
+            animation4.MinTime = 0F;
+            animation4.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.MosaicCoeff")));
+            animation4.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation4.MosaicShift")));
+            animation4.MosaicSize = 0;
+            animation4.Padding = new System.Windows.Forms.Padding(0);
+            animation4.RotateCoeff = 0F;
+            animation4.RotateLimit = 0F;
+            animation4.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.ScaleCoeff")));
+            animation4.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.SlideCoeff")));
+            animation4.TimeCoeff = 0F;
+            animation4.TransparencyCoeff = 0F;
+            this.transicionMenu2.DefaultAnimation = animation4;
+            this.transicionMenu2.Interval = 15;
             // 
             // Main
             // 
@@ -581,17 +581,17 @@
             this.Text = "Form1";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.panelSide.ResumeLayout(false);
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            this.MenuSide.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.restaurar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.maximizar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.minimizar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.salir)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.opcionMenu)).EndInit();
+            this.panelSide.ResumeLayout(false);
+            this.MenuSide.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }

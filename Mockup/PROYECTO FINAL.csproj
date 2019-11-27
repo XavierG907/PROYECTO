@@ -283,5 +283,14 @@
   <ItemGroup>
     <None Include="Resources\621958f0-33b8-4372-a777-e8e5472882e4_200x200.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-autógrafo-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-autógrafo-100 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-accesibilidad-2-100.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
