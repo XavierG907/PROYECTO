@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle26 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle27 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Medico));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
@@ -528,6 +528,7 @@
             this.btnSalir.TabIndex = 41;
             this.btnSalir.Text = "SALIR";
             this.btnSalir.UseVisualStyleBackColor = false;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // btnAgregar
             // 
@@ -667,6 +668,7 @@
             this.btnSalir3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnSalir3.Textcolor = System.Drawing.Color.White;
             this.btnSalir3.TextFont = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalir3.Click += new System.EventHandler(this.btnSalir3_Click);
             // 
             // bunifuFlatButton2
             // 
@@ -703,22 +705,23 @@
             this.bunifuFlatButton2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuFlatButton2.Textcolor = System.Drawing.Color.White;
             this.bunifuFlatButton2.TextFont = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton2.Click += new System.EventHandler(this.bunifuFlatButton2_Click);
             // 
             // dataGridMedico
             // 
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.dataGridMedico.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.dataGridMedico.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle25;
             this.dataGridMedico.BackgroundColor = System.Drawing.Color.Gainsboro;
             this.dataGridMedico.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridMedico.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.LightSteelBlue;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.Navy;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridMedico.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle26.BackColor = System.Drawing.Color.LightSteelBlue;
+            dataGridViewCellStyle26.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle26.ForeColor = System.Drawing.Color.Navy;
+            dataGridViewCellStyle26.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle26.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle26.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridMedico.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle26;
             this.dataGridMedico.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridMedico.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.IdP,
@@ -743,14 +746,14 @@
             this.dataGridMedico.Location = new System.Drawing.Point(27, 171);
             this.dataGridMedico.Name = "dataGridMedico";
             this.dataGridMedico.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridMedico.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle27.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle27.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle27.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle27.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle27.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            dataGridViewCellStyle27.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle27.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridMedico.RowHeadersDefaultCellStyle = dataGridViewCellStyle27;
             this.dataGridMedico.Size = new System.Drawing.Size(655, 246);
             this.dataGridMedico.TabIndex = 21;
             // 
@@ -912,6 +915,7 @@
             this.btnSalir2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnSalir2.Textcolor = System.Drawing.Color.White;
             this.btnSalir2.TextFont = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalir2.Click += new System.EventHandler(this.btnSalir2_Click);
             // 
             // btnModificar
             // 
@@ -948,6 +952,7 @@
             this.btnModificar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnModificar.Textcolor = System.Drawing.Color.White;
             this.btnModificar.TextFont = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnModificar.Click += new System.EventHandler(this.btnModificar_Click);
             // 
             // groupBox1
             // 
@@ -1029,13 +1034,14 @@
             this.btnBuscar1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnBuscar1.Textcolor = System.Drawing.Color.White;
             this.btnBuscar1.TextFont = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuscar1.Click += new System.EventHandler(this.btnBuscar1_Click);
             // 
             // label25
             // 
             this.label25.AutoSize = true;
             this.label25.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label25.ForeColor = System.Drawing.Color.White;
-            this.label25.Location = new System.Drawing.Point(544, 51);
+            this.label25.Location = new System.Drawing.Point(468, 51);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(49, 19);
             this.label25.TabIndex = 14;
@@ -1217,7 +1223,7 @@
             "Hombre",
             "Mujer",
             "Indefinido"});
-            this.comboBoxSexo1.Location = new System.Drawing.Point(548, 73);
+            this.comboBoxSexo1.Location = new System.Drawing.Point(472, 73);
             this.comboBoxSexo1.Name = "comboBoxSexo1";
             this.comboBoxSexo1.Size = new System.Drawing.Size(121, 29);
             this.comboBoxSexo1.TabIndex = 17;
@@ -1225,9 +1231,9 @@
             // textBoxEdad1
             // 
             this.textBoxEdad1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxEdad1.Location = new System.Drawing.Point(472, 73);
+            this.textBoxEdad1.Location = new System.Drawing.Point(609, 75);
             this.textBoxEdad1.Name = "textBoxEdad1";
-            this.textBoxEdad1.Size = new System.Drawing.Size(47, 27);
+            this.textBoxEdad1.Size = new System.Drawing.Size(85, 27);
             this.textBoxEdad1.TabIndex = 16;
             this.textBoxEdad1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1236,11 +1242,11 @@
             this.label24.AutoSize = true;
             this.label24.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label24.ForeColor = System.Drawing.Color.White;
-            this.label24.Location = new System.Drawing.Point(468, 51);
+            this.label24.Location = new System.Drawing.Point(605, 51);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(51, 19);
+            this.label24.Size = new System.Drawing.Size(89, 19);
             this.label24.TabIndex = 15;
-            this.label24.Text = "EDAD";
+            this.label24.Text = "COMISIÓN";
             // 
             // textBoxMaterno1
             // 
@@ -1307,9 +1313,9 @@
             this.label28.ForeColor = System.Drawing.Color.White;
             this.label28.Location = new System.Drawing.Point(468, 178);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(93, 19);
+            this.label28.Size = new System.Drawing.Size(115, 19);
             this.label28.TabIndex = 1;
-            this.label28.Text = "PROFESIÓN";
+            this.label28.Text = "ESPECIALIDAD";
             // 
             // label29
             // 
