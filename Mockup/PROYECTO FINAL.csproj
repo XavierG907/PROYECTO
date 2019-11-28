@@ -301,5 +301,11 @@
   <ItemGroup>
     <None Include="Resources\icons8-reembolso-50.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-lista-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\historial_clinico.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

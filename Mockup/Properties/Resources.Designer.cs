@@ -203,6 +203,16 @@ namespace Mockup.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap historial_clinico {
+            get {
+                object obj = ResourceManager.GetObject("historial_clinico", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_accesibilidad_2_100 {
             get {
                 object obj = ResourceManager.GetObject("icons8-accesibilidad-2-100", resourceCulture);
@@ -416,6 +426,16 @@ namespace Mockup.Properties {
         internal static System.Drawing.Bitmap icons8_grupo_de_usuarios_hombre_y_mujer_100 {
             get {
                 object obj = ResourceManager.GetObject("icons8-grupo-de-usuarios-hombre-y-mujer-100", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_lista_100 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-lista-100", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

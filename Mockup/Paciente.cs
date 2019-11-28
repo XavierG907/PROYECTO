@@ -298,5 +298,11 @@ namespace Mockup
 
             conexion.Close();
         }
+
+        private void btnSalirT_Click(object sender, EventArgs e)
+        {
+            btnSalir3.Enabled = false;
+            this.Close();
+        }
     }
 }
