@@ -307,5 +307,8 @@
   <ItemGroup>
     <None Include="Resources\historial_clinico.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-pago-en-línea-50.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

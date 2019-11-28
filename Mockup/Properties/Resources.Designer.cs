@@ -473,6 +473,16 @@ namespace Mockup.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_pago_en_línea_50 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-pago-en-línea-50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_plan_de_tratamiento_100 {
             get {
                 object obj = ResourceManager.GetObject("icons8-plan-de-tratamiento-100", resourceCulture);
