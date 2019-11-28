@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            BunifuAnimatorNS.Animation animation3 = new BunifuAnimatorNS.Animation();
+            BunifuAnimatorNS.Animation animation1 = new BunifuAnimatorNS.Animation();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
-            BunifuAnimatorNS.Animation animation4 = new BunifuAnimatorNS.Animation();
+            BunifuAnimatorNS.Animation animation2 = new BunifuAnimatorNS.Animation();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.backgroundWorker2 = new System.ComponentModel.BackgroundWorker();
             this.Menú = new System.Windows.Forms.Label();
@@ -51,6 +51,7 @@
             this.btnInventario = new Bunifu.Framework.UI.BunifuFlatButton();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.Portada = new System.Windows.Forms.PictureBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.bunifuFlatButton11 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.fecha = new System.Windows.Forms.Label();
@@ -59,7 +60,6 @@
             this.curvaMenu = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.transicionMenu = new BunifuAnimatorNS.BunifuTransition(this.components);
             this.transicionMenu2 = new BunifuAnimatorNS.BunifuTransition(this.components);
-            this.Portada = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.restaurar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.maximizar)).BeginInit();
@@ -70,8 +70,8 @@
             this.MenuSide.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Portada)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // Menú
@@ -429,6 +429,20 @@
             this.panel3.Size = new System.Drawing.Size(615, 574);
             this.panel3.TabIndex = 2;
             // 
+            // Portada
+            // 
+            this.Portada.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.transicionMenu.SetDecoration(this.Portada, BunifuAnimatorNS.DecorationType.None);
+            this.transicionMenu2.SetDecoration(this.Portada, BunifuAnimatorNS.DecorationType.None);
+            this.Portada.Image = ((System.Drawing.Image)(resources.GetObject("Portada.Image")));
+            this.Portada.InitialImage = ((System.Drawing.Image)(resources.GetObject("Portada.InitialImage")));
+            this.Portada.Location = new System.Drawing.Point(21, 72);
+            this.Portada.Name = "Portada";
+            this.Portada.Size = new System.Drawing.Size(570, 328);
+            this.Portada.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.Portada.TabIndex = 8;
+            this.Portada.TabStop = false;
+            // 
             // dataGridView1
             // 
             this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -467,7 +481,7 @@
             this.bunifuFlatButton11.IconVisible = true;
             this.bunifuFlatButton11.IconZoom = 60D;
             this.bunifuFlatButton11.IsTab = false;
-            this.bunifuFlatButton11.Location = new System.Drawing.Point(461, 18);
+            this.bunifuFlatButton11.Location = new System.Drawing.Point(175, 7);
             this.bunifuFlatButton11.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.bunifuFlatButton11.Name = "bunifuFlatButton11";
             this.bunifuFlatButton11.Normalcolor = System.Drawing.Color.Transparent;
@@ -528,59 +542,45 @@
             // 
             this.transicionMenu.AnimationType = BunifuAnimatorNS.AnimationType.Mosaic;
             this.transicionMenu.Cursor = null;
-            animation3.AnimateOnlyDifferences = true;
-            animation3.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.BlindCoeff")));
-            animation3.LeafCoeff = 0F;
-            animation3.MaxTime = 1F;
-            animation3.MinTime = 0F;
-            animation3.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.MosaicCoeff")));
-            animation3.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation3.MosaicShift")));
-            animation3.MosaicSize = 20;
-            animation3.Padding = new System.Windows.Forms.Padding(30);
-            animation3.RotateCoeff = 0F;
-            animation3.RotateLimit = 0F;
-            animation3.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.ScaleCoeff")));
-            animation3.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.SlideCoeff")));
-            animation3.TimeCoeff = 0F;
-            animation3.TransparencyCoeff = 0F;
-            this.transicionMenu.DefaultAnimation = animation3;
+            animation1.AnimateOnlyDifferences = true;
+            animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
+            animation1.LeafCoeff = 0F;
+            animation1.MaxTime = 1F;
+            animation1.MinTime = 0F;
+            animation1.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicCoeff")));
+            animation1.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicShift")));
+            animation1.MosaicSize = 20;
+            animation1.Padding = new System.Windows.Forms.Padding(30);
+            animation1.RotateCoeff = 0F;
+            animation1.RotateLimit = 0F;
+            animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
+            animation1.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.SlideCoeff")));
+            animation1.TimeCoeff = 0F;
+            animation1.TransparencyCoeff = 0F;
+            this.transicionMenu.DefaultAnimation = animation1;
             this.transicionMenu.Interval = 5;
             // 
             // transicionMenu2
             // 
             this.transicionMenu2.AnimationType = BunifuAnimatorNS.AnimationType.HorizBlind;
             this.transicionMenu2.Cursor = null;
-            animation4.AnimateOnlyDifferences = true;
-            animation4.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.BlindCoeff")));
-            animation4.LeafCoeff = 0F;
-            animation4.MaxTime = 1F;
-            animation4.MinTime = 0F;
-            animation4.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.MosaicCoeff")));
-            animation4.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation4.MosaicShift")));
-            animation4.MosaicSize = 0;
-            animation4.Padding = new System.Windows.Forms.Padding(0);
-            animation4.RotateCoeff = 0F;
-            animation4.RotateLimit = 0F;
-            animation4.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.ScaleCoeff")));
-            animation4.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.SlideCoeff")));
-            animation4.TimeCoeff = 0F;
-            animation4.TransparencyCoeff = 0F;
-            this.transicionMenu2.DefaultAnimation = animation4;
+            animation2.AnimateOnlyDifferences = true;
+            animation2.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.BlindCoeff")));
+            animation2.LeafCoeff = 0F;
+            animation2.MaxTime = 1F;
+            animation2.MinTime = 0F;
+            animation2.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicCoeff")));
+            animation2.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicShift")));
+            animation2.MosaicSize = 0;
+            animation2.Padding = new System.Windows.Forms.Padding(0);
+            animation2.RotateCoeff = 0F;
+            animation2.RotateLimit = 0F;
+            animation2.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.ScaleCoeff")));
+            animation2.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.SlideCoeff")));
+            animation2.TimeCoeff = 0F;
+            animation2.TransparencyCoeff = 0F;
+            this.transicionMenu2.DefaultAnimation = animation2;
             this.transicionMenu2.Interval = 15;
-            // 
-            // Portada
-            // 
-            this.Portada.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.transicionMenu.SetDecoration(this.Portada, BunifuAnimatorNS.DecorationType.None);
-            this.transicionMenu2.SetDecoration(this.Portada, BunifuAnimatorNS.DecorationType.None);
-            this.Portada.Image = ((System.Drawing.Image)(resources.GetObject("Portada.Image")));
-            this.Portada.InitialImage = ((System.Drawing.Image)(resources.GetObject("Portada.InitialImage")));
-            this.Portada.Location = new System.Drawing.Point(21, 72);
-            this.Portada.Name = "Portada";
-            this.Portada.Size = new System.Drawing.Size(570, 328);
-            this.Portada.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.Portada.TabIndex = 8;
-            this.Portada.TabStop = false;
             // 
             // Main
             // 
@@ -608,8 +608,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Portada)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
