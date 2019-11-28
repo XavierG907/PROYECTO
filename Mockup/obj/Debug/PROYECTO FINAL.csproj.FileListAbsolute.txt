@@ -1,0 +1,19 @@
+C:\Users\admin\Desktop\Mockup\Mockup\bin\Debug\Mockup.exe.config
+C:\Users\admin\Desktop\Mockup\Mockup\bin\Debug\Mockup.exe
+C:\Users\admin\Desktop\Mockup\Mockup\bin\Debug\Mockup.pdb
+C:\Users\admin\Desktop\Mockup\Mockup\bin\Debug\Npgsql.dll
+C:\Users\admin\Desktop\Mockup\Mockup\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\admin\Desktop\Mockup\Mockup\bin\Debug\Npgsql.pdb
+C:\Users\admin\Desktop\Mockup\Mockup\bin\Debug\Npgsql.xml
+C:\Users\admin\Desktop\Mockup\Mockup\obj\Debug\Mockup.Corte.resources
+C:\Users\admin\Desktop\Mockup\Mockup\obj\Debug\Mockup.Inventario.resources
+C:\Users\admin\Desktop\Mockup\Mockup\obj\Debug\Mockup.LogIn.resources
+C:\Users\admin\Desktop\Mockup\Mockup\obj\Debug\Mockup.Properties.Resources.resources
+C:\Users\admin\Desktop\Mockup\Mockup\obj\Debug\Mockup.Medico.resources
+C:\Users\admin\Desktop\Mockup\Mockup\obj\Debug\Mockup.Paciente.resources
+C:\Users\admin\Desktop\Mockup\Mockup\obj\Debug\PROYECTO FINAL.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\Mockup\Mockup\obj\Debug\PROYECTO FINAL.csproj.CopyComplete
+C:\Users\admin\Desktop\Mockup\Mockup\obj\Debug\Mockup.exe
+C:\Users\admin\Desktop\Mockup\Mockup\obj\Debug\Mockup.pdb
+C:\Users\admin\Desktop\Mockup\Mockup\obj\Debug\PROYECTO FINAL.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\Mockup\Mockup\obj\Debug\Mockup.Main.resources
