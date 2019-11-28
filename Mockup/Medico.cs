@@ -286,5 +286,10 @@ namespace Mockup
 
             conexion.Close();
         }
+
+        private void bunifuFlatButton1_Click(object sender, EventArgs e)
+        {
+            cargardatagridview();
+        }
     }
 }
