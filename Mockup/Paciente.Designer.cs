@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Paciente));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Paciente));
             this.tabPaciente = new System.Windows.Forms.TabControl();
             this.tabAgregar = new System.Windows.Forms.TabPage();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -57,6 +57,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.textBoxMaterno = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnSalir = new System.Windows.Forms.Button();
             this.btnAgregar = new System.Windows.Forms.Button();
             this.textBoxPaterno = new System.Windows.Forms.TextBox();
@@ -65,9 +66,86 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.Id = new System.Windows.Forms.Label();
+            this.bunifuGradientPanel2 = new Bunifu.Framework.UI.BunifuGradientPanel();
+            this.label15 = new System.Windows.Forms.Label();
             this.tabEvolucion = new System.Windows.Forms.TabPage();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.btnSalir4 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.btnActualizar = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.pictureBoxFirma = new System.Windows.Forms.PictureBox();
+            this.textBoxCE = new System.Windows.Forms.RichTextBox();
+            this.label35 = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
+            this.textBoxDE = new System.Windows.Forms.RichTextBox();
+            this.textBoxFecha2E = new System.Windows.Forms.TextBox();
+            this.btnFirma = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.label33 = new System.Windows.Forms.Label();
+            this.textBoxIdE = new System.Windows.Forms.TextBox();
+            this.textBoxFecha1E = new System.Windows.Forms.TextBox();
+            this.label47 = new System.Windows.Forms.Label();
+            this.label45 = new System.Windows.Forms.Label();
+            this.bunifuGradientPanel4 = new Bunifu.Framework.UI.BunifuGradientPanel();
+            this.label32 = new System.Windows.Forms.Label();
             this.tabTratamiento = new System.Windows.Forms.TabPage();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.btnSalirT = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.btnAgregarT = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.textBoxIdMT = new System.Windows.Forms.TextBox();
+            this.textBoxIdT = new System.Windows.Forms.TextBox();
+            this.label42 = new System.Windows.Forms.Label();
+            this.label37 = new System.Windows.Forms.Label();
+            this.textBoxCostoT = new System.Windows.Forms.TextBox();
+            this.label43 = new System.Windows.Forms.Label();
+            this.label39 = new System.Windows.Forms.Label();
+            this.textBoxDT = new System.Windows.Forms.RichTextBox();
+            this.textBoxPrecioT = new System.Windows.Forms.TextBox();
+            this.label40 = new System.Windows.Forms.Label();
+            this.textBoxNombreT = new System.Windows.Forms.TextBox();
+            this.label41 = new System.Windows.Forms.Label();
+            this.bunifuGradientPanel5 = new Bunifu.Framework.UI.BunifuGradientPanel();
+            this.label36 = new System.Windows.Forms.Label();
+            this.tabHistorial = new System.Windows.Forms.TabPage();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.comboBox11 = new System.Windows.Forms.ComboBox();
+            this.label60 = new System.Windows.Forms.Label();
+            this.comboBox10 = new System.Windows.Forms.ComboBox();
+            this.label59 = new System.Windows.Forms.Label();
+            this.comboBox9 = new System.Windows.Forms.ComboBox();
+            this.label58 = new System.Windows.Forms.Label();
+            this.comboBox8 = new System.Windows.Forms.ComboBox();
+            this.label57 = new System.Windows.Forms.Label();
+            this.bunifuSeparator4 = new Bunifu.Framework.UI.BunifuSeparator();
+            this.label50 = new System.Windows.Forms.Label();
+            this.comboBox7 = new System.Windows.Forms.ComboBox();
+            this.label56 = new System.Windows.Forms.Label();
+            this.comboBox6 = new System.Windows.Forms.ComboBox();
+            this.label55 = new System.Windows.Forms.Label();
+            this.comboBox5 = new System.Windows.Forms.ComboBox();
+            this.label48 = new System.Windows.Forms.Label();
+            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.label44 = new System.Windows.Forms.Label();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.label54 = new System.Windows.Forms.Label();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.bunifuSeparator1 = new Bunifu.Framework.UI.BunifuSeparator();
+            this.label53 = new System.Windows.Forms.Label();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.btnSalirH = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.btnAgregarH = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label46 = new System.Windows.Forms.Label();
+            this.label49 = new System.Windows.Forms.Label();
+            this.label51 = new System.Windows.Forms.Label();
+            this.bunifuGradientPanel6 = new Bunifu.Framework.UI.BunifuGradientPanel();
+            this.label52 = new System.Windows.Forms.Label();
             this.tabVer = new System.Windows.Forms.TabPage();
             this.panel3 = new System.Windows.Forms.Panel();
             this.btnSalir3 = new Bunifu.Framework.UI.BunifuFlatButton();
@@ -89,6 +167,9 @@
             this.textBox11 = new System.Windows.Forms.TextBox();
             this.bunifuSeparator5 = new Bunifu.Framework.UI.BunifuSeparator();
             this.label38 = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.bunifuGradientPanel3 = new Bunifu.Framework.UI.BunifuGradientPanel();
+            this.label30 = new System.Windows.Forms.Label();
             this.tabModificar = new System.Windows.Forms.TabPage();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnSalir2 = new Bunifu.Framework.UI.BunifuFlatButton();
@@ -126,120 +207,40 @@
             this.label27 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
-            this.btnSalir4 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.btnActualizar = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.label45 = new System.Windows.Forms.Label();
-            this.label47 = new System.Windows.Forms.Label();
-            this.textBoxFecha1E = new System.Windows.Forms.TextBox();
-            this.textBoxIdE = new System.Windows.Forms.TextBox();
-            this.label33 = new System.Windows.Forms.Label();
-            this.btnFirma = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.textBoxFecha2E = new System.Windows.Forms.TextBox();
-            this.textBoxDE = new System.Windows.Forms.RichTextBox();
-            this.label34 = new System.Windows.Forms.Label();
-            this.label35 = new System.Windows.Forms.Label();
-            this.textBoxCE = new System.Windows.Forms.RichTextBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.btnSalirT = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.btnAgregarT = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.label39 = new System.Windows.Forms.Label();
-            this.textBoxDT = new System.Windows.Forms.RichTextBox();
-            this.textBoxPrecioT = new System.Windows.Forms.TextBox();
-            this.label40 = new System.Windows.Forms.Label();
-            this.textBoxNombreT = new System.Windows.Forms.TextBox();
-            this.label41 = new System.Windows.Forms.Label();
-            this.label43 = new System.Windows.Forms.Label();
-            this.textBoxCostoT = new System.Windows.Forms.TextBox();
-            this.label37 = new System.Windows.Forms.Label();
-            this.label42 = new System.Windows.Forms.Label();
-            this.textBoxIdT = new System.Windows.Forms.TextBox();
-            this.textBoxIdMT = new System.Windows.Forms.TextBox();
-            this.tabHistorial = new System.Windows.Forms.TabPage();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.btnSalirH = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.btnAgregarH = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label46 = new System.Windows.Forms.Label();
-            this.label49 = new System.Windows.Forms.Label();
-            this.label51 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.bunifuGradientPanel2 = new Bunifu.Framework.UI.BunifuGradientPanel();
-            this.label15 = new System.Windows.Forms.Label();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBoxFirma = new System.Windows.Forms.PictureBox();
-            this.bunifuGradientPanel4 = new Bunifu.Framework.UI.BunifuGradientPanel();
-            this.label32 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.bunifuGradientPanel5 = new Bunifu.Framework.UI.BunifuGradientPanel();
-            this.label36 = new System.Windows.Forms.Label();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.bunifuGradientPanel6 = new Bunifu.Framework.UI.BunifuGradientPanel();
-            this.label52 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.bunifuGradientPanel3 = new Bunifu.Framework.UI.BunifuGradientPanel();
-            this.label30 = new System.Windows.Forms.Label();
             this.bunifuGradientPanel1 = new Bunifu.Framework.UI.BunifuGradientPanel();
             this.label1 = new System.Windows.Forms.Label();
-            this.bunifuSeparator1 = new Bunifu.Framework.UI.BunifuSeparator();
-            this.label53 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.label54 = new System.Windows.Forms.Label();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.label44 = new System.Windows.Forms.Label();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.label48 = new System.Windows.Forms.Label();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
-            this.label55 = new System.Windows.Forms.Label();
-            this.comboBox6 = new System.Windows.Forms.ComboBox();
-            this.label56 = new System.Windows.Forms.Label();
-            this.comboBox7 = new System.Windows.Forms.ComboBox();
-            this.label50 = new System.Windows.Forms.Label();
-            this.bunifuSeparator4 = new Bunifu.Framework.UI.BunifuSeparator();
-            this.label57 = new System.Windows.Forms.Label();
-            this.comboBox8 = new System.Windows.Forms.ComboBox();
-            this.label58 = new System.Windows.Forms.Label();
-            this.comboBox9 = new System.Windows.Forms.ComboBox();
-            this.label59 = new System.Windows.Forms.Label();
-            this.comboBox10 = new System.Windows.Forms.ComboBox();
-            this.label60 = new System.Windows.Forms.Label();
-            this.comboBox11 = new System.Windows.Forms.ComboBox();
+            this.btnMostrarT = new Bunifu.Framework.UI.BunifuFlatButton();
             this.tabPaciente.SuspendLayout();
             this.tabAgregar.SuspendLayout();
             this.panel2.SuspendLayout();
-            this.tabEvolucion.SuspendLayout();
-            this.panel4.SuspendLayout();
-            this.tabTratamiento.SuspendLayout();
-            this.tabVer.SuspendLayout();
-            this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridPaciente)).BeginInit();
-            this.tabModificar.SuspendLayout();
-            this.panel1.SuspendLayout();
-            this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            this.panel5.SuspendLayout();
-            this.groupBox3.SuspendLayout();
-            this.tabHistorial.SuspendLayout();
-            this.panel6.SuspendLayout();
-            this.groupBox4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.bunifuGradientPanel2.SuspendLayout();
+            this.tabEvolucion.SuspendLayout();
+            this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFirma)).BeginInit();
             this.bunifuGradientPanel4.SuspendLayout();
+            this.tabTratamiento.SuspendLayout();
+            this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.bunifuGradientPanel5.SuspendLayout();
+            this.tabHistorial.SuspendLayout();
+            this.panel6.SuspendLayout();
+            this.groupBox4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.bunifuGradientPanel6.SuspendLayout();
+            this.tabVer.SuspendLayout();
+            this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridPaciente)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.bunifuGradientPanel3.SuspendLayout();
+            this.tabModificar.SuspendLayout();
+            this.panel1.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.bunifuGradientPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -545,6 +546,16 @@
             this.label5.TabIndex = 12;
             this.label5.Text = "APELLIDO MATERNO";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Mockup.Properties.Resources.icons8_grupo_de_usuarios_hombre_y_mujer_100;
+            this.pictureBox1.Location = new System.Drawing.Point(569, 99);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(100, 100);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox1.TabIndex = 11;
+            this.pictureBox1.TabStop = false;
+            // 
             // btnSalir
             // 
             this.btnSalir.BackColor = System.Drawing.Color.Maroon;
@@ -635,6 +646,35 @@
             this.Id.TabIndex = 0;
             this.Id.Text = "NOMBRE (s)";
             // 
+            // bunifuGradientPanel2
+            // 
+            this.bunifuGradientPanel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel2.BackgroundImage")));
+            this.bunifuGradientPanel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuGradientPanel2.Controls.Add(this.label15);
+            this.bunifuGradientPanel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.bunifuGradientPanel2.GradientBottomLeft = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(101)))), ((int)(((byte)(186)))));
+            this.bunifuGradientPanel2.GradientBottomRight = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(152)))), ((int)(((byte)(163)))));
+            this.bunifuGradientPanel2.GradientTopLeft = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(152)))), ((int)(((byte)(163)))));
+            this.bunifuGradientPanel2.GradientTopRight = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(46)))));
+            this.bunifuGradientPanel2.Location = new System.Drawing.Point(3, 3);
+            this.bunifuGradientPanel2.Name = "bunifuGradientPanel2";
+            this.bunifuGradientPanel2.Quality = 10;
+            this.bunifuGradientPanel2.Size = new System.Drawing.Size(709, 64);
+            this.bunifuGradientPanel2.TabIndex = 11;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.BackColor = System.Drawing.Color.Transparent;
+            this.label15.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.ForeColor = System.Drawing.Color.White;
+            this.label15.Location = new System.Drawing.Point(284, 12);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(137, 33);
+            this.label15.TabIndex = 7;
+            this.label15.Text = "PACIENTE";
+            this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // tabEvolucion
             // 
             this.tabEvolucion.Controls.Add(this.panel4);
@@ -661,6 +701,287 @@
             this.panel4.Size = new System.Drawing.Size(709, 436);
             this.panel4.TabIndex = 13;
             // 
+            // btnSalir4
+            // 
+            this.btnSalir4.Activecolor = System.Drawing.Color.Maroon;
+            this.btnSalir4.BackColor = System.Drawing.Color.Maroon;
+            this.btnSalir4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnSalir4.BorderRadius = 0;
+            this.btnSalir4.ButtonText = "SALIR";
+            this.btnSalir4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSalir4.DisabledColor = System.Drawing.Color.Gray;
+            this.btnSalir4.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalir4.Iconcolor = System.Drawing.Color.Transparent;
+            this.btnSalir4.Iconimage = null;
+            this.btnSalir4.Iconimage_right = null;
+            this.btnSalir4.Iconimage_right_Selected = null;
+            this.btnSalir4.Iconimage_Selected = null;
+            this.btnSalir4.IconMarginLeft = 0;
+            this.btnSalir4.IconMarginRight = 0;
+            this.btnSalir4.IconRightVisible = false;
+            this.btnSalir4.IconRightZoom = 0D;
+            this.btnSalir4.IconVisible = false;
+            this.btnSalir4.IconZoom = 90D;
+            this.btnSalir4.IsTab = false;
+            this.btnSalir4.Location = new System.Drawing.Point(11, 237);
+            this.btnSalir4.Margin = new System.Windows.Forms.Padding(5);
+            this.btnSalir4.Name = "btnSalir4";
+            this.btnSalir4.Normalcolor = System.Drawing.Color.Maroon;
+            this.btnSalir4.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnSalir4.OnHoverTextColor = System.Drawing.Color.White;
+            this.btnSalir4.selected = false;
+            this.btnSalir4.Size = new System.Drawing.Size(113, 46);
+            this.btnSalir4.TabIndex = 42;
+            this.btnSalir4.Text = "SALIR";
+            this.btnSalir4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnSalir4.Textcolor = System.Drawing.Color.White;
+            this.btnSalir4.TextFont = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            // 
+            // btnActualizar
+            // 
+            this.btnActualizar.Activecolor = System.Drawing.Color.LightSeaGreen;
+            this.btnActualizar.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.btnActualizar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnActualizar.BorderRadius = 0;
+            this.btnActualizar.ButtonText = "ACTUALIZAR";
+            this.btnActualizar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnActualizar.DisabledColor = System.Drawing.Color.Gray;
+            this.btnActualizar.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnActualizar.Iconcolor = System.Drawing.Color.Transparent;
+            this.btnActualizar.Iconimage = null;
+            this.btnActualizar.Iconimage_right = null;
+            this.btnActualizar.Iconimage_right_Selected = null;
+            this.btnActualizar.Iconimage_Selected = null;
+            this.btnActualizar.IconMarginLeft = 0;
+            this.btnActualizar.IconMarginRight = 0;
+            this.btnActualizar.IconRightVisible = false;
+            this.btnActualizar.IconRightZoom = 0D;
+            this.btnActualizar.IconVisible = false;
+            this.btnActualizar.IconZoom = 90D;
+            this.btnActualizar.IsTab = false;
+            this.btnActualizar.Location = new System.Drawing.Point(11, 173);
+            this.btnActualizar.Margin = new System.Windows.Forms.Padding(5);
+            this.btnActualizar.Name = "btnActualizar";
+            this.btnActualizar.Normalcolor = System.Drawing.Color.LightSeaGreen;
+            this.btnActualizar.OnHovercolor = System.Drawing.Color.Teal;
+            this.btnActualizar.OnHoverTextColor = System.Drawing.Color.White;
+            this.btnActualizar.selected = false;
+            this.btnActualizar.Size = new System.Drawing.Size(113, 46);
+            this.btnActualizar.TabIndex = 41;
+            this.btnActualizar.Text = "ACTUALIZAR";
+            this.btnActualizar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnActualizar.Textcolor = System.Drawing.Color.White;
+            this.btnActualizar.TextFont = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnActualizar.Click += new System.EventHandler(this.btnActualizar_Click);
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::Mockup.Properties.Resources.icons8_accesibilidad_2_100;
+            this.pictureBox4.Location = new System.Drawing.Point(11, 49);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(113, 88);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 40;
+            this.pictureBox4.TabStop = false;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.pictureBoxFirma);
+            this.groupBox2.Controls.Add(this.textBoxCE);
+            this.groupBox2.Controls.Add(this.label35);
+            this.groupBox2.Controls.Add(this.label34);
+            this.groupBox2.Controls.Add(this.textBoxDE);
+            this.groupBox2.Controls.Add(this.textBoxFecha2E);
+            this.groupBox2.Controls.Add(this.btnFirma);
+            this.groupBox2.Controls.Add(this.label33);
+            this.groupBox2.Controls.Add(this.textBoxIdE);
+            this.groupBox2.Controls.Add(this.textBoxFecha1E);
+            this.groupBox2.Controls.Add(this.label47);
+            this.groupBox2.Controls.Add(this.label45);
+            this.groupBox2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.groupBox2.Location = new System.Drawing.Point(132, 40);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(556, 352);
+            this.groupBox2.TabIndex = 39;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "AÑADIR NUEVA EVOLUCION DEL PACIENTE";
+            // 
+            // pictureBoxFirma
+            // 
+            this.pictureBoxFirma.Image = global::Mockup.Properties.Resources.icons8_autógrafo_100;
+            this.pictureBoxFirma.Location = new System.Drawing.Point(18, 110);
+            this.pictureBoxFirma.Name = "pictureBoxFirma";
+            this.pictureBoxFirma.Size = new System.Drawing.Size(135, 133);
+            this.pictureBoxFirma.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxFirma.TabIndex = 11;
+            this.pictureBoxFirma.TabStop = false;
+            // 
+            // textBoxCE
+            // 
+            this.textBoxCE.Location = new System.Drawing.Point(187, 259);
+            this.textBoxCE.Name = "textBoxCE";
+            this.textBoxCE.Size = new System.Drawing.Size(351, 50);
+            this.textBoxCE.TabIndex = 43;
+            this.textBoxCE.Text = "";
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label35.ForeColor = System.Drawing.Color.White;
+            this.label35.Location = new System.Drawing.Point(183, 224);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(121, 19);
+            this.label35.TabIndex = 42;
+            this.label35.Text = "COMENTARIOS";
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label34.ForeColor = System.Drawing.Color.White;
+            this.label34.Location = new System.Drawing.Point(183, 122);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(111, 19);
+            this.label34.TabIndex = 41;
+            this.label34.Text = "DESCRIPCIÓN";
+            // 
+            // textBoxDE
+            // 
+            this.textBoxDE.Location = new System.Drawing.Point(187, 144);
+            this.textBoxDE.Name = "textBoxDE";
+            this.textBoxDE.Size = new System.Drawing.Size(351, 50);
+            this.textBoxDE.TabIndex = 40;
+            this.textBoxDE.Text = "";
+            // 
+            // textBoxFecha2E
+            // 
+            this.textBoxFecha2E.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxFecha2E.Location = new System.Drawing.Point(363, 70);
+            this.textBoxFecha2E.Name = "textBoxFecha2E";
+            this.textBoxFecha2E.Size = new System.Drawing.Size(141, 27);
+            this.textBoxFecha2E.TabIndex = 39;
+            this.textBoxFecha2E.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // btnFirma
+            // 
+            this.btnFirma.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.btnFirma.BackColor = System.Drawing.Color.Purple;
+            this.btnFirma.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnFirma.BorderRadius = 0;
+            this.btnFirma.ButtonText = "AÑADIR FIRMA DEL PACIENTE";
+            this.btnFirma.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnFirma.DisabledColor = System.Drawing.Color.Gray;
+            this.btnFirma.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFirma.Iconcolor = System.Drawing.Color.Transparent;
+            this.btnFirma.Iconimage = null;
+            this.btnFirma.Iconimage_right = null;
+            this.btnFirma.Iconimage_right_Selected = null;
+            this.btnFirma.Iconimage_Selected = null;
+            this.btnFirma.IconMarginLeft = 0;
+            this.btnFirma.IconMarginRight = 0;
+            this.btnFirma.IconRightVisible = false;
+            this.btnFirma.IconRightZoom = 0D;
+            this.btnFirma.IconVisible = false;
+            this.btnFirma.IconZoom = 90D;
+            this.btnFirma.IsTab = false;
+            this.btnFirma.Location = new System.Drawing.Point(18, 263);
+            this.btnFirma.Margin = new System.Windows.Forms.Padding(5);
+            this.btnFirma.Name = "btnFirma";
+            this.btnFirma.Normalcolor = System.Drawing.Color.Purple;
+            this.btnFirma.OnHovercolor = System.Drawing.Color.DarkViolet;
+            this.btnFirma.OnHoverTextColor = System.Drawing.Color.White;
+            this.btnFirma.selected = false;
+            this.btnFirma.Size = new System.Drawing.Size(135, 46);
+            this.btnFirma.TabIndex = 37;
+            this.btnFirma.Text = "AÑADIR FIRMA DEL PACIENTE";
+            this.btnFirma.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnFirma.Textcolor = System.Drawing.Color.White;
+            this.btnFirma.TextFont = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFirma.Click += new System.EventHandler(this.btnFirma_Click);
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label33.ForeColor = System.Drawing.Color.White;
+            this.label33.Location = new System.Drawing.Point(14, 36);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(130, 19);
+            this.label33.TabIndex = 37;
+            this.label33.Text = "ID DEL PACIENTE";
+            // 
+            // textBoxIdE
+            // 
+            this.textBoxIdE.Font = new System.Drawing.Font("Century Gothic", 12F);
+            this.textBoxIdE.Location = new System.Drawing.Point(18, 70);
+            this.textBoxIdE.Name = "textBoxIdE";
+            this.textBoxIdE.Size = new System.Drawing.Size(135, 27);
+            this.textBoxIdE.TabIndex = 35;
+            this.textBoxIdE.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBoxFecha1E
+            // 
+            this.textBoxFecha1E.Enabled = false;
+            this.textBoxFecha1E.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxFecha1E.Location = new System.Drawing.Point(187, 70);
+            this.textBoxFecha1E.Name = "textBoxFecha1E";
+            this.textBoxFecha1E.Size = new System.Drawing.Size(141, 27);
+            this.textBoxFecha1E.TabIndex = 4;
+            this.textBoxFecha1E.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label47
+            // 
+            this.label47.AutoSize = true;
+            this.label47.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label47.ForeColor = System.Drawing.Color.White;
+            this.label47.Location = new System.Drawing.Point(183, 36);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(145, 19);
+            this.label47.TabIndex = 0;
+            this.label47.Text = "FECHA DE LA CITA";
+            // 
+            // label45
+            // 
+            this.label45.AutoSize = true;
+            this.label45.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label45.ForeColor = System.Drawing.Color.White;
+            this.label45.Location = new System.Drawing.Point(359, 36);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(175, 19);
+            this.label45.TabIndex = 2;
+            this.label45.Text = "FECHA PRÓXIMA CITA";
+            // 
+            // bunifuGradientPanel4
+            // 
+            this.bunifuGradientPanel4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel4.BackgroundImage")));
+            this.bunifuGradientPanel4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuGradientPanel4.Controls.Add(this.label32);
+            this.bunifuGradientPanel4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.bunifuGradientPanel4.GradientBottomLeft = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(101)))), ((int)(((byte)(186)))));
+            this.bunifuGradientPanel4.GradientBottomRight = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(152)))), ((int)(((byte)(163)))));
+            this.bunifuGradientPanel4.GradientTopLeft = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(152)))), ((int)(((byte)(163)))));
+            this.bunifuGradientPanel4.GradientTopRight = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(46)))));
+            this.bunifuGradientPanel4.Location = new System.Drawing.Point(3, 3);
+            this.bunifuGradientPanel4.Name = "bunifuGradientPanel4";
+            this.bunifuGradientPanel4.Quality = 10;
+            this.bunifuGradientPanel4.Size = new System.Drawing.Size(709, 64);
+            this.bunifuGradientPanel4.TabIndex = 12;
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.BackColor = System.Drawing.Color.Transparent;
+            this.label32.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label32.ForeColor = System.Drawing.Color.White;
+            this.label32.Location = new System.Drawing.Point(264, 10);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(171, 33);
+            this.label32.TabIndex = 7;
+            this.label32.Text = "EVOLUCIÓN";
+            this.label32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // tabTratamiento
             // 
             this.tabTratamiento.Controls.Add(this.panel5);
@@ -672,6 +993,784 @@
             this.tabTratamiento.TabIndex = 2;
             this.tabTratamiento.Text = "Tratamiento";
             this.tabTratamiento.UseVisualStyleBackColor = true;
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(46)))));
+            this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel5.Controls.Add(this.pictureBox2);
+            this.panel5.Controls.Add(this.groupBox3);
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel5.Location = new System.Drawing.Point(3, 67);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(709, 436);
+            this.panel5.TabIndex = 14;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Mockup.Properties.Resources.icons8_plan_de_tratamiento_100;
+            this.pictureBox2.Location = new System.Drawing.Point(582, 162);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(113, 88);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 40;
+            this.pictureBox2.TabStop = false;
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.btnSalirT);
+            this.groupBox3.Controls.Add(this.pictureBox6);
+            this.groupBox3.Controls.Add(this.btnAgregarT);
+            this.groupBox3.Controls.Add(this.pictureBox5);
+            this.groupBox3.Controls.Add(this.textBoxIdMT);
+            this.groupBox3.Controls.Add(this.textBoxIdT);
+            this.groupBox3.Controls.Add(this.label42);
+            this.groupBox3.Controls.Add(this.label37);
+            this.groupBox3.Controls.Add(this.textBoxCostoT);
+            this.groupBox3.Controls.Add(this.label43);
+            this.groupBox3.Controls.Add(this.label39);
+            this.groupBox3.Controls.Add(this.textBoxDT);
+            this.groupBox3.Controls.Add(this.textBoxPrecioT);
+            this.groupBox3.Controls.Add(this.label40);
+            this.groupBox3.Controls.Add(this.textBoxNombreT);
+            this.groupBox3.Controls.Add(this.label41);
+            this.groupBox3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox3.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.groupBox3.Location = new System.Drawing.Point(26, 49);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(550, 352);
+            this.groupBox3.TabIndex = 39;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "AÑADIR TRATAMIENTO PARA EL PACIENTE";
+            // 
+            // btnSalirT
+            // 
+            this.btnSalirT.Activecolor = System.Drawing.Color.Maroon;
+            this.btnSalirT.BackColor = System.Drawing.Color.Maroon;
+            this.btnSalirT.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnSalirT.BorderRadius = 0;
+            this.btnSalirT.ButtonText = "SALIR";
+            this.btnSalirT.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSalirT.DisabledColor = System.Drawing.Color.Gray;
+            this.btnSalirT.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalirT.Iconcolor = System.Drawing.Color.Transparent;
+            this.btnSalirT.Iconimage = null;
+            this.btnSalirT.Iconimage_right = null;
+            this.btnSalirT.Iconimage_right_Selected = null;
+            this.btnSalirT.Iconimage_Selected = null;
+            this.btnSalirT.IconMarginLeft = 0;
+            this.btnSalirT.IconMarginRight = 0;
+            this.btnSalirT.IconRightVisible = false;
+            this.btnSalirT.IconRightZoom = 0D;
+            this.btnSalirT.IconVisible = false;
+            this.btnSalirT.IconZoom = 90D;
+            this.btnSalirT.IsTab = false;
+            this.btnSalirT.Location = new System.Drawing.Point(408, 266);
+            this.btnSalirT.Margin = new System.Windows.Forms.Padding(5);
+            this.btnSalirT.Name = "btnSalirT";
+            this.btnSalirT.Normalcolor = System.Drawing.Color.Maroon;
+            this.btnSalirT.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnSalirT.OnHoverTextColor = System.Drawing.Color.White;
+            this.btnSalirT.selected = false;
+            this.btnSalirT.Size = new System.Drawing.Size(113, 46);
+            this.btnSalirT.TabIndex = 42;
+            this.btnSalirT.Text = "SALIR";
+            this.btnSalirT.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnSalirT.Textcolor = System.Drawing.Color.White;
+            this.btnSalirT.TextFont = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalirT.Click += new System.EventHandler(this.btnSalirT_Click);
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::Mockup.Properties.Resources.icons8_reembolso_50;
+            this.pictureBox6.Location = new System.Drawing.Point(336, 243);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox6.TabIndex = 51;
+            this.pictureBox6.TabStop = false;
+            // 
+            // btnAgregarT
+            // 
+            this.btnAgregarT.Activecolor = System.Drawing.Color.LightSeaGreen;
+            this.btnAgregarT.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.btnAgregarT.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnAgregarT.BorderRadius = 0;
+            this.btnAgregarT.ButtonText = "AGREGAR";
+            this.btnAgregarT.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAgregarT.DisabledColor = System.Drawing.Color.Gray;
+            this.btnAgregarT.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgregarT.Iconcolor = System.Drawing.Color.Transparent;
+            this.btnAgregarT.Iconimage = null;
+            this.btnAgregarT.Iconimage_right = null;
+            this.btnAgregarT.Iconimage_right_Selected = null;
+            this.btnAgregarT.Iconimage_Selected = null;
+            this.btnAgregarT.IconMarginLeft = 0;
+            this.btnAgregarT.IconMarginRight = 0;
+            this.btnAgregarT.IconRightVisible = false;
+            this.btnAgregarT.IconRightZoom = 0D;
+            this.btnAgregarT.IconVisible = false;
+            this.btnAgregarT.IconZoom = 90D;
+            this.btnAgregarT.IsTab = false;
+            this.btnAgregarT.Location = new System.Drawing.Point(408, 205);
+            this.btnAgregarT.Margin = new System.Windows.Forms.Padding(5);
+            this.btnAgregarT.Name = "btnAgregarT";
+            this.btnAgregarT.Normalcolor = System.Drawing.Color.LightSeaGreen;
+            this.btnAgregarT.OnHovercolor = System.Drawing.Color.Teal;
+            this.btnAgregarT.OnHoverTextColor = System.Drawing.Color.White;
+            this.btnAgregarT.selected = false;
+            this.btnAgregarT.Size = new System.Drawing.Size(113, 46);
+            this.btnAgregarT.TabIndex = 41;
+            this.btnAgregarT.Text = "AGREGAR";
+            this.btnAgregarT.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnAgregarT.Textcolor = System.Drawing.Color.White;
+            this.btnAgregarT.TextFont = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgregarT.Click += new System.EventHandler(this.btnAgregarT_Click);
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::Mockup.Properties.Resources.icons8_billetes_50;
+            this.pictureBox5.Location = new System.Drawing.Point(141, 243);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox5.TabIndex = 50;
+            this.pictureBox5.TabStop = false;
+            // 
+            // textBoxIdMT
+            // 
+            this.textBoxIdMT.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxIdMT.Location = new System.Drawing.Point(408, 145);
+            this.textBoxIdMT.Name = "textBoxIdMT";
+            this.textBoxIdMT.Size = new System.Drawing.Size(113, 27);
+            this.textBoxIdMT.TabIndex = 49;
+            this.textBoxIdMT.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBoxIdT
+            // 
+            this.textBoxIdT.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxIdT.Location = new System.Drawing.Point(408, 70);
+            this.textBoxIdT.Name = "textBoxIdT";
+            this.textBoxIdT.Size = new System.Drawing.Size(113, 27);
+            this.textBoxIdT.TabIndex = 48;
+            this.textBoxIdT.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label42.ForeColor = System.Drawing.Color.White;
+            this.label42.Location = new System.Drawing.Point(404, 113);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(120, 19);
+            this.label42.TabIndex = 47;
+            this.label42.Text = "ID DEL MÉDICO";
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label37.ForeColor = System.Drawing.Color.White;
+            this.label37.Location = new System.Drawing.Point(404, 36);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(130, 19);
+            this.label37.TabIndex = 46;
+            this.label37.Text = "ID DEL PACIENTE";
+            // 
+            // textBoxCostoT
+            // 
+            this.textBoxCostoT.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxCostoT.Location = new System.Drawing.Point(212, 266);
+            this.textBoxCostoT.Name = "textBoxCostoT";
+            this.textBoxCostoT.Size = new System.Drawing.Size(107, 27);
+            this.textBoxCostoT.TabIndex = 45;
+            this.textBoxCostoT.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label43
+            // 
+            this.label43.AutoSize = true;
+            this.label43.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label43.ForeColor = System.Drawing.Color.White;
+            this.label43.Location = new System.Drawing.Point(208, 232);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(87, 19);
+            this.label43.TabIndex = 44;
+            this.label43.Text = "COSTO ($)";
+            // 
+            // label39
+            // 
+            this.label39.AutoSize = true;
+            this.label39.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label39.ForeColor = System.Drawing.Color.White;
+            this.label39.Location = new System.Drawing.Point(24, 113);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(111, 19);
+            this.label39.TabIndex = 41;
+            this.label39.Text = "DESCRIPCIÓN";
+            // 
+            // textBoxDT
+            // 
+            this.textBoxDT.Location = new System.Drawing.Point(18, 145);
+            this.textBoxDT.Name = "textBoxDT";
+            this.textBoxDT.Size = new System.Drawing.Size(326, 50);
+            this.textBoxDT.TabIndex = 40;
+            this.textBoxDT.Text = "";
+            // 
+            // textBoxPrecioT
+            // 
+            this.textBoxPrecioT.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxPrecioT.Location = new System.Drawing.Point(28, 266);
+            this.textBoxPrecioT.Name = "textBoxPrecioT";
+            this.textBoxPrecioT.Size = new System.Drawing.Size(107, 27);
+            this.textBoxPrecioT.TabIndex = 39;
+            this.textBoxPrecioT.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label40
+            // 
+            this.label40.AutoSize = true;
+            this.label40.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label40.ForeColor = System.Drawing.Color.White;
+            this.label40.Location = new System.Drawing.Point(14, 36);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(213, 19);
+            this.label40.TabIndex = 37;
+            this.label40.Text = "NOMBRE DEL TRATAMIENTO";
+            // 
+            // textBoxNombreT
+            // 
+            this.textBoxNombreT.Font = new System.Drawing.Font("Century Gothic", 12F);
+            this.textBoxNombreT.Location = new System.Drawing.Point(18, 70);
+            this.textBoxNombreT.Name = "textBoxNombreT";
+            this.textBoxNombreT.Size = new System.Drawing.Size(326, 27);
+            this.textBoxNombreT.TabIndex = 35;
+            this.textBoxNombreT.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label41
+            // 
+            this.label41.AutoSize = true;
+            this.label41.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label41.ForeColor = System.Drawing.Color.White;
+            this.label41.Location = new System.Drawing.Point(24, 232);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(89, 19);
+            this.label41.TabIndex = 0;
+            this.label41.Text = "PRECIO ($)";
+            // 
+            // bunifuGradientPanel5
+            // 
+            this.bunifuGradientPanel5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel5.BackgroundImage")));
+            this.bunifuGradientPanel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuGradientPanel5.Controls.Add(this.label36);
+            this.bunifuGradientPanel5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.bunifuGradientPanel5.GradientBottomLeft = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(101)))), ((int)(((byte)(186)))));
+            this.bunifuGradientPanel5.GradientBottomRight = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(152)))), ((int)(((byte)(163)))));
+            this.bunifuGradientPanel5.GradientTopLeft = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(152)))), ((int)(((byte)(163)))));
+            this.bunifuGradientPanel5.GradientTopRight = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(46)))));
+            this.bunifuGradientPanel5.Location = new System.Drawing.Point(3, 3);
+            this.bunifuGradientPanel5.Name = "bunifuGradientPanel5";
+            this.bunifuGradientPanel5.Quality = 10;
+            this.bunifuGradientPanel5.Size = new System.Drawing.Size(709, 64);
+            this.bunifuGradientPanel5.TabIndex = 13;
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.BackColor = System.Drawing.Color.Transparent;
+            this.label36.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label36.ForeColor = System.Drawing.Color.White;
+            this.label36.Location = new System.Drawing.Point(250, 11);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(190, 33);
+            this.label36.TabIndex = 7;
+            this.label36.Text = "TRATAMIENTO";
+            this.label36.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // tabHistorial
+            // 
+            this.tabHistorial.Controls.Add(this.panel6);
+            this.tabHistorial.Controls.Add(this.bunifuGradientPanel6);
+            this.tabHistorial.Location = new System.Drawing.Point(4, 25);
+            this.tabHistorial.Name = "tabHistorial";
+            this.tabHistorial.Size = new System.Drawing.Size(715, 506);
+            this.tabHistorial.TabIndex = 5;
+            this.tabHistorial.Text = "Historial Clínico";
+            this.tabHistorial.UseVisualStyleBackColor = true;
+            // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(46)))));
+            this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel6.Controls.Add(this.groupBox4);
+            this.panel6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel6.Location = new System.Drawing.Point(0, 64);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(715, 442);
+            this.panel6.TabIndex = 16;
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.comboBox11);
+            this.groupBox4.Controls.Add(this.label60);
+            this.groupBox4.Controls.Add(this.comboBox10);
+            this.groupBox4.Controls.Add(this.label59);
+            this.groupBox4.Controls.Add(this.comboBox9);
+            this.groupBox4.Controls.Add(this.label58);
+            this.groupBox4.Controls.Add(this.comboBox8);
+            this.groupBox4.Controls.Add(this.label57);
+            this.groupBox4.Controls.Add(this.bunifuSeparator4);
+            this.groupBox4.Controls.Add(this.label50);
+            this.groupBox4.Controls.Add(this.comboBox7);
+            this.groupBox4.Controls.Add(this.label56);
+            this.groupBox4.Controls.Add(this.comboBox6);
+            this.groupBox4.Controls.Add(this.label55);
+            this.groupBox4.Controls.Add(this.comboBox5);
+            this.groupBox4.Controls.Add(this.label48);
+            this.groupBox4.Controls.Add(this.comboBox4);
+            this.groupBox4.Controls.Add(this.label44);
+            this.groupBox4.Controls.Add(this.comboBox3);
+            this.groupBox4.Controls.Add(this.label54);
+            this.groupBox4.Controls.Add(this.comboBox2);
+            this.groupBox4.Controls.Add(this.comboBox1);
+            this.groupBox4.Controls.Add(this.bunifuSeparator1);
+            this.groupBox4.Controls.Add(this.label53);
+            this.groupBox4.Controls.Add(this.pictureBox10);
+            this.groupBox4.Controls.Add(this.btnSalirH);
+            this.groupBox4.Controls.Add(this.btnAgregarH);
+            this.groupBox4.Controls.Add(this.textBox2);
+            this.groupBox4.Controls.Add(this.label46);
+            this.groupBox4.Controls.Add(this.label49);
+            this.groupBox4.Controls.Add(this.label51);
+            this.groupBox4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox4.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.groupBox4.Location = new System.Drawing.Point(22, 5);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(668, 428);
+            this.groupBox4.TabIndex = 39;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "AÑADIR ANTECEDENTES DEL PACIENTE";
+            // 
+            // comboBox11
+            // 
+            this.comboBox11.FormattingEnabled = true;
+            this.comboBox11.Items.AddRange(new object[] {
+            "SI",
+            "NO"});
+            this.comboBox11.Location = new System.Drawing.Point(476, 247);
+            this.comboBox11.Name = "comboBox11";
+            this.comboBox11.Size = new System.Drawing.Size(107, 29);
+            this.comboBox11.TabIndex = 75;
+            // 
+            // label60
+            // 
+            this.label60.AutoSize = true;
+            this.label60.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label60.ForeColor = System.Drawing.Color.White;
+            this.label60.Location = new System.Drawing.Point(472, 225);
+            this.label60.Name = "label60";
+            this.label60.Size = new System.Drawing.Size(77, 19);
+            this.label60.TabIndex = 74;
+            this.label60.Text = "VIH/SIDA";
+            // 
+            // comboBox10
+            // 
+            this.comboBox10.FormattingEnabled = true;
+            this.comboBox10.Items.AddRange(new object[] {
+            "SI",
+            "NO"});
+            this.comboBox10.Location = new System.Drawing.Point(334, 361);
+            this.comboBox10.Name = "comboBox10";
+            this.comboBox10.Size = new System.Drawing.Size(107, 29);
+            this.comboBox10.TabIndex = 73;
+            // 
+            // label59
+            // 
+            this.label59.AutoSize = true;
+            this.label59.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label59.ForeColor = System.Drawing.Color.White;
+            this.label59.Location = new System.Drawing.Point(330, 339);
+            this.label59.Name = "label59";
+            this.label59.Size = new System.Drawing.Size(75, 19);
+            this.label59.TabIndex = 72;
+            this.label59.Text = "DROGAS";
+            // 
+            // comboBox9
+            // 
+            this.comboBox9.FormattingEnabled = true;
+            this.comboBox9.Items.AddRange(new object[] {
+            "SI",
+            "NO"});
+            this.comboBox9.Location = new System.Drawing.Point(186, 361);
+            this.comboBox9.Name = "comboBox9";
+            this.comboBox9.Size = new System.Drawing.Size(107, 29);
+            this.comboBox9.TabIndex = 71;
+            // 
+            // label58
+            // 
+            this.label58.AutoSize = true;
+            this.label58.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label58.ForeColor = System.Drawing.Color.White;
+            this.label58.Location = new System.Drawing.Point(182, 339);
+            this.label58.Name = "label58";
+            this.label58.Size = new System.Drawing.Size(84, 19);
+            this.label58.TabIndex = 70;
+            this.label58.Text = "ALCOHOL";
+            // 
+            // comboBox8
+            // 
+            this.comboBox8.FormattingEnabled = true;
+            this.comboBox8.Items.AddRange(new object[] {
+            "SI",
+            "NO"});
+            this.comboBox8.Location = new System.Drawing.Point(25, 361);
+            this.comboBox8.Name = "comboBox8";
+            this.comboBox8.Size = new System.Drawing.Size(107, 29);
+            this.comboBox8.TabIndex = 69;
+            // 
+            // label57
+            // 
+            this.label57.AutoSize = true;
+            this.label57.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label57.ForeColor = System.Drawing.Color.White;
+            this.label57.Location = new System.Drawing.Point(23, 339);
+            this.label57.Name = "label57";
+            this.label57.Size = new System.Drawing.Size(74, 19);
+            this.label57.TabIndex = 68;
+            this.label57.Text = "TABACO";
+            // 
+            // bunifuSeparator4
+            // 
+            this.bunifuSeparator4.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuSeparator4.ForeColor = System.Drawing.Color.Navy;
+            this.bunifuSeparator4.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.bunifuSeparator4.LineThickness = 5;
+            this.bunifuSeparator4.Location = new System.Drawing.Point(25, 321);
+            this.bunifuSeparator4.Margin = new System.Windows.Forms.Padding(8);
+            this.bunifuSeparator4.Name = "bunifuSeparator4";
+            this.bunifuSeparator4.Size = new System.Drawing.Size(623, 10);
+            this.bunifuSeparator4.TabIndex = 67;
+            this.bunifuSeparator4.Transparency = 255;
+            this.bunifuSeparator4.Vertical = false;
+            // 
+            // label50
+            // 
+            this.label50.AutoSize = true;
+            this.label50.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label50.ForeColor = System.Drawing.Color.LightGray;
+            this.label50.Location = new System.Drawing.Point(21, 294);
+            this.label50.Name = "label50";
+            this.label50.Size = new System.Drawing.Size(316, 19);
+            this.label50.TabIndex = 66;
+            this.label50.Text = "¿USTED HA CONSUMIDO ACTUALMENTE?:";
+            // 
+            // comboBox7
+            // 
+            this.comboBox7.FormattingEnabled = true;
+            this.comboBox7.Items.AddRange(new object[] {
+            "SI",
+            "NO"});
+            this.comboBox7.Location = new System.Drawing.Point(334, 247);
+            this.comboBox7.Name = "comboBox7";
+            this.comboBox7.Size = new System.Drawing.Size(107, 29);
+            this.comboBox7.TabIndex = 65;
+            // 
+            // label56
+            // 
+            this.label56.AutoSize = true;
+            this.label56.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label56.ForeColor = System.Drawing.Color.White;
+            this.label56.Location = new System.Drawing.Point(330, 225);
+            this.label56.Name = "label56";
+            this.label56.Size = new System.Drawing.Size(71, 19);
+            this.label56.TabIndex = 64;
+            this.label56.Text = "ANEMIA";
+            // 
+            // comboBox6
+            // 
+            this.comboBox6.FormattingEnabled = true;
+            this.comboBox6.Items.AddRange(new object[] {
+            "SI",
+            "NO"});
+            this.comboBox6.Location = new System.Drawing.Point(186, 247);
+            this.comboBox6.Name = "comboBox6";
+            this.comboBox6.Size = new System.Drawing.Size(107, 29);
+            this.comboBox6.TabIndex = 63;
+            // 
+            // label55
+            // 
+            this.label55.AutoSize = true;
+            this.label55.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label55.ForeColor = System.Drawing.Color.White;
+            this.label55.Location = new System.Drawing.Point(182, 225);
+            this.label55.Name = "label55";
+            this.label55.Size = new System.Drawing.Size(91, 19);
+            this.label55.TabIndex = 62;
+            this.label55.Text = "DEPRESIÓN";
+            // 
+            // comboBox5
+            // 
+            this.comboBox5.FormattingEnabled = true;
+            this.comboBox5.Items.AddRange(new object[] {
+            "SI",
+            "NO"});
+            this.comboBox5.Location = new System.Drawing.Point(25, 247);
+            this.comboBox5.Name = "comboBox5";
+            this.comboBox5.Size = new System.Drawing.Size(107, 29);
+            this.comboBox5.TabIndex = 61;
+            // 
+            // label48
+            // 
+            this.label48.AutoSize = true;
+            this.label48.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label48.ForeColor = System.Drawing.Color.White;
+            this.label48.Location = new System.Drawing.Point(23, 225);
+            this.label48.Name = "label48";
+            this.label48.Size = new System.Drawing.Size(87, 19);
+            this.label48.TabIndex = 60;
+            this.label48.Text = "ANSIEDAD";
+            // 
+            // comboBox4
+            // 
+            this.comboBox4.FormattingEnabled = true;
+            this.comboBox4.Items.AddRange(new object[] {
+            "SI",
+            "NO"});
+            this.comboBox4.Location = new System.Drawing.Point(476, 177);
+            this.comboBox4.Name = "comboBox4";
+            this.comboBox4.Size = new System.Drawing.Size(107, 29);
+            this.comboBox4.TabIndex = 59;
+            // 
+            // label44
+            // 
+            this.label44.AutoSize = true;
+            this.label44.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label44.ForeColor = System.Drawing.Color.White;
+            this.label44.Location = new System.Drawing.Point(472, 155);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(74, 19);
+            this.label44.TabIndex = 58;
+            this.label44.Text = "CANCER";
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Items.AddRange(new object[] {
+            "SI",
+            "NO"});
+            this.comboBox3.Location = new System.Drawing.Point(334, 177);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(107, 29);
+            this.comboBox3.TabIndex = 57;
+            // 
+            // label54
+            // 
+            this.label54.AutoSize = true;
+            this.label54.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label54.ForeColor = System.Drawing.Color.White;
+            this.label54.Location = new System.Drawing.Point(330, 155);
+            this.label54.Name = "label54";
+            this.label54.Size = new System.Drawing.Size(76, 19);
+            this.label54.TabIndex = 56;
+            this.label54.Text = "DIABETES";
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
+            "SI",
+            "NO"});
+            this.comboBox2.Location = new System.Drawing.Point(186, 177);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(107, 29);
+            this.comboBox2.TabIndex = 55;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "SI",
+            "NO"});
+            this.comboBox1.Location = new System.Drawing.Point(25, 177);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(107, 29);
+            this.comboBox1.TabIndex = 54;
+            // 
+            // bunifuSeparator1
+            // 
+            this.bunifuSeparator1.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuSeparator1.ForeColor = System.Drawing.Color.Navy;
+            this.bunifuSeparator1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.bunifuSeparator1.LineThickness = 3;
+            this.bunifuSeparator1.Location = new System.Drawing.Point(25, 139);
+            this.bunifuSeparator1.Margin = new System.Windows.Forms.Padding(5);
+            this.bunifuSeparator1.Name = "bunifuSeparator1";
+            this.bunifuSeparator1.Size = new System.Drawing.Size(623, 10);
+            this.bunifuSeparator1.TabIndex = 53;
+            this.bunifuSeparator1.Transparency = 255;
+            this.bunifuSeparator1.Vertical = false;
+            // 
+            // label53
+            // 
+            this.label53.AutoSize = true;
+            this.label53.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label53.ForeColor = System.Drawing.Color.LightGray;
+            this.label53.Location = new System.Drawing.Point(250, 112);
+            this.label53.Name = "label53";
+            this.label53.Size = new System.Drawing.Size(221, 19);
+            this.label53.TabIndex = 52;
+            this.label53.Text = "¿USTED HA TENIDO O TIENE?:";
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.Image = global::Mockup.Properties.Resources.historial_clinico;
+            this.pictureBox10.Location = new System.Drawing.Point(23, 26);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(214, 105);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox10.TabIndex = 41;
+            this.pictureBox10.TabStop = false;
+            // 
+            // btnSalirH
+            // 
+            this.btnSalirH.Activecolor = System.Drawing.Color.Maroon;
+            this.btnSalirH.BackColor = System.Drawing.Color.Maroon;
+            this.btnSalirH.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnSalirH.BorderRadius = 0;
+            this.btnSalirH.ButtonText = "SALIR";
+            this.btnSalirH.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSalirH.DisabledColor = System.Drawing.Color.Gray;
+            this.btnSalirH.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalirH.Iconcolor = System.Drawing.Color.Transparent;
+            this.btnSalirH.Iconimage = null;
+            this.btnSalirH.Iconimage_right = null;
+            this.btnSalirH.Iconimage_right_Selected = null;
+            this.btnSalirH.Iconimage_Selected = null;
+            this.btnSalirH.IconMarginLeft = 0;
+            this.btnSalirH.IconMarginRight = 0;
+            this.btnSalirH.IconRightVisible = false;
+            this.btnSalirH.IconRightZoom = 0D;
+            this.btnSalirH.IconVisible = false;
+            this.btnSalirH.IconZoom = 90D;
+            this.btnSalirH.IsTab = false;
+            this.btnSalirH.Location = new System.Drawing.Point(540, 48);
+            this.btnSalirH.Margin = new System.Windows.Forms.Padding(5);
+            this.btnSalirH.Name = "btnSalirH";
+            this.btnSalirH.Normalcolor = System.Drawing.Color.Maroon;
+            this.btnSalirH.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnSalirH.OnHoverTextColor = System.Drawing.Color.White;
+            this.btnSalirH.selected = false;
+            this.btnSalirH.Size = new System.Drawing.Size(113, 46);
+            this.btnSalirH.TabIndex = 42;
+            this.btnSalirH.Text = "SALIR";
+            this.btnSalirH.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnSalirH.Textcolor = System.Drawing.Color.White;
+            this.btnSalirH.TextFont = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            // 
+            // btnAgregarH
+            // 
+            this.btnAgregarH.Activecolor = System.Drawing.Color.LightSeaGreen;
+            this.btnAgregarH.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.btnAgregarH.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnAgregarH.BorderRadius = 0;
+            this.btnAgregarH.ButtonText = "AGREGAR";
+            this.btnAgregarH.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAgregarH.DisabledColor = System.Drawing.Color.Gray;
+            this.btnAgregarH.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgregarH.Iconcolor = System.Drawing.Color.Transparent;
+            this.btnAgregarH.Iconimage = null;
+            this.btnAgregarH.Iconimage_right = null;
+            this.btnAgregarH.Iconimage_right_Selected = null;
+            this.btnAgregarH.Iconimage_Selected = null;
+            this.btnAgregarH.IconMarginLeft = 0;
+            this.btnAgregarH.IconMarginRight = 0;
+            this.btnAgregarH.IconRightVisible = false;
+            this.btnAgregarH.IconRightZoom = 0D;
+            this.btnAgregarH.IconVisible = false;
+            this.btnAgregarH.IconZoom = 90D;
+            this.btnAgregarH.IsTab = false;
+            this.btnAgregarH.Location = new System.Drawing.Point(402, 48);
+            this.btnAgregarH.Margin = new System.Windows.Forms.Padding(5);
+            this.btnAgregarH.Name = "btnAgregarH";
+            this.btnAgregarH.Normalcolor = System.Drawing.Color.LightSeaGreen;
+            this.btnAgregarH.OnHovercolor = System.Drawing.Color.Teal;
+            this.btnAgregarH.OnHoverTextColor = System.Drawing.Color.White;
+            this.btnAgregarH.selected = false;
+            this.btnAgregarH.Size = new System.Drawing.Size(113, 46);
+            this.btnAgregarH.TabIndex = 41;
+            this.btnAgregarH.Text = "AGREGAR";
+            this.btnAgregarH.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnAgregarH.Textcolor = System.Drawing.Color.White;
+            this.btnAgregarH.TextFont = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            // 
+            // textBox2
+            // 
+            this.textBox2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Location = new System.Drawing.Point(254, 67);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(126, 27);
+            this.textBox2.TabIndex = 48;
+            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label46
+            // 
+            this.label46.AutoSize = true;
+            this.label46.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label46.ForeColor = System.Drawing.Color.White;
+            this.label46.Location = new System.Drawing.Point(250, 36);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(130, 19);
+            this.label46.TabIndex = 46;
+            this.label46.Text = "ID DEL PACIENTE";
+            // 
+            // label49
+            // 
+            this.label49.AutoSize = true;
+            this.label49.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label49.ForeColor = System.Drawing.Color.White;
+            this.label49.Location = new System.Drawing.Point(23, 155);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(114, 19);
+            this.label49.TabIndex = 41;
+            this.label49.Text = "HIPERTENSIÓN";
+            // 
+            // label51
+            // 
+            this.label51.AutoSize = true;
+            this.label51.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label51.ForeColor = System.Drawing.Color.White;
+            this.label51.Location = new System.Drawing.Point(182, 155);
+            this.label51.Name = "label51";
+            this.label51.Size = new System.Drawing.Size(55, 19);
+            this.label51.TabIndex = 0;
+            this.label51.Text = "ASMA";
+            // 
+            // bunifuGradientPanel6
+            // 
+            this.bunifuGradientPanel6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel6.BackgroundImage")));
+            this.bunifuGradientPanel6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuGradientPanel6.Controls.Add(this.label52);
+            this.bunifuGradientPanel6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.bunifuGradientPanel6.GradientBottomLeft = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(101)))), ((int)(((byte)(186)))));
+            this.bunifuGradientPanel6.GradientBottomRight = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(152)))), ((int)(((byte)(163)))));
+            this.bunifuGradientPanel6.GradientTopLeft = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(152)))), ((int)(((byte)(163)))));
+            this.bunifuGradientPanel6.GradientTopRight = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(46)))));
+            this.bunifuGradientPanel6.Location = new System.Drawing.Point(0, 0);
+            this.bunifuGradientPanel6.Name = "bunifuGradientPanel6";
+            this.bunifuGradientPanel6.Quality = 10;
+            this.bunifuGradientPanel6.Size = new System.Drawing.Size(715, 64);
+            this.bunifuGradientPanel6.TabIndex = 15;
+            // 
+            // label52
+            // 
+            this.label52.AutoSize = true;
+            this.label52.BackColor = System.Drawing.Color.Transparent;
+            this.label52.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label52.ForeColor = System.Drawing.Color.White;
+            this.label52.Location = new System.Drawing.Point(223, 12);
+            this.label52.Name = "label52";
+            this.label52.Size = new System.Drawing.Size(257, 33);
+            this.label52.TabIndex = 7;
+            this.label52.Text = "HISTORIAL CLÍNICO";
+            this.label52.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // tabVer
             // 
@@ -689,6 +1788,7 @@
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(46)))));
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel3.Controls.Add(this.btnMostrarT);
             this.panel3.Controls.Add(this.btnSalir3);
             this.panel3.Controls.Add(this.bunifuFlatButton2);
             this.panel3.Controls.Add(this.dataGridPaciente);
@@ -920,6 +2020,45 @@
             this.label38.Size = new System.Drawing.Size(166, 19);
             this.label38.TabIndex = 18;
             this.label38.Text = "DATOS DEL PACIENTE";
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::Mockup.Properties.Resources.icons8_grupo_de_usuarios_hombre_y_mujer_100;
+            this.pictureBox3.Location = new System.Drawing.Point(27, 55);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(100, 100);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox3.TabIndex = 11;
+            this.pictureBox3.TabStop = false;
+            // 
+            // bunifuGradientPanel3
+            // 
+            this.bunifuGradientPanel3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel3.BackgroundImage")));
+            this.bunifuGradientPanel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuGradientPanel3.Controls.Add(this.label30);
+            this.bunifuGradientPanel3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.bunifuGradientPanel3.GradientBottomLeft = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(101)))), ((int)(((byte)(186)))));
+            this.bunifuGradientPanel3.GradientBottomRight = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(152)))), ((int)(((byte)(163)))));
+            this.bunifuGradientPanel3.GradientTopLeft = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(152)))), ((int)(((byte)(163)))));
+            this.bunifuGradientPanel3.GradientTopRight = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(46)))));
+            this.bunifuGradientPanel3.Location = new System.Drawing.Point(3, 3);
+            this.bunifuGradientPanel3.Name = "bunifuGradientPanel3";
+            this.bunifuGradientPanel3.Quality = 10;
+            this.bunifuGradientPanel3.Size = new System.Drawing.Size(709, 64);
+            this.bunifuGradientPanel3.TabIndex = 12;
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.BackColor = System.Drawing.Color.Transparent;
+            this.label30.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.ForeColor = System.Drawing.Color.White;
+            this.label30.Location = new System.Drawing.Point(284, 15);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(150, 33);
+            this.label30.TabIndex = 7;
+            this.label30.Text = "PACIENTES";
+            this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // tabModificar
             // 
@@ -1422,873 +2561,6 @@
             this.label29.TabIndex = 0;
             this.label29.Text = "NOMBRE (s)";
             // 
-            // btnSalir4
-            // 
-            this.btnSalir4.Activecolor = System.Drawing.Color.Maroon;
-            this.btnSalir4.BackColor = System.Drawing.Color.Maroon;
-            this.btnSalir4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnSalir4.BorderRadius = 0;
-            this.btnSalir4.ButtonText = "SALIR";
-            this.btnSalir4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSalir4.DisabledColor = System.Drawing.Color.Gray;
-            this.btnSalir4.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalir4.Iconcolor = System.Drawing.Color.Transparent;
-            this.btnSalir4.Iconimage = null;
-            this.btnSalir4.Iconimage_right = null;
-            this.btnSalir4.Iconimage_right_Selected = null;
-            this.btnSalir4.Iconimage_Selected = null;
-            this.btnSalir4.IconMarginLeft = 0;
-            this.btnSalir4.IconMarginRight = 0;
-            this.btnSalir4.IconRightVisible = false;
-            this.btnSalir4.IconRightZoom = 0D;
-            this.btnSalir4.IconVisible = false;
-            this.btnSalir4.IconZoom = 90D;
-            this.btnSalir4.IsTab = false;
-            this.btnSalir4.Location = new System.Drawing.Point(11, 237);
-            this.btnSalir4.Margin = new System.Windows.Forms.Padding(5);
-            this.btnSalir4.Name = "btnSalir4";
-            this.btnSalir4.Normalcolor = System.Drawing.Color.Maroon;
-            this.btnSalir4.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.btnSalir4.OnHoverTextColor = System.Drawing.Color.White;
-            this.btnSalir4.selected = false;
-            this.btnSalir4.Size = new System.Drawing.Size(113, 46);
-            this.btnSalir4.TabIndex = 42;
-            this.btnSalir4.Text = "SALIR";
-            this.btnSalir4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnSalir4.Textcolor = System.Drawing.Color.White;
-            this.btnSalir4.TextFont = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // btnActualizar
-            // 
-            this.btnActualizar.Activecolor = System.Drawing.Color.LightSeaGreen;
-            this.btnActualizar.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.btnActualizar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnActualizar.BorderRadius = 0;
-            this.btnActualizar.ButtonText = "ACTUALIZAR";
-            this.btnActualizar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnActualizar.DisabledColor = System.Drawing.Color.Gray;
-            this.btnActualizar.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnActualizar.Iconcolor = System.Drawing.Color.Transparent;
-            this.btnActualizar.Iconimage = null;
-            this.btnActualizar.Iconimage_right = null;
-            this.btnActualizar.Iconimage_right_Selected = null;
-            this.btnActualizar.Iconimage_Selected = null;
-            this.btnActualizar.IconMarginLeft = 0;
-            this.btnActualizar.IconMarginRight = 0;
-            this.btnActualizar.IconRightVisible = false;
-            this.btnActualizar.IconRightZoom = 0D;
-            this.btnActualizar.IconVisible = false;
-            this.btnActualizar.IconZoom = 90D;
-            this.btnActualizar.IsTab = false;
-            this.btnActualizar.Location = new System.Drawing.Point(11, 173);
-            this.btnActualizar.Margin = new System.Windows.Forms.Padding(5);
-            this.btnActualizar.Name = "btnActualizar";
-            this.btnActualizar.Normalcolor = System.Drawing.Color.LightSeaGreen;
-            this.btnActualizar.OnHovercolor = System.Drawing.Color.Teal;
-            this.btnActualizar.OnHoverTextColor = System.Drawing.Color.White;
-            this.btnActualizar.selected = false;
-            this.btnActualizar.Size = new System.Drawing.Size(113, 46);
-            this.btnActualizar.TabIndex = 41;
-            this.btnActualizar.Text = "ACTUALIZAR";
-            this.btnActualizar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnActualizar.Textcolor = System.Drawing.Color.White;
-            this.btnActualizar.TextFont = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnActualizar.Click += new System.EventHandler(this.btnActualizar_Click);
-            // 
-            // label45
-            // 
-            this.label45.AutoSize = true;
-            this.label45.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label45.ForeColor = System.Drawing.Color.White;
-            this.label45.Location = new System.Drawing.Point(359, 36);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(175, 19);
-            this.label45.TabIndex = 2;
-            this.label45.Text = "FECHA PRÓXIMA CITA";
-            // 
-            // label47
-            // 
-            this.label47.AutoSize = true;
-            this.label47.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label47.ForeColor = System.Drawing.Color.White;
-            this.label47.Location = new System.Drawing.Point(183, 36);
-            this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(145, 19);
-            this.label47.TabIndex = 0;
-            this.label47.Text = "FECHA DE LA CITA";
-            // 
-            // textBoxFecha1E
-            // 
-            this.textBoxFecha1E.Enabled = false;
-            this.textBoxFecha1E.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxFecha1E.Location = new System.Drawing.Point(187, 70);
-            this.textBoxFecha1E.Name = "textBoxFecha1E";
-            this.textBoxFecha1E.Size = new System.Drawing.Size(141, 27);
-            this.textBoxFecha1E.TabIndex = 4;
-            this.textBoxFecha1E.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBoxIdE
-            // 
-            this.textBoxIdE.Font = new System.Drawing.Font("Century Gothic", 12F);
-            this.textBoxIdE.Location = new System.Drawing.Point(18, 70);
-            this.textBoxIdE.Name = "textBoxIdE";
-            this.textBoxIdE.Size = new System.Drawing.Size(135, 27);
-            this.textBoxIdE.TabIndex = 35;
-            this.textBoxIdE.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.ForeColor = System.Drawing.Color.White;
-            this.label33.Location = new System.Drawing.Point(14, 36);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(130, 19);
-            this.label33.TabIndex = 37;
-            this.label33.Text = "ID DEL PACIENTE";
-            // 
-            // btnFirma
-            // 
-            this.btnFirma.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.btnFirma.BackColor = System.Drawing.Color.Purple;
-            this.btnFirma.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnFirma.BorderRadius = 0;
-            this.btnFirma.ButtonText = "AÑADIR FIRMA DEL PACIENTE";
-            this.btnFirma.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnFirma.DisabledColor = System.Drawing.Color.Gray;
-            this.btnFirma.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFirma.Iconcolor = System.Drawing.Color.Transparent;
-            this.btnFirma.Iconimage = null;
-            this.btnFirma.Iconimage_right = null;
-            this.btnFirma.Iconimage_right_Selected = null;
-            this.btnFirma.Iconimage_Selected = null;
-            this.btnFirma.IconMarginLeft = 0;
-            this.btnFirma.IconMarginRight = 0;
-            this.btnFirma.IconRightVisible = false;
-            this.btnFirma.IconRightZoom = 0D;
-            this.btnFirma.IconVisible = false;
-            this.btnFirma.IconZoom = 90D;
-            this.btnFirma.IsTab = false;
-            this.btnFirma.Location = new System.Drawing.Point(18, 263);
-            this.btnFirma.Margin = new System.Windows.Forms.Padding(5);
-            this.btnFirma.Name = "btnFirma";
-            this.btnFirma.Normalcolor = System.Drawing.Color.Purple;
-            this.btnFirma.OnHovercolor = System.Drawing.Color.DarkViolet;
-            this.btnFirma.OnHoverTextColor = System.Drawing.Color.White;
-            this.btnFirma.selected = false;
-            this.btnFirma.Size = new System.Drawing.Size(135, 46);
-            this.btnFirma.TabIndex = 37;
-            this.btnFirma.Text = "AÑADIR FIRMA DEL PACIENTE";
-            this.btnFirma.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnFirma.Textcolor = System.Drawing.Color.White;
-            this.btnFirma.TextFont = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFirma.Click += new System.EventHandler(this.btnFirma_Click);
-            // 
-            // textBoxFecha2E
-            // 
-            this.textBoxFecha2E.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxFecha2E.Location = new System.Drawing.Point(363, 70);
-            this.textBoxFecha2E.Name = "textBoxFecha2E";
-            this.textBoxFecha2E.Size = new System.Drawing.Size(141, 27);
-            this.textBoxFecha2E.TabIndex = 39;
-            this.textBoxFecha2E.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBoxDE
-            // 
-            this.textBoxDE.Location = new System.Drawing.Point(187, 144);
-            this.textBoxDE.Name = "textBoxDE";
-            this.textBoxDE.Size = new System.Drawing.Size(351, 50);
-            this.textBoxDE.TabIndex = 40;
-            this.textBoxDE.Text = "";
-            // 
-            // label34
-            // 
-            this.label34.AutoSize = true;
-            this.label34.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label34.ForeColor = System.Drawing.Color.White;
-            this.label34.Location = new System.Drawing.Point(183, 122);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(111, 19);
-            this.label34.TabIndex = 41;
-            this.label34.Text = "DESCRIPCIÓN";
-            // 
-            // label35
-            // 
-            this.label35.AutoSize = true;
-            this.label35.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label35.ForeColor = System.Drawing.Color.White;
-            this.label35.Location = new System.Drawing.Point(183, 224);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(121, 19);
-            this.label35.TabIndex = 42;
-            this.label35.Text = "COMENTARIOS";
-            // 
-            // textBoxCE
-            // 
-            this.textBoxCE.Location = new System.Drawing.Point(187, 259);
-            this.textBoxCE.Name = "textBoxCE";
-            this.textBoxCE.Size = new System.Drawing.Size(351, 50);
-            this.textBoxCE.TabIndex = 43;
-            this.textBoxCE.Text = "";
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.pictureBoxFirma);
-            this.groupBox2.Controls.Add(this.textBoxCE);
-            this.groupBox2.Controls.Add(this.label35);
-            this.groupBox2.Controls.Add(this.label34);
-            this.groupBox2.Controls.Add(this.textBoxDE);
-            this.groupBox2.Controls.Add(this.textBoxFecha2E);
-            this.groupBox2.Controls.Add(this.btnFirma);
-            this.groupBox2.Controls.Add(this.label33);
-            this.groupBox2.Controls.Add(this.textBoxIdE);
-            this.groupBox2.Controls.Add(this.textBoxFecha1E);
-            this.groupBox2.Controls.Add(this.label47);
-            this.groupBox2.Controls.Add(this.label45);
-            this.groupBox2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.groupBox2.Location = new System.Drawing.Point(132, 40);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(556, 352);
-            this.groupBox2.TabIndex = 39;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "AÑADIR NUEVA EVOLUCION DEL PACIENTE";
-            // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(46)))));
-            this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel5.Controls.Add(this.pictureBox2);
-            this.panel5.Controls.Add(this.groupBox3);
-            this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel5.Location = new System.Drawing.Point(3, 67);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(709, 436);
-            this.panel5.TabIndex = 14;
-            // 
-            // btnSalirT
-            // 
-            this.btnSalirT.Activecolor = System.Drawing.Color.Maroon;
-            this.btnSalirT.BackColor = System.Drawing.Color.Maroon;
-            this.btnSalirT.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnSalirT.BorderRadius = 0;
-            this.btnSalirT.ButtonText = "SALIR";
-            this.btnSalirT.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSalirT.DisabledColor = System.Drawing.Color.Gray;
-            this.btnSalirT.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalirT.Iconcolor = System.Drawing.Color.Transparent;
-            this.btnSalirT.Iconimage = null;
-            this.btnSalirT.Iconimage_right = null;
-            this.btnSalirT.Iconimage_right_Selected = null;
-            this.btnSalirT.Iconimage_Selected = null;
-            this.btnSalirT.IconMarginLeft = 0;
-            this.btnSalirT.IconMarginRight = 0;
-            this.btnSalirT.IconRightVisible = false;
-            this.btnSalirT.IconRightZoom = 0D;
-            this.btnSalirT.IconVisible = false;
-            this.btnSalirT.IconZoom = 90D;
-            this.btnSalirT.IsTab = false;
-            this.btnSalirT.Location = new System.Drawing.Point(408, 266);
-            this.btnSalirT.Margin = new System.Windows.Forms.Padding(5);
-            this.btnSalirT.Name = "btnSalirT";
-            this.btnSalirT.Normalcolor = System.Drawing.Color.Maroon;
-            this.btnSalirT.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.btnSalirT.OnHoverTextColor = System.Drawing.Color.White;
-            this.btnSalirT.selected = false;
-            this.btnSalirT.Size = new System.Drawing.Size(113, 46);
-            this.btnSalirT.TabIndex = 42;
-            this.btnSalirT.Text = "SALIR";
-            this.btnSalirT.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnSalirT.Textcolor = System.Drawing.Color.White;
-            this.btnSalirT.TextFont = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalirT.Click += new System.EventHandler(this.btnSalirT_Click);
-            // 
-            // btnAgregarT
-            // 
-            this.btnAgregarT.Activecolor = System.Drawing.Color.LightSeaGreen;
-            this.btnAgregarT.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.btnAgregarT.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnAgregarT.BorderRadius = 0;
-            this.btnAgregarT.ButtonText = "AGREGAR";
-            this.btnAgregarT.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnAgregarT.DisabledColor = System.Drawing.Color.Gray;
-            this.btnAgregarT.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAgregarT.Iconcolor = System.Drawing.Color.Transparent;
-            this.btnAgregarT.Iconimage = null;
-            this.btnAgregarT.Iconimage_right = null;
-            this.btnAgregarT.Iconimage_right_Selected = null;
-            this.btnAgregarT.Iconimage_Selected = null;
-            this.btnAgregarT.IconMarginLeft = 0;
-            this.btnAgregarT.IconMarginRight = 0;
-            this.btnAgregarT.IconRightVisible = false;
-            this.btnAgregarT.IconRightZoom = 0D;
-            this.btnAgregarT.IconVisible = false;
-            this.btnAgregarT.IconZoom = 90D;
-            this.btnAgregarT.IsTab = false;
-            this.btnAgregarT.Location = new System.Drawing.Point(408, 205);
-            this.btnAgregarT.Margin = new System.Windows.Forms.Padding(5);
-            this.btnAgregarT.Name = "btnAgregarT";
-            this.btnAgregarT.Normalcolor = System.Drawing.Color.LightSeaGreen;
-            this.btnAgregarT.OnHovercolor = System.Drawing.Color.Teal;
-            this.btnAgregarT.OnHoverTextColor = System.Drawing.Color.White;
-            this.btnAgregarT.selected = false;
-            this.btnAgregarT.Size = new System.Drawing.Size(113, 46);
-            this.btnAgregarT.TabIndex = 41;
-            this.btnAgregarT.Text = "AGREGAR";
-            this.btnAgregarT.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnAgregarT.Textcolor = System.Drawing.Color.White;
-            this.btnAgregarT.TextFont = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAgregarT.Click += new System.EventHandler(this.btnAgregarT_Click);
-            // 
-            // groupBox3
-            // 
-            this.groupBox3.Controls.Add(this.btnSalirT);
-            this.groupBox3.Controls.Add(this.pictureBox6);
-            this.groupBox3.Controls.Add(this.btnAgregarT);
-            this.groupBox3.Controls.Add(this.pictureBox5);
-            this.groupBox3.Controls.Add(this.textBoxIdMT);
-            this.groupBox3.Controls.Add(this.textBoxIdT);
-            this.groupBox3.Controls.Add(this.label42);
-            this.groupBox3.Controls.Add(this.label37);
-            this.groupBox3.Controls.Add(this.textBoxCostoT);
-            this.groupBox3.Controls.Add(this.label43);
-            this.groupBox3.Controls.Add(this.label39);
-            this.groupBox3.Controls.Add(this.textBoxDT);
-            this.groupBox3.Controls.Add(this.textBoxPrecioT);
-            this.groupBox3.Controls.Add(this.label40);
-            this.groupBox3.Controls.Add(this.textBoxNombreT);
-            this.groupBox3.Controls.Add(this.label41);
-            this.groupBox3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.groupBox3.Location = new System.Drawing.Point(26, 49);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(550, 352);
-            this.groupBox3.TabIndex = 39;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "AÑADIR TRATAMIENTO PARA EL PACIENTE";
-            // 
-            // label39
-            // 
-            this.label39.AutoSize = true;
-            this.label39.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label39.ForeColor = System.Drawing.Color.White;
-            this.label39.Location = new System.Drawing.Point(24, 113);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(111, 19);
-            this.label39.TabIndex = 41;
-            this.label39.Text = "DESCRIPCIÓN";
-            // 
-            // textBoxDT
-            // 
-            this.textBoxDT.Location = new System.Drawing.Point(18, 145);
-            this.textBoxDT.Name = "textBoxDT";
-            this.textBoxDT.Size = new System.Drawing.Size(326, 50);
-            this.textBoxDT.TabIndex = 40;
-            this.textBoxDT.Text = "";
-            // 
-            // textBoxPrecioT
-            // 
-            this.textBoxPrecioT.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxPrecioT.Location = new System.Drawing.Point(28, 266);
-            this.textBoxPrecioT.Name = "textBoxPrecioT";
-            this.textBoxPrecioT.Size = new System.Drawing.Size(107, 27);
-            this.textBoxPrecioT.TabIndex = 39;
-            this.textBoxPrecioT.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label40
-            // 
-            this.label40.AutoSize = true;
-            this.label40.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label40.ForeColor = System.Drawing.Color.White;
-            this.label40.Location = new System.Drawing.Point(14, 36);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(213, 19);
-            this.label40.TabIndex = 37;
-            this.label40.Text = "NOMBRE DEL TRATAMIENTO";
-            // 
-            // textBoxNombreT
-            // 
-            this.textBoxNombreT.Font = new System.Drawing.Font("Century Gothic", 12F);
-            this.textBoxNombreT.Location = new System.Drawing.Point(18, 70);
-            this.textBoxNombreT.Name = "textBoxNombreT";
-            this.textBoxNombreT.Size = new System.Drawing.Size(326, 27);
-            this.textBoxNombreT.TabIndex = 35;
-            this.textBoxNombreT.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label41
-            // 
-            this.label41.AutoSize = true;
-            this.label41.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label41.ForeColor = System.Drawing.Color.White;
-            this.label41.Location = new System.Drawing.Point(24, 232);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(89, 19);
-            this.label41.TabIndex = 0;
-            this.label41.Text = "PRECIO ($)";
-            // 
-            // label43
-            // 
-            this.label43.AutoSize = true;
-            this.label43.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label43.ForeColor = System.Drawing.Color.White;
-            this.label43.Location = new System.Drawing.Point(208, 232);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(87, 19);
-            this.label43.TabIndex = 44;
-            this.label43.Text = "COSTO ($)";
-            // 
-            // textBoxCostoT
-            // 
-            this.textBoxCostoT.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxCostoT.Location = new System.Drawing.Point(212, 266);
-            this.textBoxCostoT.Name = "textBoxCostoT";
-            this.textBoxCostoT.Size = new System.Drawing.Size(107, 27);
-            this.textBoxCostoT.TabIndex = 45;
-            this.textBoxCostoT.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label37
-            // 
-            this.label37.AutoSize = true;
-            this.label37.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label37.ForeColor = System.Drawing.Color.White;
-            this.label37.Location = new System.Drawing.Point(404, 36);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(130, 19);
-            this.label37.TabIndex = 46;
-            this.label37.Text = "ID DEL PACIENTE";
-            // 
-            // label42
-            // 
-            this.label42.AutoSize = true;
-            this.label42.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label42.ForeColor = System.Drawing.Color.White;
-            this.label42.Location = new System.Drawing.Point(404, 113);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(120, 19);
-            this.label42.TabIndex = 47;
-            this.label42.Text = "ID DEL MÉDICO";
-            // 
-            // textBoxIdT
-            // 
-            this.textBoxIdT.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxIdT.Location = new System.Drawing.Point(408, 70);
-            this.textBoxIdT.Name = "textBoxIdT";
-            this.textBoxIdT.Size = new System.Drawing.Size(113, 27);
-            this.textBoxIdT.TabIndex = 48;
-            this.textBoxIdT.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBoxIdMT
-            // 
-            this.textBoxIdMT.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxIdMT.Location = new System.Drawing.Point(408, 145);
-            this.textBoxIdMT.Name = "textBoxIdMT";
-            this.textBoxIdMT.Size = new System.Drawing.Size(113, 27);
-            this.textBoxIdMT.TabIndex = 49;
-            this.textBoxIdMT.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // tabHistorial
-            // 
-            this.tabHistorial.Controls.Add(this.panel6);
-            this.tabHistorial.Controls.Add(this.bunifuGradientPanel6);
-            this.tabHistorial.Location = new System.Drawing.Point(4, 25);
-            this.tabHistorial.Name = "tabHistorial";
-            this.tabHistorial.Size = new System.Drawing.Size(715, 506);
-            this.tabHistorial.TabIndex = 5;
-            this.tabHistorial.Text = "Historial Clínico";
-            this.tabHistorial.UseVisualStyleBackColor = true;
-            // 
-            // panel6
-            // 
-            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(46)))));
-            this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel6.Controls.Add(this.groupBox4);
-            this.panel6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel6.Location = new System.Drawing.Point(0, 64);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(715, 442);
-            this.panel6.TabIndex = 16;
-            // 
-            // groupBox4
-            // 
-            this.groupBox4.Controls.Add(this.comboBox11);
-            this.groupBox4.Controls.Add(this.label60);
-            this.groupBox4.Controls.Add(this.comboBox10);
-            this.groupBox4.Controls.Add(this.label59);
-            this.groupBox4.Controls.Add(this.comboBox9);
-            this.groupBox4.Controls.Add(this.label58);
-            this.groupBox4.Controls.Add(this.comboBox8);
-            this.groupBox4.Controls.Add(this.label57);
-            this.groupBox4.Controls.Add(this.bunifuSeparator4);
-            this.groupBox4.Controls.Add(this.label50);
-            this.groupBox4.Controls.Add(this.comboBox7);
-            this.groupBox4.Controls.Add(this.label56);
-            this.groupBox4.Controls.Add(this.comboBox6);
-            this.groupBox4.Controls.Add(this.label55);
-            this.groupBox4.Controls.Add(this.comboBox5);
-            this.groupBox4.Controls.Add(this.label48);
-            this.groupBox4.Controls.Add(this.comboBox4);
-            this.groupBox4.Controls.Add(this.label44);
-            this.groupBox4.Controls.Add(this.comboBox3);
-            this.groupBox4.Controls.Add(this.label54);
-            this.groupBox4.Controls.Add(this.comboBox2);
-            this.groupBox4.Controls.Add(this.comboBox1);
-            this.groupBox4.Controls.Add(this.bunifuSeparator1);
-            this.groupBox4.Controls.Add(this.label53);
-            this.groupBox4.Controls.Add(this.pictureBox10);
-            this.groupBox4.Controls.Add(this.btnSalirH);
-            this.groupBox4.Controls.Add(this.btnAgregarH);
-            this.groupBox4.Controls.Add(this.textBox2);
-            this.groupBox4.Controls.Add(this.label46);
-            this.groupBox4.Controls.Add(this.label49);
-            this.groupBox4.Controls.Add(this.label51);
-            this.groupBox4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox4.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.groupBox4.Location = new System.Drawing.Point(22, 5);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(668, 428);
-            this.groupBox4.TabIndex = 39;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "AÑADIR ANTECEDENTES DEL PACIENTE";
-            // 
-            // btnSalirH
-            // 
-            this.btnSalirH.Activecolor = System.Drawing.Color.Maroon;
-            this.btnSalirH.BackColor = System.Drawing.Color.Maroon;
-            this.btnSalirH.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnSalirH.BorderRadius = 0;
-            this.btnSalirH.ButtonText = "SALIR";
-            this.btnSalirH.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSalirH.DisabledColor = System.Drawing.Color.Gray;
-            this.btnSalirH.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalirH.Iconcolor = System.Drawing.Color.Transparent;
-            this.btnSalirH.Iconimage = null;
-            this.btnSalirH.Iconimage_right = null;
-            this.btnSalirH.Iconimage_right_Selected = null;
-            this.btnSalirH.Iconimage_Selected = null;
-            this.btnSalirH.IconMarginLeft = 0;
-            this.btnSalirH.IconMarginRight = 0;
-            this.btnSalirH.IconRightVisible = false;
-            this.btnSalirH.IconRightZoom = 0D;
-            this.btnSalirH.IconVisible = false;
-            this.btnSalirH.IconZoom = 90D;
-            this.btnSalirH.IsTab = false;
-            this.btnSalirH.Location = new System.Drawing.Point(540, 48);
-            this.btnSalirH.Margin = new System.Windows.Forms.Padding(5);
-            this.btnSalirH.Name = "btnSalirH";
-            this.btnSalirH.Normalcolor = System.Drawing.Color.Maroon;
-            this.btnSalirH.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.btnSalirH.OnHoverTextColor = System.Drawing.Color.White;
-            this.btnSalirH.selected = false;
-            this.btnSalirH.Size = new System.Drawing.Size(113, 46);
-            this.btnSalirH.TabIndex = 42;
-            this.btnSalirH.Text = "SALIR";
-            this.btnSalirH.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnSalirH.Textcolor = System.Drawing.Color.White;
-            this.btnSalirH.TextFont = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // btnAgregarH
-            // 
-            this.btnAgregarH.Activecolor = System.Drawing.Color.LightSeaGreen;
-            this.btnAgregarH.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.btnAgregarH.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnAgregarH.BorderRadius = 0;
-            this.btnAgregarH.ButtonText = "AGREGAR";
-            this.btnAgregarH.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnAgregarH.DisabledColor = System.Drawing.Color.Gray;
-            this.btnAgregarH.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAgregarH.Iconcolor = System.Drawing.Color.Transparent;
-            this.btnAgregarH.Iconimage = null;
-            this.btnAgregarH.Iconimage_right = null;
-            this.btnAgregarH.Iconimage_right_Selected = null;
-            this.btnAgregarH.Iconimage_Selected = null;
-            this.btnAgregarH.IconMarginLeft = 0;
-            this.btnAgregarH.IconMarginRight = 0;
-            this.btnAgregarH.IconRightVisible = false;
-            this.btnAgregarH.IconRightZoom = 0D;
-            this.btnAgregarH.IconVisible = false;
-            this.btnAgregarH.IconZoom = 90D;
-            this.btnAgregarH.IsTab = false;
-            this.btnAgregarH.Location = new System.Drawing.Point(402, 48);
-            this.btnAgregarH.Margin = new System.Windows.Forms.Padding(5);
-            this.btnAgregarH.Name = "btnAgregarH";
-            this.btnAgregarH.Normalcolor = System.Drawing.Color.LightSeaGreen;
-            this.btnAgregarH.OnHovercolor = System.Drawing.Color.Teal;
-            this.btnAgregarH.OnHoverTextColor = System.Drawing.Color.White;
-            this.btnAgregarH.selected = false;
-            this.btnAgregarH.Size = new System.Drawing.Size(113, 46);
-            this.btnAgregarH.TabIndex = 41;
-            this.btnAgregarH.Text = "AGREGAR";
-            this.btnAgregarH.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnAgregarH.Textcolor = System.Drawing.Color.White;
-            this.btnAgregarH.TextFont = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // textBox2
-            // 
-            this.textBox2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(254, 67);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(126, 27);
-            this.textBox2.TabIndex = 48;
-            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label46
-            // 
-            this.label46.AutoSize = true;
-            this.label46.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label46.ForeColor = System.Drawing.Color.White;
-            this.label46.Location = new System.Drawing.Point(250, 36);
-            this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(130, 19);
-            this.label46.TabIndex = 46;
-            this.label46.Text = "ID DEL PACIENTE";
-            // 
-            // label49
-            // 
-            this.label49.AutoSize = true;
-            this.label49.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label49.ForeColor = System.Drawing.Color.White;
-            this.label49.Location = new System.Drawing.Point(23, 155);
-            this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(114, 19);
-            this.label49.TabIndex = 41;
-            this.label49.Text = "HIPERTENSIÓN";
-            // 
-            // label51
-            // 
-            this.label51.AutoSize = true;
-            this.label51.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label51.ForeColor = System.Drawing.Color.White;
-            this.label51.Location = new System.Drawing.Point(182, 155);
-            this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(55, 19);
-            this.label51.TabIndex = 0;
-            this.label51.Text = "ASMA";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Mockup.Properties.Resources.icons8_grupo_de_usuarios_hombre_y_mujer_100;
-            this.pictureBox1.Location = new System.Drawing.Point(569, 99);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 100);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox1.TabIndex = 11;
-            this.pictureBox1.TabStop = false;
-            // 
-            // bunifuGradientPanel2
-            // 
-            this.bunifuGradientPanel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel2.BackgroundImage")));
-            this.bunifuGradientPanel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuGradientPanel2.Controls.Add(this.label15);
-            this.bunifuGradientPanel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.bunifuGradientPanel2.GradientBottomLeft = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(101)))), ((int)(((byte)(186)))));
-            this.bunifuGradientPanel2.GradientBottomRight = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(152)))), ((int)(((byte)(163)))));
-            this.bunifuGradientPanel2.GradientTopLeft = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(152)))), ((int)(((byte)(163)))));
-            this.bunifuGradientPanel2.GradientTopRight = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(46)))));
-            this.bunifuGradientPanel2.Location = new System.Drawing.Point(3, 3);
-            this.bunifuGradientPanel2.Name = "bunifuGradientPanel2";
-            this.bunifuGradientPanel2.Quality = 10;
-            this.bunifuGradientPanel2.Size = new System.Drawing.Size(709, 64);
-            this.bunifuGradientPanel2.TabIndex = 11;
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.BackColor = System.Drawing.Color.Transparent;
-            this.label15.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.ForeColor = System.Drawing.Color.White;
-            this.label15.Location = new System.Drawing.Point(284, 12);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(137, 33);
-            this.label15.TabIndex = 7;
-            this.label15.Text = "PACIENTE";
-            this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::Mockup.Properties.Resources.icons8_accesibilidad_2_100;
-            this.pictureBox4.Location = new System.Drawing.Point(11, 49);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(113, 88);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 40;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBoxFirma
-            // 
-            this.pictureBoxFirma.Image = global::Mockup.Properties.Resources.icons8_autógrafo_100;
-            this.pictureBoxFirma.Location = new System.Drawing.Point(18, 110);
-            this.pictureBoxFirma.Name = "pictureBoxFirma";
-            this.pictureBoxFirma.Size = new System.Drawing.Size(135, 133);
-            this.pictureBoxFirma.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBoxFirma.TabIndex = 11;
-            this.pictureBoxFirma.TabStop = false;
-            // 
-            // bunifuGradientPanel4
-            // 
-            this.bunifuGradientPanel4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel4.BackgroundImage")));
-            this.bunifuGradientPanel4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuGradientPanel4.Controls.Add(this.label32);
-            this.bunifuGradientPanel4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.bunifuGradientPanel4.GradientBottomLeft = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(101)))), ((int)(((byte)(186)))));
-            this.bunifuGradientPanel4.GradientBottomRight = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(152)))), ((int)(((byte)(163)))));
-            this.bunifuGradientPanel4.GradientTopLeft = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(152)))), ((int)(((byte)(163)))));
-            this.bunifuGradientPanel4.GradientTopRight = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(46)))));
-            this.bunifuGradientPanel4.Location = new System.Drawing.Point(3, 3);
-            this.bunifuGradientPanel4.Name = "bunifuGradientPanel4";
-            this.bunifuGradientPanel4.Quality = 10;
-            this.bunifuGradientPanel4.Size = new System.Drawing.Size(709, 64);
-            this.bunifuGradientPanel4.TabIndex = 12;
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.BackColor = System.Drawing.Color.Transparent;
-            this.label32.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.ForeColor = System.Drawing.Color.White;
-            this.label32.Location = new System.Drawing.Point(264, 10);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(171, 33);
-            this.label32.TabIndex = 7;
-            this.label32.Text = "EVOLUCIÓN";
-            this.label32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::Mockup.Properties.Resources.icons8_plan_de_tratamiento_100;
-            this.pictureBox2.Location = new System.Drawing.Point(582, 162);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(113, 88);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 40;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = global::Mockup.Properties.Resources.icons8_reembolso_50;
-            this.pictureBox6.Location = new System.Drawing.Point(336, 243);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox6.TabIndex = 51;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::Mockup.Properties.Resources.icons8_billetes_50;
-            this.pictureBox5.Location = new System.Drawing.Point(141, 243);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox5.TabIndex = 50;
-            this.pictureBox5.TabStop = false;
-            // 
-            // bunifuGradientPanel5
-            // 
-            this.bunifuGradientPanel5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel5.BackgroundImage")));
-            this.bunifuGradientPanel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuGradientPanel5.Controls.Add(this.label36);
-            this.bunifuGradientPanel5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.bunifuGradientPanel5.GradientBottomLeft = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(101)))), ((int)(((byte)(186)))));
-            this.bunifuGradientPanel5.GradientBottomRight = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(152)))), ((int)(((byte)(163)))));
-            this.bunifuGradientPanel5.GradientTopLeft = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(152)))), ((int)(((byte)(163)))));
-            this.bunifuGradientPanel5.GradientTopRight = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(46)))));
-            this.bunifuGradientPanel5.Location = new System.Drawing.Point(3, 3);
-            this.bunifuGradientPanel5.Name = "bunifuGradientPanel5";
-            this.bunifuGradientPanel5.Quality = 10;
-            this.bunifuGradientPanel5.Size = new System.Drawing.Size(709, 64);
-            this.bunifuGradientPanel5.TabIndex = 13;
-            // 
-            // label36
-            // 
-            this.label36.AutoSize = true;
-            this.label36.BackColor = System.Drawing.Color.Transparent;
-            this.label36.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label36.ForeColor = System.Drawing.Color.White;
-            this.label36.Location = new System.Drawing.Point(250, 11);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(190, 33);
-            this.label36.TabIndex = 7;
-            this.label36.Text = "TRATAMIENTO";
-            this.label36.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // pictureBox10
-            // 
-            this.pictureBox10.Image = global::Mockup.Properties.Resources.historial_clinico;
-            this.pictureBox10.Location = new System.Drawing.Point(23, 26);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(214, 105);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox10.TabIndex = 41;
-            this.pictureBox10.TabStop = false;
-            // 
-            // bunifuGradientPanel6
-            // 
-            this.bunifuGradientPanel6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel6.BackgroundImage")));
-            this.bunifuGradientPanel6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuGradientPanel6.Controls.Add(this.label52);
-            this.bunifuGradientPanel6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.bunifuGradientPanel6.GradientBottomLeft = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(101)))), ((int)(((byte)(186)))));
-            this.bunifuGradientPanel6.GradientBottomRight = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(152)))), ((int)(((byte)(163)))));
-            this.bunifuGradientPanel6.GradientTopLeft = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(152)))), ((int)(((byte)(163)))));
-            this.bunifuGradientPanel6.GradientTopRight = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(46)))));
-            this.bunifuGradientPanel6.Location = new System.Drawing.Point(0, 0);
-            this.bunifuGradientPanel6.Name = "bunifuGradientPanel6";
-            this.bunifuGradientPanel6.Quality = 10;
-            this.bunifuGradientPanel6.Size = new System.Drawing.Size(715, 64);
-            this.bunifuGradientPanel6.TabIndex = 15;
-            // 
-            // label52
-            // 
-            this.label52.AutoSize = true;
-            this.label52.BackColor = System.Drawing.Color.Transparent;
-            this.label52.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label52.ForeColor = System.Drawing.Color.White;
-            this.label52.Location = new System.Drawing.Point(223, 12);
-            this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(257, 33);
-            this.label52.TabIndex = 7;
-            this.label52.Text = "HISTORIAL CLÍNICO";
-            this.label52.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::Mockup.Properties.Resources.icons8_grupo_de_usuarios_hombre_y_mujer_100;
-            this.pictureBox3.Location = new System.Drawing.Point(27, 55);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(100, 100);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox3.TabIndex = 11;
-            this.pictureBox3.TabStop = false;
-            // 
-            // bunifuGradientPanel3
-            // 
-            this.bunifuGradientPanel3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel3.BackgroundImage")));
-            this.bunifuGradientPanel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuGradientPanel3.Controls.Add(this.label30);
-            this.bunifuGradientPanel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.bunifuGradientPanel3.GradientBottomLeft = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(101)))), ((int)(((byte)(186)))));
-            this.bunifuGradientPanel3.GradientBottomRight = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(152)))), ((int)(((byte)(163)))));
-            this.bunifuGradientPanel3.GradientTopLeft = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(152)))), ((int)(((byte)(163)))));
-            this.bunifuGradientPanel3.GradientTopRight = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(46)))));
-            this.bunifuGradientPanel3.Location = new System.Drawing.Point(3, 3);
-            this.bunifuGradientPanel3.Name = "bunifuGradientPanel3";
-            this.bunifuGradientPanel3.Quality = 10;
-            this.bunifuGradientPanel3.Size = new System.Drawing.Size(709, 64);
-            this.bunifuGradientPanel3.TabIndex = 12;
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.BackColor = System.Drawing.Color.Transparent;
-            this.label30.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.ForeColor = System.Drawing.Color.White;
-            this.label30.Location = new System.Drawing.Point(284, 15);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(150, 33);
-            this.label30.TabIndex = 7;
-            this.label30.Text = "PACIENTES";
-            this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // bunifuGradientPanel1
             // 
             this.bunifuGradientPanel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel1.BackgroundImage")));
@@ -2318,275 +2590,41 @@
             this.label1.Text = "PACIENTE";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // bunifuSeparator1
+            // btnMostrarT
             // 
-            this.bunifuSeparator1.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuSeparator1.ForeColor = System.Drawing.Color.Navy;
-            this.bunifuSeparator1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.bunifuSeparator1.LineThickness = 2;
-            this.bunifuSeparator1.Location = new System.Drawing.Point(25, 139);
-            this.bunifuSeparator1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.bunifuSeparator1.Name = "bunifuSeparator1";
-            this.bunifuSeparator1.Size = new System.Drawing.Size(623, 10);
-            this.bunifuSeparator1.TabIndex = 53;
-            this.bunifuSeparator1.Transparency = 255;
-            this.bunifuSeparator1.Vertical = false;
-            // 
-            // label53
-            // 
-            this.label53.AutoSize = true;
-            this.label53.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label53.ForeColor = System.Drawing.Color.LightGray;
-            this.label53.Location = new System.Drawing.Point(250, 112);
-            this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(221, 19);
-            this.label53.TabIndex = 52;
-            this.label53.Text = "¿USTED HA TENIDO O TIENE?:";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "SI",
-            "NO"});
-            this.comboBox1.Location = new System.Drawing.Point(25, 177);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(107, 29);
-            this.comboBox1.TabIndex = 54;
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
-            "SI",
-            "NO"});
-            this.comboBox2.Location = new System.Drawing.Point(186, 177);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(107, 29);
-            this.comboBox2.TabIndex = 55;
-            // 
-            // label54
-            // 
-            this.label54.AutoSize = true;
-            this.label54.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label54.ForeColor = System.Drawing.Color.White;
-            this.label54.Location = new System.Drawing.Point(330, 155);
-            this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(76, 19);
-            this.label54.TabIndex = 56;
-            this.label54.Text = "DIABETES";
-            // 
-            // comboBox3
-            // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
-            "SI",
-            "NO"});
-            this.comboBox3.Location = new System.Drawing.Point(334, 177);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(107, 29);
-            this.comboBox3.TabIndex = 57;
-            // 
-            // label44
-            // 
-            this.label44.AutoSize = true;
-            this.label44.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label44.ForeColor = System.Drawing.Color.White;
-            this.label44.Location = new System.Drawing.Point(472, 155);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(74, 19);
-            this.label44.TabIndex = 58;
-            this.label44.Text = "CANCER";
-            // 
-            // comboBox4
-            // 
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Items.AddRange(new object[] {
-            "SI",
-            "NO"});
-            this.comboBox4.Location = new System.Drawing.Point(476, 177);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(107, 29);
-            this.comboBox4.TabIndex = 59;
-            // 
-            // label48
-            // 
-            this.label48.AutoSize = true;
-            this.label48.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label48.ForeColor = System.Drawing.Color.White;
-            this.label48.Location = new System.Drawing.Point(23, 225);
-            this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(87, 19);
-            this.label48.TabIndex = 60;
-            this.label48.Text = "ANSIEDAD";
-            // 
-            // comboBox5
-            // 
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Items.AddRange(new object[] {
-            "SI",
-            "NO"});
-            this.comboBox5.Location = new System.Drawing.Point(25, 247);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(107, 29);
-            this.comboBox5.TabIndex = 61;
-            // 
-            // label55
-            // 
-            this.label55.AutoSize = true;
-            this.label55.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label55.ForeColor = System.Drawing.Color.White;
-            this.label55.Location = new System.Drawing.Point(182, 225);
-            this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(91, 19);
-            this.label55.TabIndex = 62;
-            this.label55.Text = "DEPRESIÓN";
-            // 
-            // comboBox6
-            // 
-            this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Items.AddRange(new object[] {
-            "SI",
-            "NO"});
-            this.comboBox6.Location = new System.Drawing.Point(186, 247);
-            this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(107, 29);
-            this.comboBox6.TabIndex = 63;
-            // 
-            // label56
-            // 
-            this.label56.AutoSize = true;
-            this.label56.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label56.ForeColor = System.Drawing.Color.White;
-            this.label56.Location = new System.Drawing.Point(330, 225);
-            this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(71, 19);
-            this.label56.TabIndex = 64;
-            this.label56.Text = "ANEMIA";
-            // 
-            // comboBox7
-            // 
-            this.comboBox7.FormattingEnabled = true;
-            this.comboBox7.Items.AddRange(new object[] {
-            "SI",
-            "NO"});
-            this.comboBox7.Location = new System.Drawing.Point(334, 247);
-            this.comboBox7.Name = "comboBox7";
-            this.comboBox7.Size = new System.Drawing.Size(107, 29);
-            this.comboBox7.TabIndex = 65;
-            // 
-            // label50
-            // 
-            this.label50.AutoSize = true;
-            this.label50.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label50.ForeColor = System.Drawing.Color.LightGray;
-            this.label50.Location = new System.Drawing.Point(21, 294);
-            this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(316, 19);
-            this.label50.TabIndex = 66;
-            this.label50.Text = "¿USTED HA CONSUMIDO ACTUALMENTE?:";
-            // 
-            // bunifuSeparator4
-            // 
-            this.bunifuSeparator4.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuSeparator4.ForeColor = System.Drawing.Color.Navy;
-            this.bunifuSeparator4.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.bunifuSeparator4.LineThickness = 3;
-            this.bunifuSeparator4.Location = new System.Drawing.Point(25, 321);
-            this.bunifuSeparator4.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
-            this.bunifuSeparator4.Name = "bunifuSeparator4";
-            this.bunifuSeparator4.Size = new System.Drawing.Size(623, 10);
-            this.bunifuSeparator4.TabIndex = 67;
-            this.bunifuSeparator4.Transparency = 255;
-            this.bunifuSeparator4.Vertical = false;
-            // 
-            // label57
-            // 
-            this.label57.AutoSize = true;
-            this.label57.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label57.ForeColor = System.Drawing.Color.White;
-            this.label57.Location = new System.Drawing.Point(23, 339);
-            this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(74, 19);
-            this.label57.TabIndex = 68;
-            this.label57.Text = "TABACO";
-            // 
-            // comboBox8
-            // 
-            this.comboBox8.FormattingEnabled = true;
-            this.comboBox8.Items.AddRange(new object[] {
-            "SI",
-            "NO"});
-            this.comboBox8.Location = new System.Drawing.Point(25, 361);
-            this.comboBox8.Name = "comboBox8";
-            this.comboBox8.Size = new System.Drawing.Size(107, 29);
-            this.comboBox8.TabIndex = 69;
-            // 
-            // label58
-            // 
-            this.label58.AutoSize = true;
-            this.label58.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label58.ForeColor = System.Drawing.Color.White;
-            this.label58.Location = new System.Drawing.Point(182, 339);
-            this.label58.Name = "label58";
-            this.label58.Size = new System.Drawing.Size(84, 19);
-            this.label58.TabIndex = 70;
-            this.label58.Text = "ALCOHOL";
-            // 
-            // comboBox9
-            // 
-            this.comboBox9.FormattingEnabled = true;
-            this.comboBox9.Items.AddRange(new object[] {
-            "SI",
-            "NO"});
-            this.comboBox9.Location = new System.Drawing.Point(186, 361);
-            this.comboBox9.Name = "comboBox9";
-            this.comboBox9.Size = new System.Drawing.Size(107, 29);
-            this.comboBox9.TabIndex = 71;
-            // 
-            // label59
-            // 
-            this.label59.AutoSize = true;
-            this.label59.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label59.ForeColor = System.Drawing.Color.White;
-            this.label59.Location = new System.Drawing.Point(330, 339);
-            this.label59.Name = "label59";
-            this.label59.Size = new System.Drawing.Size(75, 19);
-            this.label59.TabIndex = 72;
-            this.label59.Text = "DROGAS";
-            // 
-            // comboBox10
-            // 
-            this.comboBox10.FormattingEnabled = true;
-            this.comboBox10.Items.AddRange(new object[] {
-            "SI",
-            "NO"});
-            this.comboBox10.Location = new System.Drawing.Point(334, 361);
-            this.comboBox10.Name = "comboBox10";
-            this.comboBox10.Size = new System.Drawing.Size(107, 29);
-            this.comboBox10.TabIndex = 73;
-            // 
-            // label60
-            // 
-            this.label60.AutoSize = true;
-            this.label60.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label60.ForeColor = System.Drawing.Color.White;
-            this.label60.Location = new System.Drawing.Point(472, 225);
-            this.label60.Name = "label60";
-            this.label60.Size = new System.Drawing.Size(77, 19);
-            this.label60.TabIndex = 74;
-            this.label60.Text = "VIH/SIDA";
-            // 
-            // comboBox11
-            // 
-            this.comboBox11.FormattingEnabled = true;
-            this.comboBox11.Items.AddRange(new object[] {
-            "SI",
-            "NO"});
-            this.comboBox11.Location = new System.Drawing.Point(476, 247);
-            this.comboBox11.Name = "comboBox11";
-            this.comboBox11.Size = new System.Drawing.Size(107, 29);
-            this.comboBox11.TabIndex = 75;
+            this.btnMostrarT.Activecolor = System.Drawing.Color.LightSeaGreen;
+            this.btnMostrarT.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.btnMostrarT.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnMostrarT.BorderRadius = 0;
+            this.btnMostrarT.ButtonText = "BUSCAR";
+            this.btnMostrarT.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMostrarT.DisabledColor = System.Drawing.Color.Gray;
+            this.btnMostrarT.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMostrarT.Iconcolor = System.Drawing.Color.Transparent;
+            this.btnMostrarT.Iconimage = null;
+            this.btnMostrarT.Iconimage_right = null;
+            this.btnMostrarT.Iconimage_right_Selected = null;
+            this.btnMostrarT.Iconimage_Selected = null;
+            this.btnMostrarT.IconMarginLeft = 0;
+            this.btnMostrarT.IconMarginRight = 0;
+            this.btnMostrarT.IconRightVisible = false;
+            this.btnMostrarT.IconRightZoom = 0D;
+            this.btnMostrarT.IconVisible = false;
+            this.btnMostrarT.IconZoom = 90D;
+            this.btnMostrarT.IsTab = false;
+            this.btnMostrarT.Location = new System.Drawing.Point(466, 132);
+            this.btnMostrarT.Margin = new System.Windows.Forms.Padding(5);
+            this.btnMostrarT.Name = "btnMostrarT";
+            this.btnMostrarT.Normalcolor = System.Drawing.Color.LightSeaGreen;
+            this.btnMostrarT.OnHovercolor = System.Drawing.Color.Teal;
+            this.btnMostrarT.OnHoverTextColor = System.Drawing.Color.White;
+            this.btnMostrarT.selected = false;
+            this.btnMostrarT.Size = new System.Drawing.Size(99, 32);
+            this.btnMostrarT.TabIndex = 43;
+            this.btnMostrarT.Text = "BUSCAR";
+            this.btnMostrarT.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnMostrarT.Textcolor = System.Drawing.Color.White;
+            this.btnMostrarT.TextFont = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
             // Paciente
             // 
@@ -2604,45 +2642,45 @@
             this.tabAgregar.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.bunifuGradientPanel2.ResumeLayout(false);
+            this.bunifuGradientPanel2.PerformLayout();
             this.tabEvolucion.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFirma)).EndInit();
+            this.bunifuGradientPanel4.ResumeLayout(false);
+            this.bunifuGradientPanel4.PerformLayout();
             this.tabTratamiento.ResumeLayout(false);
+            this.panel5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            this.bunifuGradientPanel5.ResumeLayout(false);
+            this.bunifuGradientPanel5.PerformLayout();
+            this.tabHistorial.ResumeLayout(false);
+            this.panel6.ResumeLayout(false);
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
+            this.bunifuGradientPanel6.ResumeLayout(false);
+            this.bunifuGradientPanel6.PerformLayout();
             this.tabVer.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridPaciente)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            this.bunifuGradientPanel3.ResumeLayout(false);
+            this.bunifuGradientPanel3.PerformLayout();
             this.tabModificar.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            this.panel5.ResumeLayout(false);
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
-            this.tabHistorial.ResumeLayout(false);
-            this.panel6.ResumeLayout(false);
-            this.groupBox4.ResumeLayout(false);
-            this.groupBox4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.bunifuGradientPanel2.ResumeLayout(false);
-            this.bunifuGradientPanel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFirma)).EndInit();
-            this.bunifuGradientPanel4.ResumeLayout(false);
-            this.bunifuGradientPanel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            this.bunifuGradientPanel5.ResumeLayout(false);
-            this.bunifuGradientPanel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            this.bunifuGradientPanel6.ResumeLayout(false);
-            this.bunifuGradientPanel6.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            this.bunifuGradientPanel3.ResumeLayout(false);
-            this.bunifuGradientPanel3.PerformLayout();
             this.bunifuGradientPanel1.ResumeLayout(false);
             this.bunifuGradientPanel1.PerformLayout();
             this.ResumeLayout(false);
@@ -2828,5 +2866,6 @@
         private System.Windows.Forms.ComboBox comboBox1;
         private Bunifu.Framework.UI.BunifuSeparator bunifuSeparator1;
         private System.Windows.Forms.Label label53;
+        private Bunifu.Framework.UI.BunifuFlatButton btnMostrarT;
     }
 }
