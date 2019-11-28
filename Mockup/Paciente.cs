@@ -301,7 +301,7 @@ namespace Mockup
 
         private void btnSalirT_Click(object sender, EventArgs e)
         {
-            btnSalir3.Enabled = false;
+            btnSalirT.Enabled = false;
             this.Close();
         }
 
@@ -427,6 +427,12 @@ namespace Mockup
         private void btnSalirH_Click(object sender, EventArgs e)
         {
             btnSalirH.Enabled = false;
+            this.Close();
+        }
+
+        private void btnSalir4_Click(object sender, EventArgs e)
+        {
+            btnSalir4.Enabled = false;
             this.Close();
         }
     }
