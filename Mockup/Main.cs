@@ -102,6 +102,10 @@ namespace Mockup
             c.Show();
         }
 
-
+        private void btnPagos_Click(object sender, EventArgs e)
+        {
+            Pago p = new Pago();
+            p.Show();
+        }
     }
 }
