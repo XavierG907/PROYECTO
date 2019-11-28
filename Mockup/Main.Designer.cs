@@ -52,7 +52,6 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.Portada = new System.Windows.Forms.PictureBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.bunifuFlatButton11 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.fecha = new System.Windows.Forms.Label();
             this.hora = new System.Windows.Forms.Label();
@@ -60,6 +59,7 @@
             this.curvaMenu = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.transicionMenu = new BunifuAnimatorNS.BunifuTransition(this.components);
             this.transicionMenu2 = new BunifuAnimatorNS.BunifuTransition(this.components);
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.restaurar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.maximizar)).BeginInit();
@@ -435,26 +435,13 @@
             this.transicionMenu.SetDecoration(this.Portada, BunifuAnimatorNS.DecorationType.None);
             this.transicionMenu2.SetDecoration(this.Portada, BunifuAnimatorNS.DecorationType.None);
             this.Portada.Image = ((System.Drawing.Image)(resources.GetObject("Portada.Image")));
-            this.Portada.InitialImage = ((System.Drawing.Image)(resources.GetObject("Portada.InitialImage")));
+            this.Portada.InitialImage = null;
             this.Portada.Location = new System.Drawing.Point(21, 72);
             this.Portada.Name = "Portada";
             this.Portada.Size = new System.Drawing.Size(570, 328);
             this.Portada.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.Portada.TabIndex = 8;
             this.Portada.TabStop = false;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.transicionMenu2.SetDecoration(this.dataGridView1, BunifuAnimatorNS.DecorationType.None);
-            this.transicionMenu.SetDecoration(this.dataGridView1, BunifuAnimatorNS.DecorationType.None);
-            this.dataGridView1.Location = new System.Drawing.Point(21, 72);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(570, 328);
-            this.dataGridView1.TabIndex = 7;
             // 
             // bunifuFlatButton11
             // 
@@ -582,6 +569,19 @@
             this.transicionMenu2.DefaultAnimation = animation2;
             this.transicionMenu2.Interval = 15;
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.transicionMenu2.SetDecoration(this.dataGridView1, BunifuAnimatorNS.DecorationType.None);
+            this.transicionMenu.SetDecoration(this.dataGridView1, BunifuAnimatorNS.DecorationType.None);
+            this.dataGridView1.Location = new System.Drawing.Point(21, 72);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(570, 328);
+            this.dataGridView1.TabIndex = 7;
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -635,7 +635,6 @@
         private System.Windows.Forms.Label fecha;
         private System.Windows.Forms.Label hora;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton11;
-        private System.Windows.Forms.DataGridView dataGridView1;
         private Bunifu.Framework.UI.BunifuGradientPanel MenuSide;
         private System.Windows.Forms.PictureBox pictureBox2;
         private Bunifu.Framework.UI.BunifuSeparator line;
@@ -643,6 +642,7 @@
         private BunifuAnimatorNS.BunifuTransition transicionMenu;
         private BunifuAnimatorNS.BunifuTransition transicionMenu2;
         private System.Windows.Forms.PictureBox Portada;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }
 

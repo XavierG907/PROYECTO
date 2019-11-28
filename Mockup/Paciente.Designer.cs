@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Paciente));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.tabPaciente = new System.Windows.Forms.TabControl();
             this.tabAgregar = new System.Windows.Forms.TabPage();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -113,34 +113,34 @@
             this.tabHistorial = new System.Windows.Forms.TabPage();
             this.panel6 = new System.Windows.Forms.Panel();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.comboBox11 = new System.Windows.Forms.ComboBox();
+            this.comboBoxH = new System.Windows.Forms.ComboBox();
             this.label60 = new System.Windows.Forms.Label();
-            this.comboBox10 = new System.Windows.Forms.ComboBox();
+            this.comboBoxK = new System.Windows.Forms.ComboBox();
             this.label59 = new System.Windows.Forms.Label();
-            this.comboBox9 = new System.Windows.Forms.ComboBox();
+            this.comboBoxJ = new System.Windows.Forms.ComboBox();
             this.label58 = new System.Windows.Forms.Label();
-            this.comboBox8 = new System.Windows.Forms.ComboBox();
+            this.comboBoxI = new System.Windows.Forms.ComboBox();
             this.label57 = new System.Windows.Forms.Label();
             this.bunifuSeparator4 = new Bunifu.Framework.UI.BunifuSeparator();
             this.label50 = new System.Windows.Forms.Label();
-            this.comboBox7 = new System.Windows.Forms.ComboBox();
+            this.comboBoxG = new System.Windows.Forms.ComboBox();
             this.label56 = new System.Windows.Forms.Label();
-            this.comboBox6 = new System.Windows.Forms.ComboBox();
+            this.comboBoxF = new System.Windows.Forms.ComboBox();
             this.label55 = new System.Windows.Forms.Label();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
+            this.comboBoxE = new System.Windows.Forms.ComboBox();
             this.label48 = new System.Windows.Forms.Label();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.comboBoxD = new System.Windows.Forms.ComboBox();
             this.label44 = new System.Windows.Forms.Label();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.comboBoxC = new System.Windows.Forms.ComboBox();
             this.label54 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.comboBoxB = new System.Windows.Forms.ComboBox();
+            this.comboBoxA = new System.Windows.Forms.ComboBox();
             this.bunifuSeparator1 = new Bunifu.Framework.UI.BunifuSeparator();
             this.label53 = new System.Windows.Forms.Label();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.btnSalirH = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btnAgregarH = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBoxIdPH = new System.Windows.Forms.TextBox();
             this.label46 = new System.Windows.Forms.Label();
             this.label49 = new System.Windows.Forms.Label();
             this.label51 = new System.Windows.Forms.Label();
@@ -209,7 +209,8 @@
             this.label29 = new System.Windows.Forms.Label();
             this.bunifuGradientPanel1 = new Bunifu.Framework.UI.BunifuGradientPanel();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnMostrarT = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.label61 = new System.Windows.Forms.Label();
+            this.bunifuFlatButtonVER = new Bunifu.Framework.UI.BunifuFlatButton();
             this.tabPaciente.SuspendLayout();
             this.tabAgregar.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -1309,34 +1310,34 @@
             // 
             // groupBox4
             // 
-            this.groupBox4.Controls.Add(this.comboBox11);
+            this.groupBox4.Controls.Add(this.comboBoxH);
             this.groupBox4.Controls.Add(this.label60);
-            this.groupBox4.Controls.Add(this.comboBox10);
+            this.groupBox4.Controls.Add(this.comboBoxK);
             this.groupBox4.Controls.Add(this.label59);
-            this.groupBox4.Controls.Add(this.comboBox9);
+            this.groupBox4.Controls.Add(this.comboBoxJ);
             this.groupBox4.Controls.Add(this.label58);
-            this.groupBox4.Controls.Add(this.comboBox8);
+            this.groupBox4.Controls.Add(this.comboBoxI);
             this.groupBox4.Controls.Add(this.label57);
             this.groupBox4.Controls.Add(this.bunifuSeparator4);
             this.groupBox4.Controls.Add(this.label50);
-            this.groupBox4.Controls.Add(this.comboBox7);
+            this.groupBox4.Controls.Add(this.comboBoxG);
             this.groupBox4.Controls.Add(this.label56);
-            this.groupBox4.Controls.Add(this.comboBox6);
+            this.groupBox4.Controls.Add(this.comboBoxF);
             this.groupBox4.Controls.Add(this.label55);
-            this.groupBox4.Controls.Add(this.comboBox5);
+            this.groupBox4.Controls.Add(this.comboBoxE);
             this.groupBox4.Controls.Add(this.label48);
-            this.groupBox4.Controls.Add(this.comboBox4);
+            this.groupBox4.Controls.Add(this.comboBoxD);
             this.groupBox4.Controls.Add(this.label44);
-            this.groupBox4.Controls.Add(this.comboBox3);
+            this.groupBox4.Controls.Add(this.comboBoxC);
             this.groupBox4.Controls.Add(this.label54);
-            this.groupBox4.Controls.Add(this.comboBox2);
-            this.groupBox4.Controls.Add(this.comboBox1);
+            this.groupBox4.Controls.Add(this.comboBoxB);
+            this.groupBox4.Controls.Add(this.comboBoxA);
             this.groupBox4.Controls.Add(this.bunifuSeparator1);
             this.groupBox4.Controls.Add(this.label53);
             this.groupBox4.Controls.Add(this.pictureBox10);
             this.groupBox4.Controls.Add(this.btnSalirH);
             this.groupBox4.Controls.Add(this.btnAgregarH);
-            this.groupBox4.Controls.Add(this.textBox2);
+            this.groupBox4.Controls.Add(this.textBoxIdPH);
             this.groupBox4.Controls.Add(this.label46);
             this.groupBox4.Controls.Add(this.label49);
             this.groupBox4.Controls.Add(this.label51);
@@ -1349,16 +1350,16 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "AÑADIR ANTECEDENTES DEL PACIENTE";
             // 
-            // comboBox11
+            // comboBoxH
             // 
-            this.comboBox11.FormattingEnabled = true;
-            this.comboBox11.Items.AddRange(new object[] {
+            this.comboBoxH.FormattingEnabled = true;
+            this.comboBoxH.Items.AddRange(new object[] {
             "SI",
             "NO"});
-            this.comboBox11.Location = new System.Drawing.Point(476, 247);
-            this.comboBox11.Name = "comboBox11";
-            this.comboBox11.Size = new System.Drawing.Size(107, 29);
-            this.comboBox11.TabIndex = 75;
+            this.comboBoxH.Location = new System.Drawing.Point(476, 247);
+            this.comboBoxH.Name = "comboBoxH";
+            this.comboBoxH.Size = new System.Drawing.Size(107, 29);
+            this.comboBoxH.TabIndex = 75;
             // 
             // label60
             // 
@@ -1371,16 +1372,16 @@
             this.label60.TabIndex = 74;
             this.label60.Text = "VIH/SIDA";
             // 
-            // comboBox10
+            // comboBoxK
             // 
-            this.comboBox10.FormattingEnabled = true;
-            this.comboBox10.Items.AddRange(new object[] {
+            this.comboBoxK.FormattingEnabled = true;
+            this.comboBoxK.Items.AddRange(new object[] {
             "SI",
             "NO"});
-            this.comboBox10.Location = new System.Drawing.Point(334, 361);
-            this.comboBox10.Name = "comboBox10";
-            this.comboBox10.Size = new System.Drawing.Size(107, 29);
-            this.comboBox10.TabIndex = 73;
+            this.comboBoxK.Location = new System.Drawing.Point(334, 361);
+            this.comboBoxK.Name = "comboBoxK";
+            this.comboBoxK.Size = new System.Drawing.Size(107, 29);
+            this.comboBoxK.TabIndex = 73;
             // 
             // label59
             // 
@@ -1393,16 +1394,16 @@
             this.label59.TabIndex = 72;
             this.label59.Text = "DROGAS";
             // 
-            // comboBox9
+            // comboBoxJ
             // 
-            this.comboBox9.FormattingEnabled = true;
-            this.comboBox9.Items.AddRange(new object[] {
+            this.comboBoxJ.FormattingEnabled = true;
+            this.comboBoxJ.Items.AddRange(new object[] {
             "SI",
             "NO"});
-            this.comboBox9.Location = new System.Drawing.Point(186, 361);
-            this.comboBox9.Name = "comboBox9";
-            this.comboBox9.Size = new System.Drawing.Size(107, 29);
-            this.comboBox9.TabIndex = 71;
+            this.comboBoxJ.Location = new System.Drawing.Point(186, 361);
+            this.comboBoxJ.Name = "comboBoxJ";
+            this.comboBoxJ.Size = new System.Drawing.Size(107, 29);
+            this.comboBoxJ.TabIndex = 71;
             // 
             // label58
             // 
@@ -1415,16 +1416,16 @@
             this.label58.TabIndex = 70;
             this.label58.Text = "ALCOHOL";
             // 
-            // comboBox8
+            // comboBoxI
             // 
-            this.comboBox8.FormattingEnabled = true;
-            this.comboBox8.Items.AddRange(new object[] {
+            this.comboBoxI.FormattingEnabled = true;
+            this.comboBoxI.Items.AddRange(new object[] {
             "SI",
             "NO"});
-            this.comboBox8.Location = new System.Drawing.Point(25, 361);
-            this.comboBox8.Name = "comboBox8";
-            this.comboBox8.Size = new System.Drawing.Size(107, 29);
-            this.comboBox8.TabIndex = 69;
+            this.comboBoxI.Location = new System.Drawing.Point(25, 361);
+            this.comboBoxI.Name = "comboBoxI";
+            this.comboBoxI.Size = new System.Drawing.Size(107, 29);
+            this.comboBoxI.TabIndex = 69;
             // 
             // label57
             // 
@@ -1442,7 +1443,7 @@
             this.bunifuSeparator4.BackColor = System.Drawing.Color.Transparent;
             this.bunifuSeparator4.ForeColor = System.Drawing.Color.Navy;
             this.bunifuSeparator4.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.bunifuSeparator4.LineThickness = 5;
+            this.bunifuSeparator4.LineThickness = 8;
             this.bunifuSeparator4.Location = new System.Drawing.Point(25, 321);
             this.bunifuSeparator4.Margin = new System.Windows.Forms.Padding(8);
             this.bunifuSeparator4.Name = "bunifuSeparator4";
@@ -1462,16 +1463,16 @@
             this.label50.TabIndex = 66;
             this.label50.Text = "¿USTED HA CONSUMIDO ACTUALMENTE?:";
             // 
-            // comboBox7
+            // comboBoxG
             // 
-            this.comboBox7.FormattingEnabled = true;
-            this.comboBox7.Items.AddRange(new object[] {
+            this.comboBoxG.FormattingEnabled = true;
+            this.comboBoxG.Items.AddRange(new object[] {
             "SI",
             "NO"});
-            this.comboBox7.Location = new System.Drawing.Point(334, 247);
-            this.comboBox7.Name = "comboBox7";
-            this.comboBox7.Size = new System.Drawing.Size(107, 29);
-            this.comboBox7.TabIndex = 65;
+            this.comboBoxG.Location = new System.Drawing.Point(334, 247);
+            this.comboBoxG.Name = "comboBoxG";
+            this.comboBoxG.Size = new System.Drawing.Size(107, 29);
+            this.comboBoxG.TabIndex = 65;
             // 
             // label56
             // 
@@ -1484,16 +1485,16 @@
             this.label56.TabIndex = 64;
             this.label56.Text = "ANEMIA";
             // 
-            // comboBox6
+            // comboBoxF
             // 
-            this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Items.AddRange(new object[] {
+            this.comboBoxF.FormattingEnabled = true;
+            this.comboBoxF.Items.AddRange(new object[] {
             "SI",
             "NO"});
-            this.comboBox6.Location = new System.Drawing.Point(186, 247);
-            this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(107, 29);
-            this.comboBox6.TabIndex = 63;
+            this.comboBoxF.Location = new System.Drawing.Point(186, 247);
+            this.comboBoxF.Name = "comboBoxF";
+            this.comboBoxF.Size = new System.Drawing.Size(107, 29);
+            this.comboBoxF.TabIndex = 63;
             // 
             // label55
             // 
@@ -1506,16 +1507,16 @@
             this.label55.TabIndex = 62;
             this.label55.Text = "DEPRESIÓN";
             // 
-            // comboBox5
+            // comboBoxE
             // 
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Items.AddRange(new object[] {
+            this.comboBoxE.FormattingEnabled = true;
+            this.comboBoxE.Items.AddRange(new object[] {
             "SI",
             "NO"});
-            this.comboBox5.Location = new System.Drawing.Point(25, 247);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(107, 29);
-            this.comboBox5.TabIndex = 61;
+            this.comboBoxE.Location = new System.Drawing.Point(25, 247);
+            this.comboBoxE.Name = "comboBoxE";
+            this.comboBoxE.Size = new System.Drawing.Size(107, 29);
+            this.comboBoxE.TabIndex = 61;
             // 
             // label48
             // 
@@ -1528,16 +1529,16 @@
             this.label48.TabIndex = 60;
             this.label48.Text = "ANSIEDAD";
             // 
-            // comboBox4
+            // comboBoxD
             // 
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Items.AddRange(new object[] {
+            this.comboBoxD.FormattingEnabled = true;
+            this.comboBoxD.Items.AddRange(new object[] {
             "SI",
             "NO"});
-            this.comboBox4.Location = new System.Drawing.Point(476, 177);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(107, 29);
-            this.comboBox4.TabIndex = 59;
+            this.comboBoxD.Location = new System.Drawing.Point(476, 177);
+            this.comboBoxD.Name = "comboBoxD";
+            this.comboBoxD.Size = new System.Drawing.Size(107, 29);
+            this.comboBoxD.TabIndex = 59;
             // 
             // label44
             // 
@@ -1550,16 +1551,16 @@
             this.label44.TabIndex = 58;
             this.label44.Text = "CANCER";
             // 
-            // comboBox3
+            // comboBoxC
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
+            this.comboBoxC.FormattingEnabled = true;
+            this.comboBoxC.Items.AddRange(new object[] {
             "SI",
             "NO"});
-            this.comboBox3.Location = new System.Drawing.Point(334, 177);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(107, 29);
-            this.comboBox3.TabIndex = 57;
+            this.comboBoxC.Location = new System.Drawing.Point(334, 177);
+            this.comboBoxC.Name = "comboBoxC";
+            this.comboBoxC.Size = new System.Drawing.Size(107, 29);
+            this.comboBoxC.TabIndex = 57;
             // 
             // label54
             // 
@@ -1572,34 +1573,34 @@
             this.label54.TabIndex = 56;
             this.label54.Text = "DIABETES";
             // 
-            // comboBox2
+            // comboBoxB
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.comboBoxB.FormattingEnabled = true;
+            this.comboBoxB.Items.AddRange(new object[] {
             "SI",
             "NO"});
-            this.comboBox2.Location = new System.Drawing.Point(186, 177);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(107, 29);
-            this.comboBox2.TabIndex = 55;
+            this.comboBoxB.Location = new System.Drawing.Point(186, 177);
+            this.comboBoxB.Name = "comboBoxB";
+            this.comboBoxB.Size = new System.Drawing.Size(107, 29);
+            this.comboBoxB.TabIndex = 55;
             // 
-            // comboBox1
+            // comboBoxA
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.comboBoxA.FormattingEnabled = true;
+            this.comboBoxA.Items.AddRange(new object[] {
             "SI",
             "NO"});
-            this.comboBox1.Location = new System.Drawing.Point(25, 177);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(107, 29);
-            this.comboBox1.TabIndex = 54;
+            this.comboBoxA.Location = new System.Drawing.Point(25, 177);
+            this.comboBoxA.Name = "comboBoxA";
+            this.comboBoxA.Size = new System.Drawing.Size(107, 29);
+            this.comboBoxA.TabIndex = 54;
             // 
             // bunifuSeparator1
             // 
             this.bunifuSeparator1.BackColor = System.Drawing.Color.Transparent;
             this.bunifuSeparator1.ForeColor = System.Drawing.Color.Navy;
             this.bunifuSeparator1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.bunifuSeparator1.LineThickness = 3;
+            this.bunifuSeparator1.LineThickness = 5;
             this.bunifuSeparator1.Location = new System.Drawing.Point(25, 139);
             this.bunifuSeparator1.Margin = new System.Windows.Forms.Padding(5);
             this.bunifuSeparator1.Name = "bunifuSeparator1";
@@ -1700,15 +1701,16 @@
             this.btnAgregarH.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnAgregarH.Textcolor = System.Drawing.Color.White;
             this.btnAgregarH.TextFont = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgregarH.Click += new System.EventHandler(this.btnAgregarH_Click);
             // 
-            // textBox2
+            // textBoxIdPH
             // 
-            this.textBox2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(254, 67);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(126, 27);
-            this.textBox2.TabIndex = 48;
-            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxIdPH.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxIdPH.Location = new System.Drawing.Point(254, 67);
+            this.textBoxIdPH.Name = "textBoxIdPH";
+            this.textBoxIdPH.Size = new System.Drawing.Size(126, 27);
+            this.textBoxIdPH.TabIndex = 48;
+            this.textBoxIdPH.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label46
             // 
@@ -1788,7 +1790,8 @@
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(46)))));
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel3.Controls.Add(this.btnMostrarT);
+            this.panel3.Controls.Add(this.bunifuFlatButtonVER);
+            this.panel3.Controls.Add(this.label61);
             this.panel3.Controls.Add(this.btnSalir3);
             this.panel3.Controls.Add(this.bunifuFlatButton2);
             this.panel3.Controls.Add(this.dataGridPaciente);
@@ -1868,28 +1871,29 @@
             this.bunifuFlatButton2.OnHovercolor = System.Drawing.Color.Teal;
             this.bunifuFlatButton2.OnHoverTextColor = System.Drawing.Color.White;
             this.bunifuFlatButton2.selected = false;
-            this.bunifuFlatButton2.Size = new System.Drawing.Size(99, 32);
+            this.bunifuFlatButton2.Size = new System.Drawing.Size(107, 32);
             this.bunifuFlatButton2.TabIndex = 41;
             this.bunifuFlatButton2.Text = "BUSCAR";
             this.bunifuFlatButton2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuFlatButton2.Textcolor = System.Drawing.Color.White;
             this.bunifuFlatButton2.TextFont = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton2.Click += new System.EventHandler(this.bunifuFlatButton2_Click);
             // 
             // dataGridPaciente
             // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.dataGridPaciente.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.dataGridPaciente.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
             this.dataGridPaciente.BackgroundColor = System.Drawing.Color.Gainsboro;
             this.dataGridPaciente.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridPaciente.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.LightSteelBlue;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Navy;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridPaciente.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.LightSteelBlue;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.Navy;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridPaciente.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.dataGridPaciente.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridPaciente.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.IdP,
@@ -1913,14 +1917,14 @@
             this.dataGridPaciente.Location = new System.Drawing.Point(27, 171);
             this.dataGridPaciente.Name = "dataGridPaciente";
             this.dataGridPaciente.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridPaciente.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridPaciente.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
             this.dataGridPaciente.Size = new System.Drawing.Size(655, 246);
             this.dataGridPaciente.TabIndex = 21;
             // 
@@ -2590,41 +2594,53 @@
             this.label1.Text = "PACIENTE";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // btnMostrarT
+            // label61
             // 
-            this.btnMostrarT.Activecolor = System.Drawing.Color.LightSeaGreen;
-            this.btnMostrarT.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.btnMostrarT.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnMostrarT.BorderRadius = 0;
-            this.btnMostrarT.ButtonText = "BUSCAR";
-            this.btnMostrarT.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMostrarT.DisabledColor = System.Drawing.Color.Gray;
-            this.btnMostrarT.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMostrarT.Iconcolor = System.Drawing.Color.Transparent;
-            this.btnMostrarT.Iconimage = null;
-            this.btnMostrarT.Iconimage_right = null;
-            this.btnMostrarT.Iconimage_right_Selected = null;
-            this.btnMostrarT.Iconimage_Selected = null;
-            this.btnMostrarT.IconMarginLeft = 0;
-            this.btnMostrarT.IconMarginRight = 0;
-            this.btnMostrarT.IconRightVisible = false;
-            this.btnMostrarT.IconRightZoom = 0D;
-            this.btnMostrarT.IconVisible = false;
-            this.btnMostrarT.IconZoom = 90D;
-            this.btnMostrarT.IsTab = false;
-            this.btnMostrarT.Location = new System.Drawing.Point(466, 132);
-            this.btnMostrarT.Margin = new System.Windows.Forms.Padding(5);
-            this.btnMostrarT.Name = "btnMostrarT";
-            this.btnMostrarT.Normalcolor = System.Drawing.Color.LightSeaGreen;
-            this.btnMostrarT.OnHovercolor = System.Drawing.Color.Teal;
-            this.btnMostrarT.OnHoverTextColor = System.Drawing.Color.White;
-            this.btnMostrarT.selected = false;
-            this.btnMostrarT.Size = new System.Drawing.Size(99, 32);
-            this.btnMostrarT.TabIndex = 43;
-            this.btnMostrarT.Text = "BUSCAR";
-            this.btnMostrarT.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnMostrarT.Textcolor = System.Drawing.Color.White;
-            this.btnMostrarT.TextFont = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label61.AutoSize = true;
+            this.label61.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label61.ForeColor = System.Drawing.Color.White;
+            this.label61.Location = new System.Drawing.Point(152, 68);
+            this.label61.Name = "label61";
+            this.label61.Size = new System.Drawing.Size(96, 19);
+            this.label61.TabIndex = 43;
+            this.label61.Text = "NOMBRE (s)";
+            // 
+            // bunifuFlatButtonVER
+            // 
+            this.bunifuFlatButtonVER.Activecolor = System.Drawing.Color.MediumBlue;
+            this.bunifuFlatButtonVER.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(101)))), ((int)(((byte)(186)))));
+            this.bunifuFlatButtonVER.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuFlatButtonVER.BorderRadius = 0;
+            this.bunifuFlatButtonVER.ButtonText = "VER TODOS";
+            this.bunifuFlatButtonVER.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuFlatButtonVER.DisabledColor = System.Drawing.Color.Gray;
+            this.bunifuFlatButtonVER.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButtonVER.Iconcolor = System.Drawing.Color.Transparent;
+            this.bunifuFlatButtonVER.Iconimage = null;
+            this.bunifuFlatButtonVER.Iconimage_right = null;
+            this.bunifuFlatButtonVER.Iconimage_right_Selected = null;
+            this.bunifuFlatButtonVER.Iconimage_Selected = null;
+            this.bunifuFlatButtonVER.IconMarginLeft = 0;
+            this.bunifuFlatButtonVER.IconMarginRight = 0;
+            this.bunifuFlatButtonVER.IconRightVisible = false;
+            this.bunifuFlatButtonVER.IconRightZoom = 0D;
+            this.bunifuFlatButtonVER.IconVisible = false;
+            this.bunifuFlatButtonVER.IconZoom = 90D;
+            this.bunifuFlatButtonVER.IsTab = false;
+            this.bunifuFlatButtonVER.Location = new System.Drawing.Point(466, 132);
+            this.bunifuFlatButtonVER.Margin = new System.Windows.Forms.Padding(5);
+            this.bunifuFlatButtonVER.Name = "bunifuFlatButtonVER";
+            this.bunifuFlatButtonVER.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(101)))), ((int)(((byte)(186)))));
+            this.bunifuFlatButtonVER.OnHovercolor = System.Drawing.Color.MediumBlue;
+            this.bunifuFlatButtonVER.OnHoverTextColor = System.Drawing.Color.White;
+            this.bunifuFlatButtonVER.selected = false;
+            this.bunifuFlatButtonVER.Size = new System.Drawing.Size(109, 32);
+            this.bunifuFlatButtonVER.TabIndex = 68;
+            this.bunifuFlatButtonVER.Text = "VER TODOS";
+            this.bunifuFlatButtonVER.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuFlatButtonVER.Textcolor = System.Drawing.Color.White;
+            this.bunifuFlatButtonVER.TextFont = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButtonVER.Click += new System.EventHandler(this.bunifuFlatButtonVER_Click);
             // 
             // Paciente
             // 
@@ -2835,37 +2851,38 @@
         private System.Windows.Forms.GroupBox groupBox4;
         private Bunifu.Framework.UI.BunifuFlatButton btnSalirH;
         private Bunifu.Framework.UI.BunifuFlatButton btnAgregarH;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBoxIdPH;
         private System.Windows.Forms.Label label46;
         private System.Windows.Forms.Label label49;
         private System.Windows.Forms.Label label51;
         private Bunifu.Framework.UI.BunifuGradientPanel bunifuGradientPanel6;
         private System.Windows.Forms.Label label52;
         private System.Windows.Forms.PictureBox pictureBox10;
-        private System.Windows.Forms.ComboBox comboBox11;
+        private System.Windows.Forms.ComboBox comboBoxH;
         private System.Windows.Forms.Label label60;
-        private System.Windows.Forms.ComboBox comboBox10;
+        private System.Windows.Forms.ComboBox comboBoxK;
         private System.Windows.Forms.Label label59;
-        private System.Windows.Forms.ComboBox comboBox9;
+        private System.Windows.Forms.ComboBox comboBoxJ;
         private System.Windows.Forms.Label label58;
-        private System.Windows.Forms.ComboBox comboBox8;
+        private System.Windows.Forms.ComboBox comboBoxI;
         private System.Windows.Forms.Label label57;
         private Bunifu.Framework.UI.BunifuSeparator bunifuSeparator4;
         private System.Windows.Forms.Label label50;
-        private System.Windows.Forms.ComboBox comboBox7;
+        private System.Windows.Forms.ComboBox comboBoxG;
         private System.Windows.Forms.Label label56;
-        private System.Windows.Forms.ComboBox comboBox6;
+        private System.Windows.Forms.ComboBox comboBoxF;
         private System.Windows.Forms.Label label55;
-        private System.Windows.Forms.ComboBox comboBox5;
+        private System.Windows.Forms.ComboBox comboBoxE;
         private System.Windows.Forms.Label label48;
-        private System.Windows.Forms.ComboBox comboBox4;
+        private System.Windows.Forms.ComboBox comboBoxD;
         private System.Windows.Forms.Label label44;
-        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.ComboBox comboBoxC;
         private System.Windows.Forms.Label label54;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox comboBoxB;
+        private System.Windows.Forms.ComboBox comboBoxA;
         private Bunifu.Framework.UI.BunifuSeparator bunifuSeparator1;
         private System.Windows.Forms.Label label53;
-        private Bunifu.Framework.UI.BunifuFlatButton btnMostrarT;
+        private System.Windows.Forms.Label label61;
+        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButtonVER;
     }
 }

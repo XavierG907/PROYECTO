@@ -304,5 +304,124 @@ namespace Mockup
             btnSalir3.Enabled = false;
             this.Close();
         }
+
+        private void bunifuFlatButton2_Click(object sender, EventArgs e)
+        {
+            if (textBox11.Text == "")
+            {
+                MessageBox.Show("No Se Ingresó Ningun Nombre", "Campo Vacío", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+
+                return;
+            }
+            NpgsqlConnection conexion = new NpgsqlConnection();
+            conexion.ConnectionString = "Server=localhost; Port=5432; Username=postgres; Password=9693; Database= nucleo;";
+            conexion.Open(); //Abrir la Conexión
+
+            string query = "SELECT * FROM paciente WHERE nombre ='" + textBox11.Text + "';";
+
+            NpgsqlCommand comando = new NpgsqlCommand(query, conexion);
+
+            NpgsqlDataReader reader;
+            dataGridPaciente.Rows.Clear();
+
+            reader = comando.ExecuteReader();
+
+            while (reader.Read())
+            {
+                int renglon = dataGridPaciente.Rows.Add();
+                dataGridPaciente.Rows[renglon].Cells["IdP"].Value = reader.GetInt32(reader.GetOrdinal("id")).ToString();
+                dataGridPaciente.Rows[renglon].Cells["nombrep"].Value = reader.GetString(reader.GetOrdinal("nombre"));
+                dataGridPaciente.Rows[renglon].Cells["apaternoP"].Value = reader.GetString(reader.GetOrdinal("apaterno"));
+                dataGridPaciente.Rows[renglon].Cells["amaternoP"].Value = reader.GetString(reader.GetOrdinal("amaterno"));
+                dataGridPaciente.Rows[renglon].Cells["profesionP"].Value = reader.GetString(reader.GetOrdinal("profesion"));
+                dataGridPaciente.Rows[renglon].Cells["sexoP"].Value = reader.GetString(reader.GetOrdinal("sexo"));
+                dataGridPaciente.Rows[renglon].Cells["edadP"].Value = reader.GetInt32(reader.GetOrdinal("edad")).ToString();
+                dataGridPaciente.Rows[renglon].Cells["nocasaP"].Value = reader.GetInt32(reader.GetOrdinal("nocasa")).ToString();
+                dataGridPaciente.Rows[renglon].Cells["calleP"].Value = reader.GetString(reader.GetOrdinal("calle"));
+                dataGridPaciente.Rows[renglon].Cells["coloniaP"].Value = reader.GetString(reader.GetOrdinal("colonia"));
+                dataGridPaciente.Rows[renglon].Cells["municipioP"].Value = reader.GetString(reader.GetOrdinal("municipio"));
+                dataGridPaciente.Rows[renglon].Cells["estadoP"].Value = reader.GetString(reader.GetOrdinal("estado"));
+                dataGridPaciente.Rows[renglon].Cells["telefonoP"].Value = reader.GetString(reader.GetOrdinal("telefono"));
+            }
+
+            conexion.Close();
+        }
+
+        private void bunifuFlatButton1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuFlatButtonVER_Click(object sender, EventArgs e)
+        {
+            cargardatagridview();
+        }
+
+        private void btnAgregarH_Click(object sender, EventArgs e)
+        {
+            NpgsqlConnection conexion = new NpgsqlConnection();
+            conexion.ConnectionString = "Server=localhost; Port=5432; Username=postgres; Password=9693; Database= nucleo;";
+            conexion.Open(); //Abrir la Conexión
+
+            int indice1 = comboBoxA.SelectedIndex;
+            string hipertension=comboBoxA.Items[indice1].ToString();
+
+            int indice2 = comboBoxB.SelectedIndex;
+            string asma = comboBoxB.Items[indice2].ToString();
+
+            int indice3 = comboBoxC.SelectedIndex;
+            string diabetes = comboBoxC.Items[indice3].ToString();
+
+            int indice4 = comboBoxD.SelectedIndex;
+            string cancer = comboBoxD.Items[indice4].ToString();
+
+            int indice5 = comboBoxE.SelectedIndex;
+            string ansiedad = comboBoxE.Items[indice5].ToString();
+
+            int indice6 = comboBoxF.SelectedIndex;
+            string depresion = comboBoxF.Items[indice6].ToString();
+
+            int indice7 = comboBoxG.SelectedIndex;
+            string anemia = comboBoxG.Items[indice7].ToString();
+
+            int indice8 = comboBoxH.SelectedIndex;
+            string vih = comboBoxH.Items[indice8].ToString();
+
+            int indice9 = comboBoxI.SelectedIndex;
+            string tabaco = comboBoxI.Items[indice9].ToString();
+
+            int indice10 = comboBoxJ.SelectedIndex;
+            string alcohol = comboBoxJ.Items[indice10].ToString();
+
+            int indice11 = comboBoxK.SelectedIndex;
+            string drogas = comboBoxK.Items[indice11].ToString();
+
+            string query = "INSERT INTO historial_c(hipertension ,asma ,diabetes ,cancer ,ansiedad ,depresion ,anemia ,vih ,tabaco ,alcohol ,drogas ,idPaciente)" +
+                "VALUES('" + hipertension + "','" + asma + "','" + diabetes + "'," +
+                " '" + cancer + "','" + ansiedad + "','" + depresion + "','" + anemia + "', " +
+                " '" + vih + "','" + tabaco + "','" + alcohol + "','" + drogas + "','" + textBoxIdPH.Text + "');";
+
+            NpgsqlCommand comando = new NpgsqlCommand(query, conexion);
+
+            comando.ExecuteNonQuery();
+            MessageBox.Show("Los Antecedes del Paciente Han Sido Agregados con Exito!!");
+
+            comboBoxA.SelectedIndex = -1;
+            comboBoxB.SelectedIndex = -1;
+            comboBoxC.SelectedIndex = -1;
+            comboBoxD.SelectedIndex = -1;
+            comboBoxE.SelectedIndex = -1;
+            comboBoxF.SelectedIndex = -1;
+            comboBoxG.SelectedIndex = -1;
+            comboBoxH.SelectedIndex = -1;
+            comboBoxI.SelectedIndex = -1;
+            comboBoxJ.SelectedIndex = -1;
+            comboBoxK.SelectedIndex = -1;
+            textBoxIdPH.Clear();
+
+            cargardatagridview();
+
+            conexion.Close();
+        }
     }
 }
