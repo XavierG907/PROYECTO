@@ -32,7 +32,6 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label10 = new System.Windows.Forms.Label();
             this.line = new Bunifu.Framework.UI.BunifuSeparator();
@@ -47,30 +46,32 @@
             this.Id = new System.Windows.Forms.Label();
             this.bunifuGradientPanel1 = new Bunifu.Framework.UI.BunifuGradientPanel();
             this.label2 = new System.Windows.Forms.Label();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.bunifuSeparator1 = new Bunifu.Framework.UI.BunifuSeparator();
-            this.label4 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.botonBuscar = new System.Windows.Forms.Button();
-            this.bunifuGradientPanel2 = new Bunifu.Framework.UI.BunifuGradientPanel();
-            this.label8 = new System.Windows.Forms.Label();
-            this.MesBusqueda = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.idc = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.fechac = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Ingreso = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Gasto = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label1 = new System.Windows.Forms.Label();
+            this.bunifuSeparator1 = new Bunifu.Framework.UI.BunifuSeparator();
+            this.label4 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.botonBuscar = new System.Windows.Forms.Button();
+            this.MesBusqueda = new System.Windows.Forms.TextBox();
+            this.bunifuGradientPanel2 = new Bunifu.Framework.UI.BunifuGradientPanel();
+            this.label8 = new System.Windows.Forms.Label();
+            this.bunifuFlatButton1 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.panel2.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            this.tabPage2.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.bunifuGradientPanel1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
             this.panel3.SuspendLayout();
-            this.bunifuGradientPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.bunifuGradientPanel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel2
@@ -107,18 +108,6 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Agregar";
             this.tabPage1.UseVisualStyleBackColor = true;
-            // 
-            // tabPage2
-            // 
-            this.tabPage2.Controls.Add(this.panel3);
-            this.tabPage2.Controls.Add(this.bunifuGradientPanel2);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(409, 416);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Consultar";
-            this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // panel1
             // 
@@ -292,10 +281,23 @@
             this.label2.Text = "CORTE";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // tabPage2
+            // 
+            this.tabPage2.Controls.Add(this.panel3);
+            this.tabPage2.Controls.Add(this.bunifuGradientPanel2);
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(409, 416);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Consultar";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(46)))));
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel3.Controls.Add(this.bunifuFlatButton1);
             this.panel3.Controls.Add(this.dataGridView1);
             this.panel3.Controls.Add(this.label1);
             this.panel3.Controls.Add(this.bunifuSeparator1);
@@ -308,6 +310,53 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(403, 347);
             this.panel3.TabIndex = 40;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AllowUserToOrderColumns = true;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.idc,
+            this.fechac,
+            this.Ingreso,
+            this.Gasto});
+            this.dataGridView1.Location = new System.Drawing.Point(47, 46);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(313, 150);
+            this.dataGridView1.TabIndex = 25;
+            // 
+            // idc
+            // 
+            this.idc.HeaderText = "Id";
+            this.idc.Name = "idc";
+            this.idc.Width = 30;
+            // 
+            // fechac
+            // 
+            this.fechac.HeaderText = "Fecha";
+            this.fechac.Name = "fechac";
+            this.fechac.Width = 75;
+            // 
+            // Ingreso
+            // 
+            this.Ingreso.HeaderText = "Ingreso";
+            this.Ingreso.Name = "Ingreso";
+            // 
+            // Gasto
+            // 
+            this.Gasto.HeaderText = "Gasto";
+            this.Gasto.Name = "Gasto";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(43, 198);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(39, 19);
+            this.label1.TabIndex = 24;
+            this.label1.Text = "MES";
             // 
             // bunifuSeparator1
             // 
@@ -361,6 +410,15 @@
             this.botonBuscar.UseVisualStyleBackColor = false;
             this.botonBuscar.Click += new System.EventHandler(this.button2_Click);
             // 
+            // MesBusqueda
+            // 
+            this.MesBusqueda.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MesBusqueda.Location = new System.Drawing.Point(47, 220);
+            this.MesBusqueda.Name = "MesBusqueda";
+            this.MesBusqueda.Size = new System.Drawing.Size(180, 27);
+            this.MesBusqueda.TabIndex = 5;
+            this.MesBusqueda.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // bunifuGradientPanel2
             // 
             this.bunifuGradientPanel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel2.BackgroundImage")));
@@ -390,61 +448,42 @@
             this.label8.Text = "CORTES";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // MesBusqueda
+            // bunifuFlatButton1
             // 
-            this.MesBusqueda.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MesBusqueda.Location = new System.Drawing.Point(47, 220);
-            this.MesBusqueda.Name = "MesBusqueda";
-            this.MesBusqueda.Size = new System.Drawing.Size(180, 27);
-            this.MesBusqueda.TabIndex = 5;
-            this.MesBusqueda.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(43, 198);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(39, 19);
-            this.label1.TabIndex = 24;
-            this.label1.Text = "MES";
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.AllowUserToOrderColumns = true;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.idc,
-            this.fechac,
-            this.Ingreso,
-            this.Gasto});
-            this.dataGridView1.Location = new System.Drawing.Point(47, 46);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(313, 150);
-            this.dataGridView1.TabIndex = 25;
-            // 
-            // idc
-            // 
-            this.idc.HeaderText = "Id";
-            this.idc.Name = "idc";
-            this.idc.Width = 30;
-            // 
-            // fechac
-            // 
-            this.fechac.HeaderText = "Fecha";
-            this.fechac.Name = "fechac";
-            this.fechac.Width = 75;
-            // 
-            // Ingreso
-            // 
-            this.Ingreso.HeaderText = "Ingreso";
-            this.Ingreso.Name = "Ingreso";
-            // 
-            // Gasto
-            // 
-            this.Gasto.HeaderText = "Gasto";
-            this.Gasto.Name = "Gasto";
+            this.bunifuFlatButton1.Activecolor = System.Drawing.Color.LightSeaGreen;
+            this.bunifuFlatButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(101)))), ((int)(((byte)(186)))));
+            this.bunifuFlatButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuFlatButton1.BorderRadius = 0;
+            this.bunifuFlatButton1.ButtonText = "VER TODOS";
+            this.bunifuFlatButton1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuFlatButton1.DisabledColor = System.Drawing.Color.Gray;
+            this.bunifuFlatButton1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton1.Iconcolor = System.Drawing.Color.Transparent;
+            this.bunifuFlatButton1.Iconimage = null;
+            this.bunifuFlatButton1.Iconimage_right = null;
+            this.bunifuFlatButton1.Iconimage_right_Selected = null;
+            this.bunifuFlatButton1.Iconimage_Selected = null;
+            this.bunifuFlatButton1.IconMarginLeft = 0;
+            this.bunifuFlatButton1.IconMarginRight = 0;
+            this.bunifuFlatButton1.IconRightVisible = false;
+            this.bunifuFlatButton1.IconRightZoom = 0D;
+            this.bunifuFlatButton1.IconVisible = false;
+            this.bunifuFlatButton1.IconZoom = 90D;
+            this.bunifuFlatButton1.IsTab = false;
+            this.bunifuFlatButton1.Location = new System.Drawing.Point(247, 218);
+            this.bunifuFlatButton1.Margin = new System.Windows.Forms.Padding(5);
+            this.bunifuFlatButton1.Name = "bunifuFlatButton1";
+            this.bunifuFlatButton1.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(101)))), ((int)(((byte)(186)))));
+            this.bunifuFlatButton1.OnHovercolor = System.Drawing.Color.Teal;
+            this.bunifuFlatButton1.OnHoverTextColor = System.Drawing.Color.White;
+            this.bunifuFlatButton1.selected = false;
+            this.bunifuFlatButton1.Size = new System.Drawing.Size(136, 32);
+            this.bunifuFlatButton1.TabIndex = 68;
+            this.bunifuFlatButton1.Text = "VER TODOS";
+            this.bunifuFlatButton1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuFlatButton1.Textcolor = System.Drawing.Color.White;
+            this.bunifuFlatButton1.TextFont = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton1.Click += new System.EventHandler(this.bunifuFlatButton1_Click);
             // 
             // Corte
             // 
@@ -460,17 +499,17 @@
             this.panel2.ResumeLayout(false);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
-            this.tabPage2.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.bunifuGradientPanel1.ResumeLayout(false);
             this.bunifuGradientPanel1.PerformLayout();
+            this.tabPage2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.bunifuGradientPanel2.ResumeLayout(false);
             this.bunifuGradientPanel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -508,5 +547,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn fechac;
         private System.Windows.Forms.DataGridViewTextBoxColumn Ingreso;
         private System.Windows.Forms.DataGridViewTextBoxColumn Gasto;
+        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton1;
     }
 }

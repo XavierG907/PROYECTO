@@ -121,5 +121,10 @@ namespace Mockup
         {
             this.Close();
         }
+
+        private void bunifuFlatButton1_Click(object sender, EventArgs e)
+        {
+            cargardatagridview();
+        }
     }
 }
