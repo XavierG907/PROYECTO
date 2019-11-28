@@ -57,6 +57,8 @@
             this.line = new Bunifu.Framework.UI.BunifuSeparator();
             this.label7 = new System.Windows.Forms.Label();
             this.comboBoxSexo = new System.Windows.Forms.ComboBox();
+            this.textBoxCom = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.textBoxMaterno = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -70,15 +72,28 @@
             this.Id = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.btnSalir3 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton2 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.dataGridMedico = new Bunifu.Framework.UI.BunifuCustomDataGrid();
+            this.IdP = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nombreP = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.apaternoP = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.amaternoP = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.profesionP = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.sexoP = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nocasaP = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.calleP = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.coloniaP = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.municipioP = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.estadoP = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.telefonoP = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Comision = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.textBoxBuscarMedico = new System.Windows.Forms.TextBox();
             this.bunifuSeparator5 = new Bunifu.Framework.UI.BunifuSeparator();
             this.label38 = new System.Windows.Forms.Label();
             this.bunifuGradientPanel3 = new Bunifu.Framework.UI.BunifuGradientPanel();
             this.label30 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnSalir2 = new Bunifu.Framework.UI.BunifuFlatButton();
@@ -118,21 +133,6 @@
             this.label29 = new System.Windows.Forms.Label();
             this.bunifuGradientPanel2 = new Bunifu.Framework.UI.BunifuGradientPanel();
             this.label32 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.textBoxCom = new System.Windows.Forms.TextBox();
-            this.IdP = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nombreP = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.apaternoP = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.amaternoP = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.profesionP = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.sexoP = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nocasaP = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.calleP = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.coloniaP = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.municipioP = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.estadoP = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.telefonoP = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Comision = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -141,9 +141,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMedico)).BeginInit();
             this.tabPage2.SuspendLayout();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridMedico)).BeginInit();
             this.bunifuGradientPanel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.tabPage3.SuspendLayout();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -484,6 +484,26 @@
             this.comboBoxSexo.Size = new System.Drawing.Size(121, 29);
             this.comboBoxSexo.TabIndex = 48;
             // 
+            // textBoxCom
+            // 
+            this.textBoxCom.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxCom.Location = new System.Drawing.Point(445, 213);
+            this.textBoxCom.Name = "textBoxCom";
+            this.textBoxCom.Size = new System.Drawing.Size(85, 27);
+            this.textBoxCom.TabIndex = 47;
+            this.textBoxCom.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(441, 186);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(89, 19);
+            this.label6.TabIndex = 46;
+            this.label6.Text = "COMISIÓN";
+            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -632,6 +652,16 @@
             this.panel3.Size = new System.Drawing.Size(709, 439);
             this.panel3.TabIndex = 15;
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::Mockup.Properties.Resources.icons8_doctor_de_sexo_masculino_100;
+            this.pictureBox3.Location = new System.Drawing.Point(27, 46);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(100, 100);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 66;
+            this.pictureBox3.TabStop = false;
+            // 
             // btnSalir3
             // 
             this.btnSalir3.Activecolor = System.Drawing.Color.Maroon;
@@ -755,6 +785,74 @@
             this.dataGridMedico.Size = new System.Drawing.Size(655, 246);
             this.dataGridMedico.TabIndex = 21;
             // 
+            // IdP
+            // 
+            this.IdP.Frozen = true;
+            this.IdP.HeaderText = "Id";
+            this.IdP.Name = "IdP";
+            this.IdP.Width = 50;
+            // 
+            // nombreP
+            // 
+            this.nombreP.Frozen = true;
+            this.nombreP.HeaderText = "Nombre";
+            this.nombreP.Name = "nombreP";
+            // 
+            // apaternoP
+            // 
+            this.apaternoP.HeaderText = "A. Paterno";
+            this.apaternoP.Name = "apaternoP";
+            // 
+            // amaternoP
+            // 
+            this.amaternoP.HeaderText = "A. Materno";
+            this.amaternoP.Name = "amaternoP";
+            // 
+            // profesionP
+            // 
+            this.profesionP.HeaderText = "Especialidad";
+            this.profesionP.Name = "profesionP";
+            // 
+            // sexoP
+            // 
+            this.sexoP.HeaderText = "Sexo";
+            this.sexoP.Name = "sexoP";
+            // 
+            // nocasaP
+            // 
+            this.nocasaP.HeaderText = "No. de Casa";
+            this.nocasaP.Name = "nocasaP";
+            // 
+            // calleP
+            // 
+            this.calleP.HeaderText = "Calle";
+            this.calleP.Name = "calleP";
+            // 
+            // coloniaP
+            // 
+            this.coloniaP.HeaderText = "Colonia";
+            this.coloniaP.Name = "coloniaP";
+            // 
+            // municipioP
+            // 
+            this.municipioP.HeaderText = "Municipio";
+            this.municipioP.Name = "municipioP";
+            // 
+            // estadoP
+            // 
+            this.estadoP.HeaderText = "Estado";
+            this.estadoP.Name = "estadoP";
+            // 
+            // telefonoP
+            // 
+            this.telefonoP.HeaderText = "Teléfono";
+            this.telefonoP.Name = "telefonoP";
+            // 
+            // Comision
+            // 
+            this.Comision.HeaderText = "Comisión";
+            this.Comision.Name = "Comision";
+            // 
             // textBoxBuscarMedico
             // 
             this.textBoxBuscarMedico.Font = new System.Drawing.Font("Century Gothic", 12F);
@@ -815,16 +913,6 @@
             this.label30.TabIndex = 7;
             this.label30.Text = "MÉDICOS";
             this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::Mockup.Properties.Resources.icons8_doctor_de_sexo_masculino_100;
-            this.pictureBox3.Location = new System.Drawing.Point(27, 46);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(100, 100);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 66;
-            this.pictureBox3.TabStop = false;
             // 
             // tabPage3
             // 
@@ -1355,94 +1443,6 @@
             this.label32.Text = "MÉDICO";
             this.label32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(441, 186);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(89, 19);
-            this.label6.TabIndex = 46;
-            this.label6.Text = "COMISIÓN";
-            // 
-            // textBoxCom
-            // 
-            this.textBoxCom.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxCom.Location = new System.Drawing.Point(445, 213);
-            this.textBoxCom.Name = "textBoxCom";
-            this.textBoxCom.Size = new System.Drawing.Size(85, 27);
-            this.textBoxCom.TabIndex = 47;
-            this.textBoxCom.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // IdP
-            // 
-            this.IdP.Frozen = true;
-            this.IdP.HeaderText = "Id";
-            this.IdP.Name = "IdP";
-            this.IdP.Width = 50;
-            // 
-            // nombreP
-            // 
-            this.nombreP.Frozen = true;
-            this.nombreP.HeaderText = "Nombre";
-            this.nombreP.Name = "nombreP";
-            // 
-            // apaternoP
-            // 
-            this.apaternoP.HeaderText = "A. Paterno";
-            this.apaternoP.Name = "apaternoP";
-            // 
-            // amaternoP
-            // 
-            this.amaternoP.HeaderText = "A. Materno";
-            this.amaternoP.Name = "amaternoP";
-            // 
-            // profesionP
-            // 
-            this.profesionP.HeaderText = "Especialidad";
-            this.profesionP.Name = "profesionP";
-            // 
-            // sexoP
-            // 
-            this.sexoP.HeaderText = "Sexo";
-            this.sexoP.Name = "sexoP";
-            // 
-            // nocasaP
-            // 
-            this.nocasaP.HeaderText = "No. de Casa";
-            this.nocasaP.Name = "nocasaP";
-            // 
-            // calleP
-            // 
-            this.calleP.HeaderText = "Calle";
-            this.calleP.Name = "calleP";
-            // 
-            // coloniaP
-            // 
-            this.coloniaP.HeaderText = "Colonia";
-            this.coloniaP.Name = "coloniaP";
-            // 
-            // municipioP
-            // 
-            this.municipioP.HeaderText = "Municipio";
-            this.municipioP.Name = "municipioP";
-            // 
-            // estadoP
-            // 
-            this.estadoP.HeaderText = "Estado";
-            this.estadoP.Name = "estadoP";
-            // 
-            // telefonoP
-            // 
-            this.telefonoP.HeaderText = "Teléfono";
-            this.telefonoP.Name = "telefonoP";
-            // 
-            // Comision
-            // 
-            this.Comision.HeaderText = "Comisión";
-            this.Comision.Name = "Comision";
-            // 
             // Medico
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1465,10 +1465,10 @@
             this.tabPage2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridMedico)).EndInit();
             this.bunifuGradientPanel3.ResumeLayout(false);
             this.bunifuGradientPanel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.tabPage3.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
