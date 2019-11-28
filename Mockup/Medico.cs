@@ -251,12 +251,13 @@ namespace Mockup
                 MessageBox.Show("No ha ingresado criterios de busqueda");
                 return;
             }
-            /*NpgsqlConnection conexion = new NpgsqlConnection();
+            NpgsqlConnection conexion = new NpgsqlConnection();
             conexion.ConnectionString = "Server=localhost; Port=5432; Username=postgres; Password=9693; Database= nucleo;";
             conexion.Open(); //Abrir la Conexión
 
+            string nombre = "nombre";
 
-            string query = "SELECT * FROM medico WHERE" nombre";";
+            string query = "SELECT * FROM medico WHERE "+nombre+"='"+ textBoxBuscarMedico.Text+"';";
             NpgsqlCommand comando = new NpgsqlCommand(query, conexion);
 
             NpgsqlDataReader reader;
@@ -283,7 +284,7 @@ namespace Mockup
                 dataGridMedico.Rows[renglon].Cells["Comision"].Value = reader.GetDouble(reader.GetOrdinal("comision")).ToString();
             }
 
-            conexion.Close();*/
+            conexion.Close();
         }
     }
 }
