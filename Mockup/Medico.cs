@@ -17,11 +17,49 @@ namespace Mockup
         public Medico()
         {
             InitializeComponent();
+            cargardatagridview();
         }
 
-        private void btnAgregar_Click(object sender, EventArgs e)
+        /*private void btnAgregar_Click(object sender, EventArgs e)
         {
 
+        }*/
+
+        public void cargardatagridview()
+        {
+            NpgsqlConnection conexion = new NpgsqlConnection();
+            conexion.ConnectionString = "Server=localhost; Port=5432; Username=postgres; Password=9693; Database= nucleo;";
+            conexion.Open(); //Abrir la Conexión
+
+
+            string query = "SELECT * FROM medico;";
+            NpgsqlCommand comando = new NpgsqlCommand(query, conexion);
+
+            NpgsqlDataReader reader;
+            dataGridMedico.Rows.Clear();
+
+            reader = comando.ExecuteReader();
+
+            while (reader.Read())
+            {
+                int renglon = dataGridMedico.Rows.Add();
+                dataGridMedico.Rows[renglon].Cells["IdP"].Value = reader.GetInt32(reader.GetOrdinal("id")).ToString();
+                dataGridMedico.Rows[renglon].Cells["nombrep"].Value = reader.GetString(reader.GetOrdinal("nombre"));
+                dataGridMedico.Rows[renglon].Cells["apaternoP"].Value = reader.GetString(reader.GetOrdinal("apaterno"));
+                dataGridMedico.Rows[renglon].Cells["amaternoP"].Value = reader.GetString(reader.GetOrdinal("amaterno"));
+                dataGridMedico.Rows[renglon].Cells["profesionP"].Value = reader.GetString(reader.GetOrdinal("especialidad"));
+                dataGridMedico.Rows[renglon].Cells["sexoP"].Value = reader.GetString(reader.GetOrdinal("sexo"));
+                //dataGridMedico.Rows[renglon].Cells["edadP"].Value = reader.GetInt32(reader.GetOrdinal("edad")).ToString();
+                dataGridMedico.Rows[renglon].Cells["nocasaP"].Value = reader.GetInt32(reader.GetOrdinal("nocasa")).ToString();
+                dataGridMedico.Rows[renglon].Cells["calleP"].Value = reader.GetString(reader.GetOrdinal("calle"));
+                dataGridMedico.Rows[renglon].Cells["coloniaP"].Value = reader.GetString(reader.GetOrdinal("colonia"));
+                dataGridMedico.Rows[renglon].Cells["municipioP"].Value = reader.GetString(reader.GetOrdinal("municipio"));
+                dataGridMedico.Rows[renglon].Cells["estadoP"].Value = reader.GetString(reader.GetOrdinal("estado"));
+                dataGridMedico.Rows[renglon].Cells["telefonoP"].Value = reader.GetString(reader.GetOrdinal("telefono"));
+                dataGridMedico.Rows[renglon].Cells["Comision"].Value = reader.GetDouble(reader.GetOrdinal("comision")).ToString();
+            }
+
+            conexion.Close();
         }
 
         private void btnAgregar_Click_1(object sender, EventArgs e)
@@ -66,7 +104,7 @@ namespace Mockup
             textBoxTelefono.Clear();
             comboBoxSexo.SelectedIndex = -1;
 
-            //cargardatagridview();
+            cargardatagridview();
 
             conexion.Close();
         }

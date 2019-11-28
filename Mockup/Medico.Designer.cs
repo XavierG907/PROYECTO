@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Medico));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -118,6 +118,8 @@
             this.label29 = new System.Windows.Forms.Label();
             this.bunifuGradientPanel2 = new Bunifu.Framework.UI.BunifuGradientPanel();
             this.label32 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.textBoxCom = new System.Windows.Forms.TextBox();
             this.IdP = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nombreP = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.apaternoP = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -131,8 +133,7 @@
             this.municipioP = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.estadoP = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.telefonoP = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.label6 = new System.Windows.Forms.Label();
-            this.textBoxCom = new System.Windows.Forms.TextBox();
+            this.Comision = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -611,7 +612,7 @@
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(715, 509);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Ver Medicos";
+            this.tabPage2.Text = "Ver Médicos";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // panel3
@@ -705,19 +706,19 @@
             // 
             // dataGridMedico
             // 
-            dataGridViewCellStyle10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.dataGridMedico.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.dataGridMedico.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
             this.dataGridMedico.BackgroundColor = System.Drawing.Color.Gainsboro;
             this.dataGridMedico.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridMedico.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle11.BackColor = System.Drawing.Color.LightSteelBlue;
-            dataGridViewCellStyle11.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.Navy;
-            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridMedico.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.LightSteelBlue;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.Navy;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridMedico.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.dataGridMedico.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridMedico.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.IdP,
@@ -732,7 +733,8 @@
             this.coloniaP,
             this.municipioP,
             this.estadoP,
-            this.telefonoP});
+            this.telefonoP,
+            this.Comision});
             this.dataGridMedico.Cursor = System.Windows.Forms.Cursors.Hand;
             this.dataGridMedico.DoubleBuffered = true;
             this.dataGridMedico.EnableHeadersVisualStyles = false;
@@ -741,14 +743,14 @@
             this.dataGridMedico.Location = new System.Drawing.Point(27, 171);
             this.dataGridMedico.Name = "dataGridMedico";
             this.dataGridMedico.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle12.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle12.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridMedico.RowHeadersDefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridMedico.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
             this.dataGridMedico.Size = new System.Drawing.Size(655, 246);
             this.dataGridMedico.TabIndex = 21;
             // 
@@ -808,9 +810,9 @@
             this.label30.ForeColor = System.Drawing.Color.White;
             this.label30.Location = new System.Drawing.Point(284, 15);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(128, 33);
+            this.label30.Size = new System.Drawing.Size(138, 33);
             this.label30.TabIndex = 7;
-            this.label30.Text = "Medicos";
+            this.label30.Text = "MÉDICOS";
             this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pictureBox3
@@ -982,7 +984,7 @@
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(120, 19);
             this.label31.TabIndex = 37;
-            this.label31.Text = "ID DEL MEDICO";
+            this.label31.Text = "ID DEL MÉDICO";
             // 
             // textBoxBuscar
             // 
@@ -1205,7 +1207,7 @@
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(263, 19);
             this.label23.TabIndex = 18;
-            this.label23.Text = "DATOS DEL MEDICO A MODIFICAR";
+            this.label23.Text = "DATOS DEL MÉDICO A MODIFICAR";
             // 
             // comboBoxSexo1
             // 
@@ -1346,8 +1348,28 @@
             this.label32.Name = "label32";
             this.label32.Size = new System.Drawing.Size(125, 33);
             this.label32.TabIndex = 7;
-            this.label32.Text = "MEDICO";
+            this.label32.Text = "MÉDICO";
             this.label32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(441, 186);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(89, 19);
+            this.label6.TabIndex = 46;
+            this.label6.Text = "COMISIÓN";
+            // 
+            // textBoxCom
+            // 
+            this.textBoxCom.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxCom.Location = new System.Drawing.Point(445, 213);
+            this.textBoxCom.Name = "textBoxCom";
+            this.textBoxCom.Size = new System.Drawing.Size(85, 27);
+            this.textBoxCom.TabIndex = 47;
+            this.textBoxCom.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // IdP
             // 
@@ -1374,7 +1396,7 @@
             // 
             // profesionP
             // 
-            this.profesionP.HeaderText = "Profesión";
+            this.profesionP.HeaderText = "Especialidad";
             this.profesionP.Name = "profesionP";
             // 
             // sexoP
@@ -1417,25 +1439,10 @@
             this.telefonoP.HeaderText = "Teléfono";
             this.telefonoP.Name = "telefonoP";
             // 
-            // label6
+            // Comision
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(441, 186);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(89, 19);
-            this.label6.TabIndex = 46;
-            this.label6.Text = "COMISIÓN";
-            // 
-            // textBoxCom
-            // 
-            this.textBoxCom.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxCom.Location = new System.Drawing.Point(445, 213);
-            this.textBoxCom.Name = "textBoxCom";
-            this.textBoxCom.Size = new System.Drawing.Size(85, 27);
-            this.textBoxCom.TabIndex = 47;
-            this.textBoxCom.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Comision.HeaderText = "Comisión";
+            this.Comision.Name = "Comision";
             // 
             // Medico
             // 
@@ -1562,6 +1569,8 @@
         private System.Windows.Forms.Label label29;
         private Bunifu.Framework.UI.BunifuGradientPanel bunifuGradientPanel2;
         private System.Windows.Forms.Label label32;
+        private System.Windows.Forms.TextBox textBoxCom;
+        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.DataGridViewTextBoxColumn IdP;
         private System.Windows.Forms.DataGridViewTextBoxColumn nombreP;
         private System.Windows.Forms.DataGridViewTextBoxColumn apaternoP;
@@ -1575,7 +1584,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn municipioP;
         private System.Windows.Forms.DataGridViewTextBoxColumn estadoP;
         private System.Windows.Forms.DataGridViewTextBoxColumn telefonoP;
-        private System.Windows.Forms.TextBox textBoxCom;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Comision;
     }
 }
