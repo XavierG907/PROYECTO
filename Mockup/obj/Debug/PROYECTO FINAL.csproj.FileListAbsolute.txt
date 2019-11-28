@@ -35,3 +35,4 @@ C:\Users\1ZW05LA_RS4\Documents\GitHub\PROYECTO\Mockup\obj\Debug\PROYECTO FINAL.c
 C:\Users\1ZW05LA_RS4\Documents\GitHub\PROYECTO\Mockup\obj\Debug\PROYECTO FINAL.csproj.CopyComplete
 C:\Users\1ZW05LA_RS4\Documents\GitHub\PROYECTO\Mockup\obj\Debug\Mockup.exe
 C:\Users\1ZW05LA_RS4\Documents\GitHub\PROYECTO\Mockup\obj\Debug\Mockup.pdb
+C:\Users\admin\Desktop\Mockup\Mockup\obj\Debug\Mockup.Pago.resources
