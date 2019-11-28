@@ -29,7 +29,12 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Medico));
+            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.bunifuGradientPanel1 = new Bunifu.Framework.UI.BunifuGradientPanel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.btnFoto = new Bunifu.Framework.UI.BunifuFlatButton();
             this.textBoxComision = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -64,19 +69,46 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.Id = new System.Windows.Forms.Label();
-            this.bunifuGradientPanel1 = new Bunifu.Framework.UI.BunifuGradientPanel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.btnFoto = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.bunifuGradientPanel2 = new Bunifu.Framework.UI.BunifuGradientPanel();
+            this.label16 = new System.Windows.Forms.Label();
+            this.tabControl1.SuspendLayout();
+            this.tabPage1.SuspendLayout();
             this.panel2.SuspendLayout();
+            this.bunifuGradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            this.bunifuGradientPanel1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
+            this.bunifuGradientPanel2.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // tabControl1
+            // 
+            this.tabControl1.Controls.Add(this.tabPage1);
+            this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControl1.Location = new System.Drawing.Point(0, 0);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(723, 535);
+            this.tabControl1.TabIndex = 20;
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.Controls.Add(this.panel2);
+            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(715, 509);
+            this.tabPage1.TabIndex = 0;
+            this.tabPage1.Text = "Agregar";
+            this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(46)))));
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.bunifuGradientPanel1);
             this.panel2.Controls.Add(this.btnFoto);
             this.panel2.Controls.Add(this.textBoxComision);
             this.panel2.Controls.Add(this.label15);
@@ -113,10 +145,75 @@
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.Id);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Location = new System.Drawing.Point(3, 3);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(723, 495);
-            this.panel2.TabIndex = 4;
+            this.panel2.Size = new System.Drawing.Size(709, 503);
+            this.panel2.TabIndex = 5;
+            // 
+            // bunifuGradientPanel1
+            // 
+            this.bunifuGradientPanel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel1.BackgroundImage")));
+            this.bunifuGradientPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuGradientPanel1.Controls.Add(this.label1);
+            this.bunifuGradientPanel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.bunifuGradientPanel1.GradientBottomLeft = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(101)))), ((int)(((byte)(186)))));
+            this.bunifuGradientPanel1.GradientBottomRight = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(152)))), ((int)(((byte)(163)))));
+            this.bunifuGradientPanel1.GradientTopLeft = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(152)))), ((int)(((byte)(163)))));
+            this.bunifuGradientPanel1.GradientTopRight = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(46)))));
+            this.bunifuGradientPanel1.Location = new System.Drawing.Point(0, 0);
+            this.bunifuGradientPanel1.Name = "bunifuGradientPanel1";
+            this.bunifuGradientPanel1.Quality = 10;
+            this.bunifuGradientPanel1.Size = new System.Drawing.Size(707, 63);
+            this.bunifuGradientPanel1.TabIndex = 71;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(301, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(125, 33);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "MÉDICO";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // btnFoto
+            // 
+            this.btnFoto.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.btnFoto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(101)))), ((int)(((byte)(186)))));
+            this.btnFoto.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnFoto.BorderRadius = 0;
+            this.btnFoto.ButtonText = "AÑADIR FOTO";
+            this.btnFoto.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnFoto.DisabledColor = System.Drawing.Color.Gray;
+            this.btnFoto.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFoto.Iconcolor = System.Drawing.Color.Transparent;
+            this.btnFoto.Iconimage = null;
+            this.btnFoto.Iconimage_right = null;
+            this.btnFoto.Iconimage_right_Selected = null;
+            this.btnFoto.Iconimage_Selected = null;
+            this.btnFoto.IconMarginLeft = 0;
+            this.btnFoto.IconMarginRight = 0;
+            this.btnFoto.IconRightVisible = false;
+            this.btnFoto.IconRightZoom = 0D;
+            this.btnFoto.IconVisible = false;
+            this.btnFoto.IconZoom = 90D;
+            this.btnFoto.IsTab = false;
+            this.btnFoto.Location = new System.Drawing.Point(580, 272);
+            this.btnFoto.Margin = new System.Windows.Forms.Padding(5);
+            this.btnFoto.Name = "btnFoto";
+            this.btnFoto.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(101)))), ((int)(((byte)(186)))));
+            this.btnFoto.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(101)))), ((int)(((byte)(186)))));
+            this.btnFoto.OnHoverTextColor = System.Drawing.Color.White;
+            this.btnFoto.selected = false;
+            this.btnFoto.Size = new System.Drawing.Size(98, 30);
+            this.btnFoto.TabIndex = 70;
+            this.btnFoto.Text = "AÑADIR FOTO";
+            this.btnFoto.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnFoto.Textcolor = System.Drawing.Color.White;
+            this.btnFoto.TextFont = new System.Drawing.Font("Century Gothic", 9.75F);
             // 
             // textBoxComision
             // 
@@ -476,97 +573,84 @@
             this.Id.TabIndex = 34;
             this.Id.Text = "NOMBRE (s)";
             // 
-            // bunifuGradientPanel1
+            // tabPage2
             // 
-            this.bunifuGradientPanel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel1.BackgroundImage")));
-            this.bunifuGradientPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuGradientPanel1.Controls.Add(this.label1);
-            this.bunifuGradientPanel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.bunifuGradientPanel1.GradientBottomLeft = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(101)))), ((int)(((byte)(186)))));
-            this.bunifuGradientPanel1.GradientBottomRight = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(152)))), ((int)(((byte)(163)))));
-            this.bunifuGradientPanel1.GradientTopLeft = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(152)))), ((int)(((byte)(163)))));
-            this.bunifuGradientPanel1.GradientTopRight = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(46)))));
-            this.bunifuGradientPanel1.Location = new System.Drawing.Point(0, 0);
-            this.bunifuGradientPanel1.Name = "bunifuGradientPanel1";
-            this.bunifuGradientPanel1.Quality = 10;
-            this.bunifuGradientPanel1.Size = new System.Drawing.Size(723, 63);
-            this.bunifuGradientPanel1.TabIndex = 19;
+            this.tabPage2.Controls.Add(this.bunifuGradientPanel2);
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(715, 509);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "tabPage2";
+            this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // label1
+            // bunifuGradientPanel2
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(301, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(125, 33);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "MÉDICO";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuGradientPanel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel2.BackgroundImage")));
+            this.bunifuGradientPanel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuGradientPanel2.Controls.Add(this.label16);
+            this.bunifuGradientPanel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.bunifuGradientPanel2.GradientBottomLeft = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(101)))), ((int)(((byte)(186)))));
+            this.bunifuGradientPanel2.GradientBottomRight = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(152)))), ((int)(((byte)(163)))));
+            this.bunifuGradientPanel2.GradientTopLeft = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(152)))), ((int)(((byte)(163)))));
+            this.bunifuGradientPanel2.GradientTopRight = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(46)))));
+            this.bunifuGradientPanel2.Location = new System.Drawing.Point(3, 3);
+            this.bunifuGradientPanel2.Name = "bunifuGradientPanel2";
+            this.bunifuGradientPanel2.Quality = 10;
+            this.bunifuGradientPanel2.Size = new System.Drawing.Size(709, 63);
+            this.bunifuGradientPanel2.TabIndex = 72;
             // 
-            // btnFoto
+            // label16
             // 
-            this.btnFoto.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.btnFoto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(101)))), ((int)(((byte)(186)))));
-            this.btnFoto.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnFoto.BorderRadius = 0;
-            this.btnFoto.ButtonText = "AÑADIR FOTO";
-            this.btnFoto.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnFoto.DisabledColor = System.Drawing.Color.Gray;
-            this.btnFoto.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFoto.Iconcolor = System.Drawing.Color.Transparent;
-            this.btnFoto.Iconimage = null;
-            this.btnFoto.Iconimage_right = null;
-            this.btnFoto.Iconimage_right_Selected = null;
-            this.btnFoto.Iconimage_Selected = null;
-            this.btnFoto.IconMarginLeft = 0;
-            this.btnFoto.IconMarginRight = 0;
-            this.btnFoto.IconRightVisible = false;
-            this.btnFoto.IconRightZoom = 0D;
-            this.btnFoto.IconVisible = false;
-            this.btnFoto.IconZoom = 90D;
-            this.btnFoto.IsTab = false;
-            this.btnFoto.Location = new System.Drawing.Point(580, 272);
-            this.btnFoto.Margin = new System.Windows.Forms.Padding(5);
-            this.btnFoto.Name = "btnFoto";
-            this.btnFoto.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(101)))), ((int)(((byte)(186)))));
-            this.btnFoto.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(101)))), ((int)(((byte)(186)))));
-            this.btnFoto.OnHoverTextColor = System.Drawing.Color.White;
-            this.btnFoto.selected = false;
-            this.btnFoto.Size = new System.Drawing.Size(98, 30);
-            this.btnFoto.TabIndex = 70;
-            this.btnFoto.Text = "AÑADIR FOTO";
-            this.btnFoto.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnFoto.Textcolor = System.Drawing.Color.White;
-            this.btnFoto.TextFont = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.label16.AutoSize = true;
+            this.label16.BackColor = System.Drawing.Color.Transparent;
+            this.label16.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.ForeColor = System.Drawing.Color.White;
+            this.label16.Location = new System.Drawing.Point(301, 9);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(138, 33);
+            this.label16.TabIndex = 7;
+            this.label16.Text = "MÉDICOS";
+            this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Medico
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(723, 495);
-            this.Controls.Add(this.bunifuGradientPanel1);
-            this.Controls.Add(this.panel2);
+            this.ClientSize = new System.Drawing.Size(723, 535);
+            this.Controls.Add(this.tabControl1);
             this.MaximizeBox = false;
             this.Name = "Medico";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MÉDICO";
+            this.tabControl1.ResumeLayout(false);
+            this.tabPage1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.bunifuGradientPanel1.ResumeLayout(false);
             this.bunifuGradientPanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.tabPage2.ResumeLayout(false);
+            this.bunifuGradientPanel2.ResumeLayout(false);
+            this.bunifuGradientPanel2.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
+        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.Panel panel2;
         private Bunifu.Framework.UI.BunifuGradientPanel bunifuGradientPanel1;
         private System.Windows.Forms.Label label1;
+        private Bunifu.Framework.UI.BunifuFlatButton btnFoto;
+        private System.Windows.Forms.TextBox textBoxComision;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.TextBox textBoxEstado;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.TextBox textBoxMunicipio;
@@ -597,10 +681,8 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label Id;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.TextBox textBoxComision;
-        private System.Windows.Forms.Label label15;
-        private Bunifu.Framework.UI.BunifuFlatButton btnFoto;
+        private System.Windows.Forms.TabPage tabPage2;
+        private Bunifu.Framework.UI.BunifuGradientPanel bunifuGradientPanel2;
+        private System.Windows.Forms.Label label16;
     }
 }

@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             BunifuAnimatorNS.Animation animation3 = new BunifuAnimatorNS.Animation();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             BunifuAnimatorNS.Animation animation4 = new BunifuAnimatorNS.Animation();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.backgroundWorker2 = new System.ComponentModel.BackgroundWorker();
@@ -59,6 +59,7 @@
             this.curvaMenu = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.transicionMenu = new BunifuAnimatorNS.BunifuTransition(this.components);
             this.transicionMenu2 = new BunifuAnimatorNS.BunifuTransition(this.components);
+            this.Portada = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.restaurar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.maximizar)).BeginInit();
@@ -70,6 +71,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Portada)).BeginInit();
             this.SuspendLayout();
             // 
             // Menú
@@ -414,6 +416,7 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(46)))));
+            this.panel3.Controls.Add(this.Portada);
             this.panel3.Controls.Add(this.dataGridView1);
             this.panel3.Controls.Add(this.bunifuFlatButton11);
             this.panel3.Controls.Add(this.fecha);
@@ -565,6 +568,20 @@
             this.transicionMenu2.DefaultAnimation = animation4;
             this.transicionMenu2.Interval = 15;
             // 
+            // Portada
+            // 
+            this.Portada.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.transicionMenu.SetDecoration(this.Portada, BunifuAnimatorNS.DecorationType.None);
+            this.transicionMenu2.SetDecoration(this.Portada, BunifuAnimatorNS.DecorationType.None);
+            this.Portada.Image = ((System.Drawing.Image)(resources.GetObject("Portada.Image")));
+            this.Portada.InitialImage = ((System.Drawing.Image)(resources.GetObject("Portada.InitialImage")));
+            this.Portada.Location = new System.Drawing.Point(21, 72);
+            this.Portada.Name = "Portada";
+            this.Portada.Size = new System.Drawing.Size(570, 328);
+            this.Portada.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.Portada.TabIndex = 8;
+            this.Portada.TabStop = false;
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -592,6 +609,7 @@
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Portada)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -624,6 +642,7 @@
         private Bunifu.Framework.UI.BunifuElipse curvaMenu;
         private BunifuAnimatorNS.BunifuTransition transicionMenu;
         private BunifuAnimatorNS.BunifuTransition transicionMenu2;
+        private System.Windows.Forms.PictureBox Portada;
     }
 }
 
