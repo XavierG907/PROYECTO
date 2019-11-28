@@ -292,5 +292,14 @@
   <ItemGroup>
     <None Include="Resources\icons8-accesibilidad-2-100.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-plan-de-tratamiento-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-billetes-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-reembolso-50.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -74,7 +74,6 @@ namespace Mockup
             int indice = comboBoxSexo.SelectedIndex;
             string sexo = comboBoxSexo.Items[indice].ToString();
 
-
             string query = "INSERT INTO paciente(nombre,Apaterno,Amaterno,Profesion,Sexo,Edad,NoCasa,Calle,Colonia,Municipio,Estado,Telefono)" +
                 "VALUES('" + textBoxNombre.Text + "','" + textBoxPaterno.Text + "','" + textBoxMaterno.Text + "'," +
                 " '" + textBoxProfesion.Text + "','" + sexo + "','" + textBoxEdad.Text + "','" + textBoxNo.Text + "', " +
@@ -269,6 +268,33 @@ namespace Mockup
             textBoxCE.Clear();
             textBoxFecha2E.Clear();
             textBoxIdE.Clear();
+
+            conexion.Close();
+        }
+
+        private void btnAgregarT_Click(object sender, EventArgs e)
+        {
+            NpgsqlConnection conexion = new NpgsqlConnection();
+            conexion.ConnectionString = "Server=localhost; Port=5432; Username=postgres; Password=9693; Database= nucleo;";
+            conexion.Open(); //Abrir la Conexión
+
+
+            string query = "INSERT INTO tratamiento(nombre,descripcion,precio,costo,idpaciente,idmedico)" +
+                "VALUES('" + textBoxNombreT.Text + "','" + textBoxDT.Text + "','" + textBoxPrecioT.Text + "'," +
+                " '" + textBoxCostoT.Text + "','" + textBoxIdT.Text + "','" + textBoxIdMT.Text + "');";
+
+
+            NpgsqlCommand comando = new NpgsqlCommand(query, conexion);
+
+            comando.ExecuteNonQuery();
+            MessageBox.Show("Tratamiento Para El Paciente Actualizado con Exito!!");
+
+            textBoxNombreT.Clear();
+            textBoxDT.Clear();
+            textBoxPrecioT.Clear();
+            textBoxCostoT.Clear();
+            textBoxIdT.Clear();
+            textBoxIdMT.Clear();
 
             conexion.Close();
         }

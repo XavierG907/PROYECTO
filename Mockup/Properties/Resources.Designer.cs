@@ -293,6 +293,16 @@ namespace Mockup.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_billetes_50 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-billetes-50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_bloquear_50 {
             get {
                 object obj = ResourceManager.GetObject("icons8-bloquear-50", resourceCulture);
@@ -443,6 +453,16 @@ namespace Mockup.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_plan_de_tratamiento_100 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-plan-de-tratamiento-100", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_producto_50 {
             get {
                 object obj = ResourceManager.GetObject("icons8-producto-50", resourceCulture);
@@ -466,6 +486,16 @@ namespace Mockup.Properties {
         internal static System.Drawing.Bitmap icons8_proveedor_50 {
             get {
                 object obj = ResourceManager.GetObject("icons8-proveedor-50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_reembolso_50 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-reembolso-50", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
